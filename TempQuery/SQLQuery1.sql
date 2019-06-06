@@ -1,0 +1,1 @@
+﻿select * from WeatherContext.Forecasts where source_Name = 'http://openweathermap.org' and forecastFor = '2017-11-30 12:00:00.000' order by forecastCreating

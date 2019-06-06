@@ -1,0 +1,108 @@
+2019-03-06 13:02:57,837  DEBUG Starting the schedule forecast in06.03.2019 14:00:00
+2019-03-06 13:02:57,857  DEBUG Starting the schedule current weather in 06.03.2019 13:02:57
+2019-03-06 13:02:57,857  DEBUG Starting the schedule astro in 07.03.2019 0:30:00 +02:00
+2019-03-06 13:03:00,946  DEBUG Starting of current weather on schedule in 06.03.2019 13:03:00
+2019-03-06 13:04:17,170  DEBUG Starting the schedule forecast in06.03.2019 14:00:00
+2019-03-06 13:04:17,180  DEBUG Starting the schedule current weather in 06.03.2019 13:04:17
+2019-03-06 13:04:17,180  DEBUG Starting the schedule astro in 07.03.2019 0:30:00 +02:00
+2019-03-06 13:55:02,294  DEBUG Starting the schedule forecast in06.03.2019 14:00:00
+2019-03-06 13:55:02,321  DEBUG Starting the schedule current weather in 06.03.2019 13:55:02
+2019-03-06 13:55:02,323  DEBUG Starting the schedule astro in 07.03.2019 0:30:00 +02:00
+2019-03-06 13:55:04,732  DEBUG Starting of current weather on schedule in 06.03.2019 13:55:04
+2019-03-06 14:00:00,057  DEBUG Starting of forecasts on schedule in 06.03.2019 14:00:00
+2019-03-06 14:00:00,067  DEBUG Starting UpdateCurrentWeatherForRating in 06.03.2019 14:00:00 time of current weather - 06.03.2019 13:30:11
+2019-03-06 14:00:02,692  DEBUG Starting of current weather on schedule in 06.03.2019 14:00:02
+2019-03-06 14:01:00,074  DEBUG Starting UpdateCurrentWeatherForRating in 06.03.2019 14:01:00 time of current weather - 06.03.2019 13:45:11
+2019-03-06 14:02:00,076  DEBUG Starting UpdateCurrentWeatherForRating in 06.03.2019 14:02:00 time of current weather - 06.03.2019 13:45:11
+2019-03-06 14:03:00,085  DEBUG Starting UpdateCurrentWeatherForRating in 06.03.2019 14:03:00 time of current weather - 06.03.2019 13:45:11
+2019-03-06 14:04:00,087  DEBUG Starting UpdateCurrentWeatherForRating in 06.03.2019 14:04:00 time of current weather - 06.03.2019 13:45:11
+2019-03-06 14:04:00,427  ERROR An error occurred while trying to data processing from the source: wunderground.com; in the method : GetDailyIcon; by the address http://api.wunderground.com/api/1086a4a1b0619326/forecast10day/q/UA/Odessa.json
+System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в WeatherForecast.Models.WeatherSources.Wunderground.GetDailyIcons() в D:\VisualStudio_2017\WeatherForecast\WeatherForecast\Models\WeatherSources\Wunderground.cs:строка 146
+2019-03-06 14:05:00,089  DEBUG Starting UpdateCurrentWeatherForRating in 06.03.2019 14:05:00 time of current weather - 06.03.2019 13:45:11
+2019-03-06 14:05:02,779  DEBUG Starting of current weather on schedule in 06.03.2019 14:05:02
+2019-03-06 14:06:00,090  DEBUG Starting UpdateCurrentWeatherForRating in 06.03.2019 14:06:00 time of current weather - 06.03.2019 13:45:11
+2019-03-06 14:07:00,094  DEBUG Starting UpdateCurrentWeatherForRating in 06.03.2019 14:07:00 time of current weather - 06.03.2019 13:45:11
+2019-03-06 14:07:01,374  ERROR An error occurred while trying to data processing from the source: wunderground.com; in the method : GetDailyIcon; by the address http://api.wunderground.com/api/1086a4a1b0619326/forecast10day/q/UA/Odessa.json
+System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в WeatherForecast.Models.WeatherSources.Wunderground.GetDailyIcons() в D:\VisualStudio_2017\WeatherForecast\WeatherForecast\Models\WeatherSources\Wunderground.cs:строка 146
+2019-03-06 14:08:00,103  DEBUG Starting UpdateCurrentWeatherForRating in 06.03.2019 14:08:00 time of current weather - 06.03.2019 13:45:11
+2019-03-06 14:09:00,109  DEBUG Starting UpdateCurrentWeatherForRating in 06.03.2019 14:09:00 time of current weather - 06.03.2019 13:45:11
+2019-03-06 14:10:00,109  DEBUG Starting UpdateCurrentWeatherForRating in 06.03.2019 14:10:00 time of current weather - 06.03.2019 13:45:11
+2019-03-06 14:10:01,899  ERROR An error occurred while trying to data processing from the source: wunderground.com; in the method : GetDailyIcon; by the address http://api.wunderground.com/api/1086a4a1b0619326/forecast10day/q/UA/Odessa.json
+System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в WeatherForecast.Models.WeatherSources.Wunderground.GetDailyIcons() в D:\VisualStudio_2017\WeatherForecast\WeatherForecast\Models\WeatherSources\Wunderground.cs:строка 146
+2019-03-06 14:10:02,379  DEBUG Starting of current weather on schedule in 06.03.2019 14:10:02
+2019-03-06 14:11:00,111  DEBUG Stop UpdateCurrentWeatherForRating in 06.03.2019 14:11:00 time of current weather - 06.03.2019 14:00:29
+2019-03-06 14:13:02,448  ERROR An error occurred while trying to data processing from the source: wunderground.com; in the method : GetDailyIcon; by the address http://api.wunderground.com/api/1086a4a1b0619326/forecast10day/q/UA/Odessa.json
+System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в WeatherForecast.Models.WeatherSources.Wunderground.GetDailyIcons() в D:\VisualStudio_2017\WeatherForecast\WeatherForecast\Models\WeatherSources\Wunderground.cs:строка 146
+2019-03-06 14:15:02,559  DEBUG Starting of current weather on schedule in 06.03.2019 14:15:02
+2019-03-06 14:16:03,001  ERROR An error occurred while trying to data processing from the source: wunderground.com; in the method : GetDailyIcon; by the address http://api.wunderground.com/api/1086a4a1b0619326/forecast10day/q/UA/Odessa.json
+System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в WeatherForecast.Models.WeatherSources.Wunderground.GetDailyIcons() в D:\VisualStudio_2017\WeatherForecast\WeatherForecast\Models\WeatherSources\Wunderground.cs:строка 146
+2019-03-06 14:19:03,617  ERROR An error occurred while trying to data processing from the source: wunderground.com; in the method : GetDailyIcon; by the address http://api.wunderground.com/api/1086a4a1b0619326/forecast10day/q/UA/Odessa.json
+System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в WeatherForecast.Models.WeatherSources.Wunderground.GetDailyIcons() в D:\VisualStudio_2017\WeatherForecast\WeatherForecast\Models\WeatherSources\Wunderground.cs:строка 146
+2019-03-06 14:20:02,363  DEBUG Starting of current weather on schedule in 06.03.2019 14:20:02
+2019-03-06 14:22:04,149  ERROR An error occurred while trying to data processing from the source: wunderground.com; in the method : GetDailyIcon; by the address http://api.wunderground.com/api/1086a4a1b0619326/forecast10day/q/UA/Odessa.json
+System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в WeatherForecast.Models.WeatherSources.Wunderground.GetDailyIcons() в D:\VisualStudio_2017\WeatherForecast\WeatherForecast\Models\WeatherSources\Wunderground.cs:строка 146
+2019-03-06 14:25:02,556  DEBUG Starting of current weather on schedule in 06.03.2019 14:25:02
+2019-03-06 14:25:04,698  ERROR An error occurred while trying to data processing from the source: wunderground.com; in the method : GetDailyIcon; by the address http://api.wunderground.com/api/1086a4a1b0619326/forecast10day/q/UA/Odessa.json
+System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в WeatherForecast.Models.WeatherSources.Wunderground.GetDailyIcons() в D:\VisualStudio_2017\WeatherForecast\WeatherForecast\Models\WeatherSources\Wunderground.cs:строка 146
+2019-03-06 14:28:05,249  ERROR An error occurred while trying to data processing from the source: wunderground.com; in the method : GetDailyIcon; by the address http://api.wunderground.com/api/1086a4a1b0619326/forecast10day/q/UA/Odessa.json
+System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в WeatherForecast.Models.WeatherSources.Wunderground.GetDailyIcons() в D:\VisualStudio_2017\WeatherForecast\WeatherForecast\Models\WeatherSources\Wunderground.cs:строка 146
+2019-03-06 14:30:02,568  DEBUG Starting of current weather on schedule in 06.03.2019 14:30:02
+2019-03-06 14:31:06,008  ERROR An error occurred while trying to data processing from the source: wunderground.com; in the method : GetDailyIcon; by the address http://api.wunderground.com/api/1086a4a1b0619326/forecast10day/q/UA/Odessa.json
+System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в WeatherForecast.Models.WeatherSources.Wunderground.GetDailyIcons() в D:\VisualStudio_2017\WeatherForecast\WeatherForecast\Models\WeatherSources\Wunderground.cs:строка 146
+2019-03-06 14:34:06,549  ERROR An error occurred while trying to data processing from the source: wunderground.com; in the method : GetDailyIcon; by the address http://api.wunderground.com/api/1086a4a1b0619326/forecast10day/q/UA/Odessa.json
+System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в WeatherForecast.Models.WeatherSources.Wunderground.GetDailyIcons() в D:\VisualStudio_2017\WeatherForecast\WeatherForecast\Models\WeatherSources\Wunderground.cs:строка 146
+2019-03-06 14:35:03,439  DEBUG Starting of current weather on schedule in 06.03.2019 14:35:03
+2019-03-06 14:37:07,094  ERROR An error occurred while trying to data processing from the source: wunderground.com; in the method : GetDailyIcon; by the address http://api.wunderground.com/api/1086a4a1b0619326/forecast10day/q/UA/Odessa.json
+System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в WeatherForecast.Models.WeatherSources.Wunderground.GetDailyIcons() в D:\VisualStudio_2017\WeatherForecast\WeatherForecast\Models\WeatherSources\Wunderground.cs:строка 146
+2019-03-06 14:40:05,423  DEBUG Starting of current weather on schedule in 06.03.2019 14:40:05
+2019-03-06 14:40:07,675  ERROR An error occurred while trying to data processing from the source: wunderground.com; in the method : GetDailyIcon; by the address http://api.wunderground.com/api/1086a4a1b0619326/forecast10day/q/UA/Odessa.json
+System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в WeatherForecast.Models.WeatherSources.Wunderground.GetDailyIcons() в D:\VisualStudio_2017\WeatherForecast\WeatherForecast\Models\WeatherSources\Wunderground.cs:строка 146
+2019-03-06 14:43:08,284  ERROR An error occurred while trying to data processing from the source: wunderground.com; in the method : GetDailyIcon; by the address http://api.wunderground.com/api/1086a4a1b0619326/forecast10day/q/UA/Odessa.json
+System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в WeatherForecast.Models.WeatherSources.Wunderground.GetDailyIcons() в D:\VisualStudio_2017\WeatherForecast\WeatherForecast\Models\WeatherSources\Wunderground.cs:строка 146
+2019-03-06 14:45:02,848  DEBUG Starting of current weather on schedule in 06.03.2019 14:45:02
+2019-03-06 14:46:08,821  ERROR An error occurred while trying to data processing from the source: wunderground.com; in the method : GetDailyIcon; by the address http://api.wunderground.com/api/1086a4a1b0619326/forecast10day/q/UA/Odessa.json
+System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в WeatherForecast.Models.WeatherSources.Wunderground.GetDailyIcons() в D:\VisualStudio_2017\WeatherForecast\WeatherForecast\Models\WeatherSources\Wunderground.cs:строка 146
+2019-03-06 14:49:09,398  ERROR An error occurred while trying to data processing from the source: wunderground.com; in the method : GetDailyIcon; by the address http://api.wunderground.com/api/1086a4a1b0619326/forecast10day/q/UA/Odessa.json
+System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в WeatherForecast.Models.WeatherSources.Wunderground.GetDailyIcons() в D:\VisualStudio_2017\WeatherForecast\WeatherForecast\Models\WeatherSources\Wunderground.cs:строка 146
+2019-03-06 14:50:03,466  DEBUG Starting of current weather on schedule in 06.03.2019 14:50:03
+2019-03-06 14:52:09,952  ERROR An error occurred while trying to data processing from the source: wunderground.com; in the method : GetDailyIcon; by the address http://api.wunderground.com/api/1086a4a1b0619326/forecast10day/q/UA/Odessa.json
+System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в WeatherForecast.Models.WeatherSources.Wunderground.GetDailyIcons() в D:\VisualStudio_2017\WeatherForecast\WeatherForecast\Models\WeatherSources\Wunderground.cs:строка 146
+2019-03-06 14:55:02,368  DEBUG Starting of current weather on schedule in 06.03.2019 14:55:02
+2019-03-06 14:55:10,708  ERROR An error occurred while trying to data processing from the source: wunderground.com; in the method : GetDailyIcon; by the address http://api.wunderground.com/api/1086a4a1b0619326/forecast10day/q/UA/Odessa.json
+System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в WeatherForecast.Models.WeatherSources.Wunderground.GetDailyIcons() в D:\VisualStudio_2017\WeatherForecast\WeatherForecast\Models\WeatherSources\Wunderground.cs:строка 146
+2019-03-06 14:58:11,274  ERROR An error occurred while trying to data processing from the source: wunderground.com; in the method : GetDailyIcon; by the address http://api.wunderground.com/api/1086a4a1b0619326/forecast10day/q/UA/Odessa.json
+System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в WeatherForecast.Models.WeatherSources.Wunderground.GetDailyIcons() в D:\VisualStudio_2017\WeatherForecast\WeatherForecast\Models\WeatherSources\Wunderground.cs:строка 146
+2019-03-06 15:00:02,683  DEBUG Starting of current weather on schedule in 06.03.2019 15:00:02
+2019-03-06 15:01:11,822  ERROR An error occurred while trying to data processing from the source: wunderground.com; in the method : GetDailyIcon; by the address http://api.wunderground.com/api/1086a4a1b0619326/forecast10day/q/UA/Odessa.json
+System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в WeatherForecast.Models.WeatherSources.Wunderground.GetDailyIcons() в D:\VisualStudio_2017\WeatherForecast\WeatherForecast\Models\WeatherSources\Wunderground.cs:строка 146
+2019-03-06 15:04:12,334  ERROR An error occurred while trying to data processing from the source: wunderground.com; in the method : GetDailyIcon; by the address http://api.wunderground.com/api/1086a4a1b0619326/forecast10day/q/UA/Odessa.json
+System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в WeatherForecast.Models.WeatherSources.Wunderground.GetDailyIcons() в D:\VisualStudio_2017\WeatherForecast\WeatherForecast\Models\WeatherSources\Wunderground.cs:строка 146
+2019-03-06 15:04:12,564  DEBUG In Wunderground deadline 06.03.2019 15:04:00 at06.03.2019 15:04:12
+2019-03-06 15:04:14,626  DEBUG Successfully saved the forecast openweathermap.org
+2019-03-06 15:04:16,796  DEBUG Successfully saved the forecast weatherbit.io
+2019-03-06 15:04:16,796  ERROR An error occurred while trying to save forecasts
+2019-03-06 15:04:16,796  DEBUG Starting rating process at 06.03.2019 15:04:16
+2019-03-06 15:04:17,028  ERROR An error occurred because there are no forecasts on 06.03.2019 14:00:00
+2019-03-06 15:04:17,028  ERROR An error occurred while trying to save ratings
+2019-03-06 15:04:17,028  DEBUG Starting rating process retriving a best rating at 06.03.2019 15:04:17

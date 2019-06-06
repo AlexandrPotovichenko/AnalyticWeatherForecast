@@ -1,0 +1,25 @@
+2019-04-15 11:21:21,767  DEBUG Starting the schedule forecast in15.04.2019 12:00:00
+2019-04-15 11:21:21,777  DEBUG Starting the schedule current weather in 15.04.2019 11:21:21
+2019-04-15 11:21:21,777  DEBUG Starting the schedule astro in 16.04.2019 0:30:00 +03:00
+2019-04-15 11:23:37,717  DEBUG Starting the schedule forecast in15.04.2019 12:00:00
+2019-04-15 11:23:37,727  DEBUG Starting the schedule current weather in 15.04.2019 11:23:37
+2019-04-15 11:23:37,738  DEBUG Starting the schedule astro in 16.04.2019 0:30:00 +03:00
+2019-04-15 11:23:39,419  ERROR An error occurred while trying to data processing from the source: darksky.net; in the method : GetDailyIcon; by the address https://api.darksky.net/forecast/215852070ab8c12c6dad9073d2e2034b/46.4852,30.7434?lang=en&units=si&extend=hourly
+System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в WeatherForecast.Models.WeatherSources.DarkSky.GetDailyIcons() в D:\VisualStudio_2017\WeatherForecast\WeatherForecast\Models\WeatherSources\DarkSky.cs:строка 145
+2019-04-15 11:39:00,863  DEBUG Starting the schedule forecast in15.04.2019 12:00:00
+2019-04-15 11:39:00,878  DEBUG Starting the schedule current weather in 15.04.2019 11:39:00
+2019-04-15 11:39:00,879  DEBUG Starting the schedule astro in 16.04.2019 0:30:00 +03:00
+2019-04-15 11:47:10,845  DEBUG Starting the schedule forecast in15.04.2019 12:00:00
+2019-04-15 11:47:10,855  DEBUG Starting the schedule current weather in 15.04.2019 11:47:10
+2019-04-15 11:47:10,865  DEBUG Starting the schedule astro in 16.04.2019 0:30:00 +03:00
+2019-04-15 11:49:07,792  ERROR An error occurred while trying to get weather description from description: wind; internalListOfDescription : 180
+2019-04-15 11:49:07,792  ERROR An error occurred while trying to get weather description from description: wind; internalListOfDescription : 180
+2019-04-15 11:49:07,792  ERROR An error occurred while trying to get weather description from description: partly-cloudy-day; internalListOfDescription : 180
+2019-04-15 11:49:07,792  ERROR An error occurred while trying to get weather description from description: partly-cloudy-night; internalListOfDescription : 180
+2019-04-15 11:49:07,792  ERROR An error occurred while trying to get weather description from description: partly-cloudy-night; internalListOfDescription : 180
+2019-04-15 11:49:07,822  DEBUG Starting of current weather on schedule in 15.04.2019 11:49:07
+2019-04-15 11:50:12,184  DEBUG Starting the schedule forecast in15.04.2019 12:00:00
+2019-04-15 11:50:12,194  DEBUG Starting the schedule current weather in 15.04.2019 11:50:12
+2019-04-15 11:50:12,194  DEBUG Starting the schedule astro in 16.04.2019 0:30:00 +03:00
+2019-04-15 11:53:29,459  DEBUG Starting of current weather on schedule in 15.04.2019 11:53:29

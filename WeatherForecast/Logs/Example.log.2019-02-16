@@ -1,0 +1,114 @@
+2019-02-16 07:21:33,557  DEBUG Starting the schedule forecast in16.02.2019 8:00:00
+2019-02-16 07:21:33,574  DEBUG Starting the schedule current weather in 16.02.2019 7:21:33
+2019-02-16 07:21:33,574  DEBUG Starting the schedule astro in 17.02.2019 0:30:00
+2019-02-16 07:21:36,452  DEBUG Starting of current weather on schedule in 16.02.2019 7:21:36
+2019-02-16 07:21:36,575  DEBUG Starting of astro on schedule in16.02.2019 7:21:36
+2019-02-16 07:21:38,887  DEBUG LatestForecasts.Count = 0!
+2019-02-16 07:26:33,624  DEBUG Starting of current weather on schedule in 16.02.2019 7:26:33
+2019-02-16 07:31:33,819  DEBUG Starting of current weather on schedule in 16.02.2019 7:31:33
+2019-02-16 07:36:33,622  DEBUG Starting of current weather on schedule in 16.02.2019 7:36:33
+2019-02-16 07:41:33,828  DEBUG Starting of current weather on schedule in 16.02.2019 7:41:33
+2019-02-16 07:46:33,622  DEBUG Starting of current weather on schedule in 16.02.2019 7:46:33
+2019-02-16 07:51:33,821  DEBUG Starting of current weather on schedule in 16.02.2019 7:51:33
+2019-02-16 07:56:33,624  DEBUG Starting of current weather on schedule in 16.02.2019 7:56:33
+2019-02-16 08:00:00,088  DEBUG Starting of forecasts on schedule in 16.02.2019 8:00:00
+2019-02-16 08:00:00,088  DEBUG Starting UpdateCurrentWeatherForRating in 16.02.2019 8:00:00 time of current weather - 16.02.2019 7:45:11
+2019-02-16 08:01:00,091  DEBUG Starting UpdateCurrentWeatherForRating in 16.02.2019 8:01:00 time of current weather - 16.02.2019 7:45:11
+2019-02-16 08:01:33,658  DEBUG Starting of current weather on schedule in 16.02.2019 8:01:33
+2019-02-16 08:02:00,095  DEBUG Starting UpdateCurrentWeatherForRating in 16.02.2019 8:02:00 time of current weather - 16.02.2019 7:45:11
+2019-02-16 08:03:00,095  DEBUG Starting UpdateCurrentWeatherForRating in 16.02.2019 8:03:00 time of current weather - 16.02.2019 7:45:11
+2019-02-16 08:04:00,099  DEBUG Starting UpdateCurrentWeatherForRating in 16.02.2019 8:04:00 time of current weather - 16.02.2019 7:45:11
+2019-02-16 08:05:00,103  DEBUG Starting UpdateCurrentWeatherForRating in 16.02.2019 8:05:00 time of current weather - 16.02.2019 7:45:11
+2019-02-16 08:06:00,111  DEBUG Starting UpdateCurrentWeatherForRating in 16.02.2019 8:06:00 time of current weather - 16.02.2019 7:45:11
+2019-02-16 08:06:02,395  DEBUG Successfully saved the forecast openweathermap.org
+2019-02-16 08:06:04,515  DEBUG Successfully saved the forecast weatherbit.io
+2019-02-16 08:06:06,629  DEBUG Successfully saved the forecast wunderground.com
+2019-02-16 08:06:33,627  DEBUG Starting of current weather on schedule in 16.02.2019 8:06:33
+2019-02-16 08:07:00,118  DEBUG Stop UpdateCurrentWeatherForRating in 16.02.2019 8:07:00 time of current weather - 16.02.2019 8:00:19
+2019-02-16 08:07:00,118  DEBUG Starting rating process at 16.02.2019 8:07:00
+2019-02-16 08:07:02,652  DEBUG Starting rating process retriving a best rating at 16.02.2019 8:07:02
+2019-02-16 08:07:47,984  ERROR An error occurred while trying to create analytic forecasts
+System.NullReferenceException: —сылка на объект не указывает на экземпл€р объекта.
+   в WeatherForecast.Models.AnalyticForecast.AnalyticForecastFactory.<>c__DisplayClass10_0.<UpDateForecasts>b__4(<>f__AnonymousType3`2 obj) в D:\VisualStudio_2017\WeatherForecast\WeatherForecast\Models\AnalyticForecast\AnalyticForecastFactory.cs:строка 146
+   в System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   в System.Linq.Lookup`2.Create[TSource](IEnumerable`1 source, Func`2 keySelector, Func`2 elementSelector, IEqualityComparer`1 comparer)
+   в System.Linq.GroupedEnumerable`3.GetEnumerator()
+   в System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   в System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   в System.Linq.OrderedEnumerable`1.<GetEnumerator>d__1.MoveNext()
+   в WeatherForecast.Models.AnalyticForecast.AnalyticForecastFactory.UpDateForecasts(IEnumerable`1 latestForecastsFromSource, IEnumerable`1 dailyIcons) в D:\VisualStudio_2017\WeatherForecast\WeatherForecast\Models\AnalyticForecast\AnalyticForecastFactory.cs:строка 214
+2019-02-16 13:44:54,014  DEBUG Starting the schedule forecast in16.02.2019 14:00:00
+2019-02-16 13:44:54,034  DEBUG Starting the schedule current weather in 16.02.2019 13:44:54
+2019-02-16 13:44:54,034  DEBUG Starting the schedule astro in 17.02.2019 0:30:00
+2019-02-16 13:44:56,538  DEBUG Starting of current weather on schedule in 16.02.2019 13:44:56
+2019-02-16 13:44:56,660  DEBUG Starting of astro on schedule in16.02.2019 13:44:56
+2019-02-16 13:44:58,352  DEBUG LatestForecasts.Count = 0!
+2019-02-16 13:49:54,080  DEBUG Starting of current weather on schedule in 16.02.2019 13:49:54
+2019-02-16 13:54:54,286  DEBUG Starting of current weather on schedule in 16.02.2019 13:54:54
+2019-02-16 13:59:54,114  DEBUG Starting of current weather on schedule in 16.02.2019 13:59:54
+2019-02-16 14:00:00,058  DEBUG Starting of forecasts on schedule in 16.02.2019 14:00:00
+2019-02-16 14:00:00,058  DEBUG Starting UpdateCurrentWeatherForRating in 16.02.2019 14:00:00 time of current weather - 16.02.2019 13:45:09
+2019-02-16 14:01:00,066  DEBUG Starting UpdateCurrentWeatherForRating in 16.02.2019 14:01:00 time of current weather - 16.02.2019 13:45:09
+2019-02-16 14:02:00,068  DEBUG Starting UpdateCurrentWeatherForRating in 16.02.2019 14:02:00 time of current weather - 16.02.2019 13:45:09
+2019-02-16 14:03:00,072  DEBUG Starting UpdateCurrentWeatherForRating in 16.02.2019 14:03:00 time of current weather - 16.02.2019 13:45:09
+2019-02-16 14:04:00,081  DEBUG Starting UpdateCurrentWeatherForRating in 16.02.2019 14:04:00 time of current weather - 16.02.2019 13:45:09
+2019-02-16 14:04:54,366  DEBUG Starting of current weather on schedule in 16.02.2019 14:04:54
+2019-02-16 14:05:00,090  DEBUG Starting UpdateCurrentWeatherForRating in 16.02.2019 14:05:00 time of current weather - 16.02.2019 13:45:09
+2019-02-16 14:06:00,096  DEBUG Starting UpdateCurrentWeatherForRating in 16.02.2019 14:06:00 time of current weather - 16.02.2019 13:45:09
+2019-02-16 14:06:02,360  DEBUG Successfully saved the forecast openweathermap.org
+2019-02-16 14:06:04,582  DEBUG Successfully saved the forecast weatherbit.io
+2019-02-16 14:06:06,854  DEBUG Successfully saved the forecast wunderground.com
+2019-02-16 14:07:00,106  DEBUG Starting UpdateCurrentWeatherForRating in 16.02.2019 14:07:00 time of current weather - 16.02.2019 13:45:09
+2019-02-16 14:08:00,114  DEBUG Starting UpdateCurrentWeatherForRating in 16.02.2019 14:08:00 time of current weather - 16.02.2019 13:45:09
+2019-02-16 14:09:00,118  DEBUG Starting UpdateCurrentWeatherForRating in 16.02.2019 14:09:00 time of current weather - 16.02.2019 13:45:09
+2019-02-16 14:09:54,093  DEBUG Starting of current weather on schedule in 16.02.2019 14:09:54
+2019-02-16 14:10:00,127  DEBUG Stop UpdateCurrentWeatherForRating in 16.02.2019 14:10:00 time of current weather - 16.02.2019 14:00:16
+2019-02-16 14:10:00,127  DEBUG Starting rating process at 16.02.2019 14:10:00
+2019-02-16 14:10:02,709  DEBUG Starting rating process retriving a best rating at 16.02.2019 14:10:02
+2019-02-16 14:25:11,995  DEBUG Starting of current weather on schedule in 16.02.2019 14:25:11
+2019-02-16 14:44:04,260  ERROR An error occurred while trying to save analytic forecasts in AnalyticForecastFactory
+System.InvalidOperationException: Attaching an entity of type 'WeatherForecast.Models.Weather.OneDayAstro' failed because another entity of the same type already has the same primary key value. This can happen when using the 'Attach' method or setting the state of an entity to 'Unchanged' or 'Modified' if any entities in the graph have conflicting key values. This may be because some entities are new and have not yet received database-generated key values. In this case use the 'Add' method or the 'Added' entity state to track the graph and then set the state of non-new entities to 'Unchanged' or 'Modified' as appropriate.
+   в System.Data.Entity.Core.Objects.ObjectContext.VerifyRootForAdd(Boolean doAttach, String entitySetName, IEntityWrapper wrappedEntity, EntityEntry existingEntry, EntitySet& entitySet, Boolean& isNoOperation)
+   в System.Data.Entity.Core.Objects.ObjectContext.AttachTo(String entitySetName, Object entity)
+   в System.Data.Entity.Internal.Linq.InternalSet`1.<>c__DisplayClassa.<Attach>b__9()
+   в System.Data.Entity.Internal.Linq.InternalSet`1.ActOnSet(Action action, EntityState newState, Object entity, String methodName)
+   в System.Data.Entity.Internal.Linq.InternalSet`1.Attach(Object entity)
+   в System.Data.Entity.DbSet`1.Attach(TEntity entity)
+   в WeatherForecast.Models.AnalyticForecast.AnalyticForecastFactory.UpDateForecasts(IEnumerable`1 latestForecastsFromSource, IEnumerable`1 dailyIcons) в D:\VisualStudio_2017\WeatherForecast\WeatherForecast\Models\AnalyticForecast\AnalyticForecastFactory.cs:строка 304
+2019-02-16 14:44:54,092  DEBUG Starting of current weather on schedule in 16.02.2019 14:44:54
+2019-02-16 19:45:06,188  DEBUG Starting the schedule forecast in16.02.2019 20:00:00
+2019-02-16 19:45:06,198  DEBUG Starting the schedule current weather in 16.02.2019 19:45:06
+2019-02-16 19:45:06,198  DEBUG Starting the schedule astro in 17.02.2019 0:30:00
+2019-02-16 19:45:08,646  DEBUG Starting of current weather on schedule in 16.02.2019 19:45:08
+2019-02-16 19:45:08,769  DEBUG Starting of astro on schedule in16.02.2019 19:45:08
+2019-02-16 19:45:18,868  DEBUG LatestForecasts.Count = 0!
+2019-02-16 19:45:27,652  DEBUG LatestForecasts.Count = 0!
+2019-02-16 19:50:06,379  DEBUG Starting of current weather on schedule in 16.02.2019 19:50:06
+2019-02-16 19:55:06,457  DEBUG Starting of current weather on schedule in 16.02.2019 19:55:06
+2019-02-16 20:00:00,075  DEBUG Starting of forecasts on schedule in 16.02.2019 20:00:00
+2019-02-16 20:00:00,079  DEBUG Starting UpdateCurrentWeatherForRating in 16.02.2019 20:00:00 time of current weather - 16.02.2019 19:45:09
+2019-02-16 20:00:06,250  DEBUG Starting of current weather on schedule in 16.02.2019 20:00:06
+2019-02-16 20:01:00,080  DEBUG Starting UpdateCurrentWeatherForRating in 16.02.2019 20:01:00 time of current weather - 16.02.2019 19:45:09
+2019-02-16 20:02:00,083  DEBUG Starting UpdateCurrentWeatherForRating in 16.02.2019 20:02:00 time of current weather - 16.02.2019 19:45:09
+2019-02-16 20:03:00,088  DEBUG Starting UpdateCurrentWeatherForRating in 16.02.2019 20:03:00 time of current weather - 16.02.2019 19:45:09
+2019-02-16 20:04:00,096  DEBUG Starting UpdateCurrentWeatherForRating in 16.02.2019 20:04:00 time of current weather - 16.02.2019 19:45:09
+2019-02-16 20:04:00,810  ERROR An error occurred while trying to retrieve data in the method : JsonFromUrl; by the address http://api.wunderground.com/api/1086a4a1b0619326/forecast10day/q/UA/Odessa.json
+System.Net.WebException: ”даленный сервер возвратил ошибку: (500) ¬нутренн€€ ошибка сервера.
+   в System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   в System.Net.WebClient.DownloadString(Uri address)
+   в System.Net.WebClient.DownloadString(String address)
+   в WeatherForecast.Models.WeatherSources.WeatherSource.JsonFromUrl(String URL, Int32 numberOfAttempts) в D:\VisualStudio_2017\WeatherForecast\WeatherForecast\Models\WeatherSources\WeatherSource.cs:строка 75
+2019-02-16 20:05:00,100  DEBUG Starting UpdateCurrentWeatherForRating in 16.02.2019 20:05:00 time of current weather - 16.02.2019 19:45:09
+2019-02-16 20:05:06,454  DEBUG Starting of current weather on schedule in 16.02.2019 20:05:06
+2019-02-16 20:06:00,102  DEBUG Starting UpdateCurrentWeatherForRating in 16.02.2019 20:06:00 time of current weather - 16.02.2019 19:45:09
+2019-02-16 20:06:02,362  DEBUG Successfully saved the forecast openweathermap.org
+2019-02-16 20:06:04,498  DEBUG Successfully saved the forecast weatherbit.io
+2019-02-16 20:06:06,610  DEBUG Successfully saved the forecast wunderground.com
+2019-02-16 20:07:00,105  DEBUG Starting UpdateCurrentWeatherForRating in 16.02.2019 20:07:00 time of current weather - 16.02.2019 19:45:09
+2019-02-16 20:08:00,107  DEBUG Starting UpdateCurrentWeatherForRating in 16.02.2019 20:08:00 time of current weather - 16.02.2019 19:45:09
+2019-02-16 20:09:00,108  DEBUG Starting UpdateCurrentWeatherForRating in 16.02.2019 20:09:00 time of current weather - 16.02.2019 19:45:09
+2019-02-16 20:10:00,116  DEBUG Starting UpdateCurrentWeatherForRating in 16.02.2019 20:10:00 time of current weather - 16.02.2019 19:45:09
+2019-02-16 20:10:06,250  DEBUG Starting of current weather on schedule in 16.02.2019 20:10:06
+2019-02-16 20:11:00,122  DEBUG Stop UpdateCurrentWeatherForRating in 16.02.2019 20:11:00 time of current weather - 16.02.2019 20:00:11
+2019-02-16 20:11:00,122  DEBUG Starting rating process at 16.02.2019 20:11:00
+2019-02-16 20:11:02,662  DEBUG Starting rating process retriving a best rating at 16.02.2019 20:11:02

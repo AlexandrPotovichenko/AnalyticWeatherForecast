@@ -1,0 +1,52 @@
+2019-02-12 10:14:25,653  DEBUG Starting the schedule forecast in12.02.2019 11:00:00
+2019-02-12 10:14:25,663  DEBUG Starting the schedule current weather in 12.02.2019 10:14:25
+2019-02-12 10:14:25,663  DEBUG Starting the schedule astro in 13.02.2019 0:30:00
+2019-02-12 10:14:34,027  DEBUG Starting of current weather on schedule in 12.02.2019 10:14:34
+2019-02-12 10:14:34,045  DEBUG Starting of astro on schedule in12.02.2019 10:14:34
+2019-02-12 10:16:00,179  DEBUG Starting the schedule forecast in12.02.2019 11:00:00
+2019-02-12 10:16:00,192  DEBUG Starting the schedule current weather in 12.02.2019 10:16:00
+2019-02-12 10:16:00,193  DEBUG Starting the schedule astro in 13.02.2019 0:30:00
+2019-02-12 11:00:48,246  DEBUG Starting of current weather on schedule in 12.02.2019 11:00:48
+2019-02-12 11:00:48,346  DEBUG Starting of forecasts on schedule in 12.02.2019 11:00:48
+2019-02-12 11:00:48,346  DEBUG Starting UpdateCurrentWeatherForRating in 12.02.2019 11:00:48 time of current weather -   -  null  -  
+2019-02-12 11:00:55,368  DEBUG LatestForecasts.Count = 0!
+2019-02-12 11:01:00,417  DEBUG Starting of current weather on schedule in 12.02.2019 11:01:00
+2019-02-12 11:01:48,352  DEBUG Stop UpdateCurrentWeatherForRating in 12.02.2019 11:01:48 time of current weather - 12.02.2019 11:00:14
+2019-02-12 11:06:00,250  DEBUG Starting of current weather on schedule in 12.02.2019 11:06:00
+2019-02-12 11:06:50,552  DEBUG Successfully saved the forecast openweathermap.org
+2019-02-12 11:06:52,644  DEBUG Successfully saved the forecast weatherbit.io
+2019-02-12 11:06:54,730  DEBUG Successfully saved the forecast wunderground.com
+2019-02-12 11:06:54,730  DEBUG Starting rating process at 12.02.2019 11:06:54
+2019-02-12 11:06:55,710  DEBUG Starting rating process retriving a best rating at 12.02.2019 11:06:55
+2019-02-12 13:48:24,657  DEBUG Starting the schedule forecast in12.02.2019 14:00:00
+2019-02-12 13:48:24,677  DEBUG Starting the schedule current weather in 12.02.2019 13:48:24
+2019-02-12 13:48:24,677  DEBUG Starting the schedule astro in 13.02.2019 0:30:00
+2019-02-12 13:48:44,636  DEBUG Starting of astro on schedule in12.02.2019 13:48:44
+2019-02-12 13:48:45,028  DEBUG Starting of current weather on schedule in 12.02.2019 13:48:45
+2019-02-12 13:48:47,712  DEBUG LatestForecasts.Count = 0!
+2019-02-12 13:53:24,735  DEBUG Starting of current weather on schedule in 12.02.2019 13:53:24
+2019-02-12 13:58:24,910  DEBUG Starting of current weather on schedule in 12.02.2019 13:58:24
+2019-02-12 14:00:00,051  DEBUG Starting of forecasts on schedule in 12.02.2019 14:00:00
+2019-02-12 14:00:00,061  DEBUG Starting UpdateCurrentWeatherForRating in 12.02.2019 14:00:00 time of current weather - 12.02.2019 13:45:11
+2019-02-12 14:01:00,061  DEBUG Starting UpdateCurrentWeatherForRating in 12.02.2019 14:01:00 time of current weather - 12.02.2019 13:45:11
+2019-02-12 14:02:00,065  DEBUG Starting UpdateCurrentWeatherForRating in 12.02.2019 14:02:00 time of current weather - 12.02.2019 13:45:11
+2019-02-12 14:03:00,073  DEBUG Starting UpdateCurrentWeatherForRating in 12.02.2019 14:03:00 time of current weather - 12.02.2019 13:45:11
+2019-02-12 14:03:24,731  DEBUG Starting of current weather on schedule in 12.02.2019 14:03:24
+2019-02-12 14:04:00,080  DEBUG Stop UpdateCurrentWeatherForRating in 12.02.2019 14:04:00 time of current weather - 12.02.2019 14:00:13
+2019-02-12 14:04:01,180  ERROR An error occurred while trying to retrieve data in the method : JsonFromUrl; by the address http://api.wunderground.com/api/1086a4a1b0619326/hourly10day/q/UA/Odessa.json
+System.Net.WebException: ”даленный сервер возвратил ошибку: (500) ¬нутренн€€ ошибка сервера.
+   в System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   в System.Net.WebClient.DownloadString(Uri address)
+   в System.Net.WebClient.DownloadString(String address)
+   в WeatherForecast.Models.WeatherSources.WeatherSource.JsonFromUrl(String URL, Int32 numberOfAttempts) в D:\VisualStudio_2017\WeatherForecast\WeatherForecast\Models\WeatherSources\WeatherSource.cs:строка 75
+2019-02-12 14:05:12,466  ERROR An error occurred while trying to retrieve data in the method : JsonFromUrl; by the address http://api.wunderground.com/api/1086a4a1b0619326/hourly10day/q/UA/Odessa.json
+System.Net.WebException: ”даленный сервер возвратил ошибку: (500) ¬нутренн€€ ошибка сервера.
+   в System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   в System.Net.WebClient.DownloadString(Uri address)
+   в System.Net.WebClient.DownloadString(String address)
+   в WeatherForecast.Models.WeatherSources.WeatherSource.JsonFromUrl(String URL, Int32 numberOfAttempts) в D:\VisualStudio_2017\WeatherForecast\WeatherForecast\Models\WeatherSources\WeatherSource.cs:строка 75
+2019-02-12 14:06:15,332  DEBUG Successfully saved the forecast openweathermap.org
+2019-02-12 14:06:17,404  DEBUG Successfully saved the forecast weatherbit.io
+2019-02-12 14:06:19,436  DEBUG Successfully saved the forecast wunderground.com
+2019-02-12 14:06:19,436  DEBUG Starting rating process at 12.02.2019 14:06:19
+2019-02-12 14:06:20,556  DEBUG Starting rating process retriving a best rating at 12.02.2019 14:06:20

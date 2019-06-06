@@ -1,0 +1,31 @@
+﻿@model WeatherForecast.Models.ViewModels.AnalyticWeatherForecastView
+@{
+    ViewBag.Title = "Analytic Weather Forecast";
+}
+
+<div class="jumbotron area" id="jumbotron">
+
+    <div id="jumbodiv">
+    </div>
+
+</div>
+
+
+<div class="row">
+    @{int index = 0;
+        foreach (var df in Model.AllForecasts)
+        {
+            <div class="col-md-2">
+                <div class="area daytab" id=@index onmouseover="this.classList.add('mouseon')" onmouseout="this.classList.remove('mouseon')" onclick="goAjax('/Home/GetForecast?day=' + @index, this);">
+                    <h2 style="text-align:center"> @df.date.DayOfWeek </h2>
+                    <h1 style="text-align:center"><img class="image" src=@df.description.Icon.GetIconURL(true).Replace("~", "") width="100" height="100" /></h1>
+                    <p style="text-align:center;font-size:150%"> @df.description.Description </p>
+                    <p style="text-align:center;font-size:120%"> @df.GetMinTemperature() <br /> @df.GetMaxTemperature() <br /> Fallout: @df.GetFallout()</p>
+                </div>
+            </div>
+            index++;
+        }
+    }
+
+</div>
+

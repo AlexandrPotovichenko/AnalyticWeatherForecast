@@ -1,0 +1,93 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - Weather forecast</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+
+    <script type="text/javascript">
+        function initContent() {
+            var url = "/Home/GetForecast?day=0"; 
+            goAjax(url, document.getElementById("0"));
+        }
+
+        function removeselection() {
+            var articles = document.getElementsByClassName('selected');
+            for (var i = 0; i < articles.length; i++) {
+                articles[i].classList.remove('selected');
+            }
+        }
+
+        $(document).ready(function () {
+            initContent();
+        });
+
+
+        function goAjax(url, dayTab) {
+            $.ajax({
+                type: "POST",
+                url: url,
+                success: function (data) {
+                    //display data (HTML+CSS) into html bloc
+                    $("#jumbodiv").animate({ opacity: '0.0' }, "slow", function () { $("#jumbodiv").html(data); });
+                    $("#jumbodiv").animate({ opacity: '1.0' }, "slow");
+                    removeselection();
+                    dayTab.classList.add('selected');
+
+                },
+                error: function (xhr, ajaxOptions, thrownError) {
+                    //display error message  into html bloc
+                    $("#jumbotron").html("Echec Loading");
+                }
+            });
+
+        }
+
+    </script>
+
+</head>
+   
+
+<body>
+    <div class="navbar navbar-inverse gradient">
+        <div class="container">
+            <div class="navbar-header">
+               
+                @Html.ActionLink("Analytic Weather Forecast", "Index", "Home", new { area = "" }, new { @class = "navbar-brand homeLink", style = "" })
+
+            </div>
+           
+            <ul class="nav navbar-nav">
+               
+                <li>@Html.ActionLink("Current weather in Odessa", "GetCurrentWeather", "Home", new { onclick = "event.preventDefault(); goAjax('/Home/GetCurrentWeather')",@class = "p3", style = "font-size: large; color: #d7e5f1;" })</li>
+                              
+<li>@Html.ActionLink("How it works", "HowItWorks", "Home", new { @class = "p3", style = "font-size: large; color: #d7e5f1;" })</li>
+            </ul>
+
+            <div class="navbar-collapse collapse">
+               
+            </div>
+        </div>
+    </div>
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+        <footer>
+
+            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+        </footer>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>
+

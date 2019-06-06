@@ -1,0 +1,124 @@
+2019-02-01 18:38:46,006  DEBUG Starting the schedule forecast in01.02.2019 20:00:00
+2019-02-01 18:38:46,026  DEBUG Starting the schedule current weather in 01.02.2019 18:38:46
+2019-02-01 18:38:46,026  DEBUG Starting the schedule astro in 02.02.2019 0:30:00
+2019-02-01 18:38:56,110  DEBUG Starting of current weather on schedule in 01.02.2019 18:38:56
+2019-02-01 19:54:37,542  DEBUG Starting the schedule forecast in01.02.2019 20:00:00
+2019-02-01 19:54:37,552  DEBUG Starting the schedule current weather in 01.02.2019 19:54:37
+2019-02-01 19:54:37,562  DEBUG Starting the schedule astro in 02.02.2019 0:30:00
+2019-02-01 19:54:37,602  DEBUG Starting of current weather on schedule in 01.02.2019 19:54:37
+2019-02-01 19:59:37,556  DEBUG Starting of current weather on schedule in 01.02.2019 19:59:37
+2019-02-01 20:00:00,130  DEBUG Starting of forecasts on schedule in 01.02.2019 20:00:00
+2019-02-01 20:00:00,132  DEBUG Starting UpdateCurrentWeatherForRating in 01.02.2019 20:00:00 time of current weather - 01.02.2019 19:45:11
+2019-02-01 20:01:00,139  DEBUG Starting UpdateCurrentWeatherForRating in 01.02.2019 20:01:00 time of current weather - 01.02.2019 19:45:11
+2019-02-01 20:02:00,148  DEBUG Starting UpdateCurrentWeatherForRating in 01.02.2019 20:02:00 time of current weather - 01.02.2019 19:45:11
+2019-02-01 20:03:00,155  DEBUG Starting UpdateCurrentWeatherForRating in 01.02.2019 20:03:00 time of current weather - 01.02.2019 19:45:11
+2019-02-01 20:04:00,163  DEBUG Starting UpdateCurrentWeatherForRating in 01.02.2019 20:04:00 time of current weather - 01.02.2019 19:45:11
+2019-02-01 20:04:37,553  DEBUG Starting of current weather on schedule in 01.02.2019 20:04:37
+2019-02-01 20:05:00,166  DEBUG Stop UpdateCurrentWeatherForRating in 01.02.2019 20:05:00 time of current weather - 01.02.2019 20:00:19
+2019-02-01 20:06:00,340  DEBUG Successfully saved the forecast openweathermap.org
+2019-02-01 20:06:00,420  DEBUG Successfully saved the forecast weatherbit.io
+2019-02-01 20:06:00,485  DEBUG Successfully saved the forecast wunderground.com
+2019-02-01 20:06:00,485  DEBUG Starting rating process at 01.02.2019 20:06:00
+2019-02-01 20:06:00,724  DEBUG Starting rating process retriving a best rating at 01.02.2019 20:06:00
+2019-02-01 20:06:26,540  ERROR An error occurred while trying to receive astro data by date. In the method : GetAstroByDate
+2019-02-01 20:06:26,560  ERROR An error occurred while trying to receive astro data by date. In the method : GetAstroByDate
+2019-02-01 20:06:26,580  ERROR An error occurred while trying to receive astro data by date. In the method : GetAstroByDate
+2019-02-01 20:09:37,560  DEBUG Starting of current weather on schedule in 01.02.2019 20:09:37
+2019-02-01 20:14:37,557  DEBUG Starting of current weather on schedule in 01.02.2019 20:14:37
+2019-02-01 20:19:37,556  DEBUG Starting of current weather on schedule in 01.02.2019 20:19:37
+2019-02-01 20:24:37,557  DEBUG Starting of current weather on schedule in 01.02.2019 20:24:37
+2019-02-01 20:29:37,555  DEBUG Starting of current weather on schedule in 01.02.2019 20:29:37
+2019-02-01 20:34:37,560  DEBUG Starting of current weather on schedule in 01.02.2019 20:34:37
+2019-02-01 20:39:37,556  DEBUG Starting of current weather on schedule in 01.02.2019 20:39:37
+2019-02-01 20:44:37,555  DEBUG Starting of current weather on schedule in 01.02.2019 20:44:37
+2019-02-01 20:49:37,555  DEBUG Starting of current weather on schedule in 01.02.2019 20:49:37
+2019-02-01 20:54:37,559  DEBUG Starting of current weather on schedule in 01.02.2019 20:54:37
+2019-02-01 20:59:37,558  DEBUG Starting of current weather on schedule in 01.02.2019 20:59:37
+2019-02-01 21:04:37,553  DEBUG Starting of current weather on schedule in 01.02.2019 21:04:37
+2019-02-01 21:09:37,557  DEBUG Starting of current weather on schedule in 01.02.2019 21:09:37
+2019-02-01 21:14:37,558  DEBUG Starting of current weather on schedule in 01.02.2019 21:14:37
+2019-02-01 21:19:37,560  DEBUG Starting of current weather on schedule in 01.02.2019 21:19:37
+2019-02-01 21:24:37,560  DEBUG Starting of current weather on schedule in 01.02.2019 21:24:37
+2019-02-01 21:29:37,557  DEBUG Starting of current weather on schedule in 01.02.2019 21:29:37
+2019-02-01 21:34:37,558  DEBUG Starting of current weather on schedule in 01.02.2019 21:34:37
+2019-02-01 21:39:37,560  DEBUG Starting of current weather on schedule in 01.02.2019 21:39:37
+2019-02-01 21:44:37,560  DEBUG Starting of current weather on schedule in 01.02.2019 21:44:37
+2019-02-01 21:49:37,560  DEBUG Starting of current weather on schedule in 01.02.2019 21:49:37
+2019-02-01 21:54:37,557  DEBUG Starting of current weather on schedule in 01.02.2019 21:54:37
+2019-02-01 21:59:37,559  DEBUG Starting of current weather on schedule in 01.02.2019 21:59:37
+2019-02-01 22:04:37,557  DEBUG Starting of current weather on schedule in 01.02.2019 22:04:37
+2019-02-01 22:09:37,560  DEBUG Starting of current weather on schedule in 01.02.2019 22:09:37
+2019-02-01 22:14:37,559  DEBUG Starting of current weather on schedule in 01.02.2019 22:14:37
+2019-02-01 22:19:37,556  DEBUG Starting of current weather on schedule in 01.02.2019 22:19:37
+2019-02-01 22:24:37,556  DEBUG Starting of current weather on schedule in 01.02.2019 22:24:37
+2019-02-01 22:29:37,561  DEBUG Starting of current weather on schedule in 01.02.2019 22:29:37
+2019-02-01 22:34:37,560  DEBUG Starting of current weather on schedule in 01.02.2019 22:34:37
+2019-02-01 22:39:37,559  DEBUG Starting of current weather on schedule in 01.02.2019 22:39:37
+2019-02-01 22:44:37,559  DEBUG Starting of current weather on schedule in 01.02.2019 22:44:37
+2019-02-01 22:49:37,560  DEBUG Starting of current weather on schedule in 01.02.2019 22:49:37
+2019-02-01 22:54:37,558  DEBUG Starting of current weather on schedule in 01.02.2019 22:54:37
+2019-02-01 22:59:37,557  DEBUG Starting of current weather on schedule in 01.02.2019 22:59:37
+2019-02-01 23:00:00,030  DEBUG Starting of forecasts on schedule in 01.02.2019 23:00:00
+2019-02-01 23:00:00,030  DEBUG Starting UpdateCurrentWeatherForRating in 01.02.2019 23:00:00 time of current weather - 01.02.2019 22:45:09
+2019-02-01 23:01:00,032  DEBUG Starting UpdateCurrentWeatherForRating in 01.02.2019 23:01:00 time of current weather - 01.02.2019 22:45:09
+2019-02-01 23:02:00,035  DEBUG Starting UpdateCurrentWeatherForRating in 01.02.2019 23:02:00 time of current weather - 01.02.2019 22:45:09
+2019-02-01 23:03:00,044  DEBUG Starting UpdateCurrentWeatherForRating in 01.02.2019 23:03:00 time of current weather - 01.02.2019 22:45:09
+2019-02-01 23:04:00,052  DEBUG Starting UpdateCurrentWeatherForRating in 01.02.2019 23:04:00 time of current weather - 01.02.2019 22:45:09
+2019-02-01 23:04:37,555  DEBUG Starting of current weather on schedule in 01.02.2019 23:04:37
+2019-02-01 23:05:00,057  DEBUG Stop UpdateCurrentWeatherForRating in 01.02.2019 23:05:00 time of current weather - 01.02.2019 23:00:12
+2019-02-01 23:06:00,114  DEBUG Successfully saved the forecast openweathermap.org
+2019-02-01 23:06:00,194  DEBUG Successfully saved the forecast weatherbit.io
+2019-02-01 23:06:00,254  DEBUG Successfully saved the forecast wunderground.com
+2019-02-01 23:06:00,254  DEBUG Starting rating process at 01.02.2019 23:06:00
+2019-02-01 23:06:00,304  DEBUG Starting rating process retriving a best rating at 01.02.2019 23:06:00
+2019-02-01 23:06:00,434  ERROR An error occurred while trying to receive astro data by date. In the method : GetAstroByDate
+2019-02-01 23:06:00,454  ERROR An error occurred while trying to receive astro data by date. In the method : GetAstroByDate
+2019-02-01 23:06:00,474  ERROR An error occurred while trying to receive astro data by date. In the method : GetAstroByDate
+2019-02-01 23:06:00,494  ERROR An error occurred while trying to receive astro data by date. In the method : GetAstroByDate
+2019-02-01 23:06:00,726  ERROR An error occurred while trying to save analytic forecasts
+System.Data.Entity.Infrastructure.DbUpdateException: An error occurred while saving entities that do not expose foreign key properties for their relationships. The EntityEntries property will return null because a single entity cannot be identified as the source of the exception. Handling of exceptions while saving can be made easier by exposing foreign key properties in your entity types. See the InnerException for details. ---> System.Data.Entity.Core.UpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.SqlClient.SqlException: The DELETE statement conflicted with the REFERENCE constraint "FK_dbo.WeatherConditions_dbo.OneDayForecasts_OneDayForecast_Id". The conflict occurred in database "WEATHERFORECAST_a4632b77c4004a56a2b727edcede811d", table "dbo.WeatherConditions", column 'OneDayForecast_Id'.
+The statement has been terminated.
+   в System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   в System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   в System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   в System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   в System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   в System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   в System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   в System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   в System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   в System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<NonQuery>b__0(DbCommand t, DbCommandInterceptionContext`1 c)
+   в System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   в System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.NonQuery(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   в System.Data.Entity.Internal.InterceptableDbCommand.ExecuteNonQuery()
+   в System.Data.Entity.Core.Mapping.Update.Internal.DynamicUpdateCommand.Execute(Dictionary`2 identifierValues, List`1 generatedValues)
+   в System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   в System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.<Update>b__2(UpdateTranslator ut)
+   в System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.Update[T](T noChangesResult, Func`2 updateFunction)
+   в System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.Update()
+   в System.Data.Entity.Core.Objects.ObjectContext.<SaveChangesToStore>b__35()
+   в System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   в System.Data.Entity.Core.Objects.ObjectContext.SaveChangesToStore(SaveOptions options, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction)
+   в System.Data.Entity.Core.Objects.ObjectContext.<>c__DisplayClass2a.<SaveChangesInternal>b__27()
+   в System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   в System.Data.Entity.Core.Objects.ObjectContext.SaveChangesInternal(SaveOptions options, Boolean executeInExistingTransaction)
+   в System.Data.Entity.Core.Objects.ObjectContext.SaveChanges(SaveOptions options)
+   в System.Data.Entity.Internal.InternalContext.SaveChanges()
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Data.Entity.Internal.InternalContext.SaveChanges()
+   в System.Data.Entity.Internal.LazyInternalContext.SaveChanges()
+   в System.Data.Entity.DbContext.SaveChanges()
+   в WeatherForecast.Models.AnalyticForecast.AnalyticForecastFactory.UpDateForecasts(IEnumerable`1 latestForecastsFromSourse, IEnumerable`1 dailyIcons) в D:\VisualStudio_2017\WeatherForecast\WeatherForecast\Models\AnalyticForecast\AnalyticForecastFactory.cs:строка 303
+2019-02-01 23:09:37,559  DEBUG Starting of current weather on schedule in 01.02.2019 23:09:37
+2019-02-01 23:14:37,555  DEBUG Starting of current weather on schedule in 01.02.2019 23:14:37
+2019-02-01 23:19:37,554  DEBUG Starting of current weather on schedule in 01.02.2019 23:19:37
+2019-02-01 23:24:37,554  DEBUG Starting of current weather on schedule in 01.02.2019 23:24:37
+2019-02-01 23:29:37,558  DEBUG Starting of current weather on schedule in 01.02.2019 23:29:37
+2019-02-01 23:34:37,558  DEBUG Starting of current weather on schedule in 01.02.2019 23:34:37
+2019-02-01 23:39:37,558  DEBUG Starting of current weather on schedule in 01.02.2019 23:39:37
+2019-02-01 23:44:37,559  DEBUG Starting of current weather on schedule in 01.02.2019 23:44:37
+2019-02-01 23:49:37,561  DEBUG Starting of current weather on schedule in 01.02.2019 23:49:37
+2019-02-01 23:54:37,555  DEBUG Starting of current weather on schedule in 01.02.2019 23:54:37
+2019-02-01 23:59:37,559  DEBUG Starting of current weather on schedule in 01.02.2019 23:59:37

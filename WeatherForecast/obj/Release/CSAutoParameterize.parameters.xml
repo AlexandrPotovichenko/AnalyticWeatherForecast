@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="WeatherContext-Web.config Connection String" description="WeatherContext Connection String used in web.config by the application to access the database." defaultValue="Data Source=SQL5023.site4now.net;Initial Catalog=DB_A3D1AE_cherri;User Id=DB_A3D1AE_cherri_admin;Password=140185Anna;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="D:\\VisualStudio_2017\\WeatherForecast\\WeatherForecast\\obj\\Release\\Package\\PackageTmp\\Views\\Web\.config$" match="/configuration/connectionStrings/add[@name='WeatherContext']/@connectionString" />
+    <parameterEntry kind="XmlFile" scope="D:\\VisualStudio_2017\\WeatherForecast\\WeatherForecast\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='WeatherContext']/@connectionString" />
+  </parameter>
+</parameters>

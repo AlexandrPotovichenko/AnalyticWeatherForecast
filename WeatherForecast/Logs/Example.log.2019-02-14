@@ -1,0 +1,76 @@
+2019-02-14 00:00:19,492  DEBUG Starting of current weather on schedule in 14.02.2019 0:00:19
+2019-02-14 00:05:19,701  DEBUG Starting of current weather on schedule in 14.02.2019 0:05:19
+2019-02-14 00:10:19,701  DEBUG Starting of current weather on schedule in 14.02.2019 0:10:19
+2019-02-14 00:15:19,718  DEBUG Starting of current weather on schedule in 14.02.2019 0:15:19
+2019-02-14 00:20:19,498  DEBUG Starting of current weather on schedule in 14.02.2019 0:20:19
+2019-02-14 00:25:19,495  DEBUG Starting of current weather on schedule in 14.02.2019 0:25:19
+2019-02-14 00:30:19,705  DEBUG Starting of current weather on schedule in 14.02.2019 0:30:19
+2019-02-14 00:35:19,686  DEBUG Starting of current weather on schedule in 14.02.2019 0:35:19
+2019-02-14 00:40:19,492  DEBUG Starting of current weather on schedule in 14.02.2019 0:40:19
+2019-02-14 10:16:23,259  DEBUG Starting the schedule forecast in14.02.2019 11:00:00
+2019-02-14 10:16:23,272  DEBUG Starting the schedule current weather in 14.02.2019 10:16:23
+2019-02-14 10:16:23,273  DEBUG Starting the schedule astro in 15.02.2019 0:30:00
+2019-02-14 10:19:57,391  DEBUG Starting of current weather on schedule in 14.02.2019 10:19:57
+2019-02-14 10:22:18,292  DEBUG Starting of current weather on schedule in 14.02.2019 10:22:18
+2019-02-14 10:22:18,370  ERROR An error occurred while trying to retrieve data from the source: Apixu; in the method : JsonFromUrl; by the address http://api.apixu.com/v1/current.json?key=ae97e7b3f0894de58ea153737171909&q=46.47%2C30.73
+System.NotSupportedException: WebClient не поддерживает параллельные операции ввода-вывода.
+   в System.Net.WebClient.ClearWebClientState()
+   в System.Net.WebClient.DownloadString(Uri address)
+   в System.Net.WebClient.DownloadString(String address)
+   в WeatherForecast.Models.WeatherSources.CurrentWeatherSource.JsonFromUrl(String URL, String sourceName) в D:\VisualStudio_2017\WeatherForecast\WeatherForecast\Models\WeatherSources\CurrentWeatherSource.cs:строка 103
+2019-02-14 10:49:20,073  DEBUG Starting the schedule forecast in14.02.2019 11:00:00
+2019-02-14 10:49:20,087  DEBUG Starting the schedule current weather in 14.02.2019 10:49:20
+2019-02-14 10:49:20,088  DEBUG Starting the schedule astro in 15.02.2019 0:30:00
+2019-02-14 10:50:48,380  DEBUG Starting of current weather on schedule in 14.02.2019 10:50:48
+2019-02-14 10:54:20,156  DEBUG Starting of current weather on schedule in 14.02.2019 10:54:20
+2019-02-14 10:59:20,328  DEBUG Starting of current weather on schedule in 14.02.2019 10:59:20
+2019-02-14 11:00:00,061  DEBUG Starting of forecasts on schedule in 14.02.2019 11:00:00
+2019-02-14 11:00:00,063  DEBUG Starting UpdateCurrentWeatherForRating in 14.02.2019 11:00:00 time of current weather - 14.02.2019 10:45:08
+2019-02-14 11:01:00,063  DEBUG Starting UpdateCurrentWeatherForRating in 14.02.2019 11:01:00 time of current weather - 14.02.2019 10:45:08
+2019-02-14 11:02:00,063  DEBUG Starting UpdateCurrentWeatherForRating in 14.02.2019 11:02:00 time of current weather - 14.02.2019 10:45:08
+2019-02-14 11:03:00,064  DEBUG Starting UpdateCurrentWeatherForRating in 14.02.2019 11:03:00 time of current weather - 14.02.2019 10:45:08
+2019-02-14 11:04:00,065  DEBUG Starting UpdateCurrentWeatherForRating in 14.02.2019 11:04:00 time of current weather - 14.02.2019 10:45:08
+2019-02-14 11:04:20,133  DEBUG Starting of current weather on schedule in 14.02.2019 11:04:20
+2019-02-14 11:05:00,066  DEBUG Starting UpdateCurrentWeatherForRating in 14.02.2019 11:05:00 time of current weather - 14.02.2019 10:45:08
+2019-02-14 11:06:00,066  DEBUG Starting UpdateCurrentWeatherForRating in 14.02.2019 11:06:00 time of current weather - 14.02.2019 10:45:08
+2019-02-14 11:06:02,457  DEBUG Successfully saved the forecast openweathermap.org
+2019-02-14 11:06:04,893  DEBUG Successfully saved the forecast weatherbit.io
+2019-02-14 11:06:07,075  DEBUG Successfully saved the forecast wunderground.com
+2019-02-14 11:07:00,067  DEBUG Starting UpdateCurrentWeatherForRating in 14.02.2019 11:07:00 time of current weather - 14.02.2019 10:45:08
+2019-02-14 11:08:00,067  DEBUG Starting UpdateCurrentWeatherForRating in 14.02.2019 11:08:00 time of current weather - 14.02.2019 10:45:08
+2019-02-14 11:09:00,067  DEBUG Starting UpdateCurrentWeatherForRating in 14.02.2019 11:09:00 time of current weather - 14.02.2019 10:45:08
+2019-02-14 11:09:20,136  DEBUG Starting of current weather on schedule in 14.02.2019 11:09:20
+2019-02-14 11:10:00,068  DEBUG Starting UpdateCurrentWeatherForRating in 14.02.2019 11:10:00 time of current weather - 14.02.2019 10:45:08
+2019-02-14 11:11:00,068  DEBUG Starting UpdateCurrentWeatherForRating in 14.02.2019 11:11:00 time of current weather - 14.02.2019 10:45:08
+2019-02-14 11:12:00,070  DEBUG Starting UpdateCurrentWeatherForRating in 14.02.2019 11:12:00 time of current weather - 14.02.2019 10:45:08
+2019-02-14 11:13:00,070  DEBUG Starting UpdateCurrentWeatherForRating in 14.02.2019 11:13:00 time of current weather - 14.02.2019 10:45:08
+2019-02-14 11:14:00,071  DEBUG Starting UpdateCurrentWeatherForRating in 14.02.2019 11:14:00 time of current weather - 14.02.2019 10:45:08
+2019-02-14 11:14:20,345  DEBUG Starting of current weather on schedule in 14.02.2019 11:14:20
+2019-02-14 11:15:00,071  DEBUG Stop UpdateCurrentWeatherForRating in 14.02.2019 11:15:00 time of current weather - 14.02.2019 11:00:11
+2019-02-14 11:15:00,071  DEBUG Starting rating process at 14.02.2019 11:15:00
+2019-02-14 11:15:02,072  DEBUG Starting rating process retriving a best rating at 14.02.2019 11:15:02
+2019-02-14 11:15:10,693  ERROR An error occurred while trying to receive astro data by date. In the method : GetAstroByDate
+2019-02-14 13:50:53,509  DEBUG Starting the schedule forecast in14.02.2019 14:00:00
+2019-02-14 13:50:53,521  DEBUG Starting the schedule current weather in 14.02.2019 13:50:53
+2019-02-14 13:50:53,522  DEBUG Starting the schedule astro in 15.02.2019 0:30:00
+2019-02-14 13:50:55,888  DEBUG Starting of current weather on schedule in 14.02.2019 13:50:55
+2019-02-14 13:50:56,003  DEBUG Starting of astro on schedule in14.02.2019 13:50:56
+2019-02-14 13:50:58,380  DEBUG LatestForecasts.Count = 0!
+2019-02-14 13:51:03,335  DEBUG LatestForecasts.Count = 0!
+2019-02-14 13:54:48,441  DEBUG LatestForecasts.Count = 0!
+2019-02-14 13:55:53,655  DEBUG Starting of current weather on schedule in 14.02.2019 13:55:53
+2019-02-14 14:00:00,058  DEBUG Starting of forecasts on schedule in 14.02.2019 14:00:00
+2019-02-14 14:00:00,061  DEBUG Starting UpdateCurrentWeatherForRating in 14.02.2019 14:00:00 time of current weather - 14.02.2019 13:45:09
+2019-02-14 14:00:53,570  DEBUG Starting of current weather on schedule in 14.02.2019 14:00:53
+2019-02-14 14:01:00,062  DEBUG Starting UpdateCurrentWeatherForRating in 14.02.2019 14:01:00 time of current weather - 14.02.2019 13:45:09
+2019-02-14 14:02:00,063  DEBUG Starting UpdateCurrentWeatherForRating in 14.02.2019 14:02:00 time of current weather - 14.02.2019 13:45:09
+2019-02-14 14:03:00,067  DEBUG Starting UpdateCurrentWeatherForRating in 14.02.2019 14:03:00 time of current weather - 14.02.2019 13:45:09
+2019-02-14 14:04:00,068  DEBUG Starting UpdateCurrentWeatherForRating in 14.02.2019 14:04:00 time of current weather - 14.02.2019 13:45:09
+2019-02-14 14:05:00,068  DEBUG Starting UpdateCurrentWeatherForRating in 14.02.2019 14:05:00 time of current weather - 14.02.2019 13:45:09
+2019-02-14 14:05:53,572  DEBUG Starting of current weather on schedule in 14.02.2019 14:05:53
+2019-02-14 14:06:00,069  DEBUG Stop UpdateCurrentWeatherForRating in 14.02.2019 14:06:00 time of current weather - 14.02.2019 14:00:15
+2019-02-14 14:06:02,176  DEBUG Successfully saved the forecast openweathermap.org
+2019-02-14 14:06:04,274  DEBUG Successfully saved the forecast weatherbit.io
+2019-02-14 14:06:06,399  DEBUG Successfully saved the forecast wunderground.com
+2019-02-14 14:06:06,400  DEBUG Starting rating process at 14.02.2019 14:06:06
+2019-02-14 14:06:08,273  DEBUG Starting rating process retriving a best rating at 14.02.2019 14:06:08

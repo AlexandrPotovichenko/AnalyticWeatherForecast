@@ -1,0 +1,305 @@
+D:\PRODJECTS_VS_2015\WeatherForecast - копия\WeatherForecast\bin\roslyn\csc.exe
+D:\PRODJECTS_VS_2015\WeatherForecast - копия\WeatherForecast\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\PRODJECTS_VS_2015\WeatherForecast - копия\WeatherForecast\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\PRODJECTS_VS_2015\WeatherForecast - копия\WeatherForecast\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\PRODJECTS_VS_2015\WeatherForecast - копия\WeatherForecast\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\PRODJECTS_VS_2015\WeatherForecast - копия\WeatherForecast\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\PRODJECTS_VS_2015\WeatherForecast - копия\WeatherForecast\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\PRODJECTS_VS_2015\WeatherForecast - копия\WeatherForecast\bin\roslyn\System.Collections.Immutable.dll
+D:\PRODJECTS_VS_2015\WeatherForecast - копия\WeatherForecast\bin\roslyn\System.Reflection.Metadata.dll
+D:\PRODJECTS_VS_2015\WeatherForecast - копия\WeatherForecast\bin\roslyn\vbc.exe
+D:\PRODJECTS_VS_2015\WeatherForecast - копия\WeatherForecast\bin\roslyn\VBCSCompiler.exe
+D:\PRODJECTS_VS_2015\WeatherForecast - копия\WeatherForecast\bin\roslyn\VBCSCompiler.exe.config
+D:\PRODJECTS_VS_2015\WeatherForecast - копия\WeatherForecast\bin\WeatherForecast.dll.config
+D:\PRODJECTS_VS_2015\WeatherForecast - копия\WeatherForecast\bin\WeatherForecast.dll
+D:\PRODJECTS_VS_2015\WeatherForecast - копия\WeatherForecast\bin\WeatherForecast.pdb
+D:\PRODJECTS_VS_2015\WeatherForecast - копия\WeatherForecast\bin\Antlr3.Runtime.dll
+D:\PRODJECTS_VS_2015\WeatherForecast - копия\WeatherForecast\bin\Common.Logging.Core.dll
+D:\PRODJECTS_VS_2015\WeatherForecast - копия\WeatherForecast\bin\Common.Logging.dll
+D:\PRODJECTS_VS_2015\WeatherForecast - копия\WeatherForecast\bin\EntityFramework.dll
+D:\PRODJECTS_VS_2015\WeatherForecast - копия\WeatherForecast\bin\EntityFramework.SqlServer.dll
+D:\PRODJECTS_VS_2015\WeatherForecast - копия\WeatherForecast\bin\HtmlAgilityPack.dll
+D:\PRODJECTS_VS_2015\WeatherForecast - копия\WeatherForecast\bin\log4net.dll
+D:\PRODJECTS_VS_2015\WeatherForecast - копия\WeatherForecast\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\PRODJECTS_VS_2015\WeatherForecast - копия\WeatherForecast\bin\Microsoft.Web.Infrastructure.dll
+D:\PRODJECTS_VS_2015\WeatherForecast - копия\WeatherForecast\bin\Newtonsoft.Json.dll
+D:\PRODJECTS_VS_2015\WeatherForecast - копия\WeatherForecast\bin\Quartz.dll
+D:\PRODJECTS_VS_2015\WeatherForecast - копия\WeatherForecast\bin\System.Web.Helpers.dll
+D:\PRODJECTS_VS_2015\WeatherForecast - копия\WeatherForecast\bin\System.Web.Mvc.dll
+D:\PRODJECTS_VS_2015\WeatherForecast - копия\WeatherForecast\bin\System.Web.Optimization.dll
+D:\PRODJECTS_VS_2015\WeatherForecast - копия\WeatherForecast\bin\System.Web.Razor.dll
+D:\PRODJECTS_VS_2015\WeatherForecast - копия\WeatherForecast\bin\System.Web.WebPages.Deployment.dll
+D:\PRODJECTS_VS_2015\WeatherForecast - копия\WeatherForecast\bin\System.Web.WebPages.dll
+D:\PRODJECTS_VS_2015\WeatherForecast - копия\WeatherForecast\bin\System.Web.WebPages.Razor.dll
+D:\PRODJECTS_VS_2015\WeatherForecast - копия\WeatherForecast\bin\WebGrease.dll
+D:\PRODJECTS_VS_2015\WeatherForecast - копия\WeatherForecast\bin\Common.Logging.pdb
+D:\PRODJECTS_VS_2015\WeatherForecast - копия\WeatherForecast\bin\Common.Logging.xml
+D:\PRODJECTS_VS_2015\WeatherForecast - копия\WeatherForecast\bin\Common.Logging.Core.pdb
+D:\PRODJECTS_VS_2015\WeatherForecast - копия\WeatherForecast\bin\Common.Logging.Core.xml
+D:\PRODJECTS_VS_2015\WeatherForecast - копия\WeatherForecast\bin\EntityFramework.xml
+D:\PRODJECTS_VS_2015\WeatherForecast - копия\WeatherForecast\bin\EntityFramework.SqlServer.xml
+D:\PRODJECTS_VS_2015\WeatherForecast - копия\WeatherForecast\bin\HtmlAgilityPack.pdb
+D:\PRODJECTS_VS_2015\WeatherForecast - копия\WeatherForecast\bin\log4net.xml
+D:\PRODJECTS_VS_2015\WeatherForecast - копия\WeatherForecast\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\PRODJECTS_VS_2015\WeatherForecast - копия\WeatherForecast\bin\Quartz.pdb
+D:\PRODJECTS_VS_2015\WeatherForecast - копия\WeatherForecast\bin\Quartz.xml
+D:\PRODJECTS_VS_2015\WeatherForecast - копия\WeatherForecast\bin\System.Web.Helpers.xml
+D:\PRODJECTS_VS_2015\WeatherForecast - копия\WeatherForecast\bin\System.Web.Mvc.xml
+D:\PRODJECTS_VS_2015\WeatherForecast - копия\WeatherForecast\bin\System.Web.Optimization.xml
+D:\PRODJECTS_VS_2015\WeatherForecast - копия\WeatherForecast\bin\System.Web.Razor.xml
+D:\PRODJECTS_VS_2015\WeatherForecast - копия\WeatherForecast\bin\System.Web.WebPages.xml
+D:\PRODJECTS_VS_2015\WeatherForecast - копия\WeatherForecast\bin\System.Web.WebPages.Deployment.xml
+D:\PRODJECTS_VS_2015\WeatherForecast - копия\WeatherForecast\bin\System.Web.WebPages.Razor.xml
+D:\PRODJECTS_VS_2015\WeatherForecast - копия\WeatherForecast\bin\Antlr3.Runtime.pdb
+D:\PRODJECTS_VS_2015\WeatherForecast - копия\WeatherForecast\bin\Newtonsoft.Json.xml
+D:\PRODJECTS_VS_2015\WeatherForecast - копия\WeatherForecast\obj\Debug\WeatherForecast.dll
+D:\PRODJECTS_VS_2015\WeatherForecast - копия\WeatherForecast\obj\Debug\WeatherForecast.pdb
+D:\PRODJECTS_VS_2015\WeatherForecast - копия\WeatherForecast\obj\Debug\WeatherForecast.csprojResolveAssemblyReference.cache
+D:\PRODJECTS_VS_2015\WeatherForecast\WeatherForecast\bin\roslyn\csc.exe
+D:\PRODJECTS_VS_2015\WeatherForecast\WeatherForecast\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\PRODJECTS_VS_2015\WeatherForecast\WeatherForecast\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\PRODJECTS_VS_2015\WeatherForecast\WeatherForecast\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\PRODJECTS_VS_2015\WeatherForecast\WeatherForecast\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\PRODJECTS_VS_2015\WeatherForecast\WeatherForecast\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\PRODJECTS_VS_2015\WeatherForecast\WeatherForecast\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\PRODJECTS_VS_2015\WeatherForecast\WeatherForecast\bin\roslyn\System.Collections.Immutable.dll
+D:\PRODJECTS_VS_2015\WeatherForecast\WeatherForecast\bin\roslyn\System.Reflection.Metadata.dll
+D:\PRODJECTS_VS_2015\WeatherForecast\WeatherForecast\bin\roslyn\vbc.exe
+D:\PRODJECTS_VS_2015\WeatherForecast\WeatherForecast\bin\roslyn\VBCSCompiler.exe
+D:\PRODJECTS_VS_2015\WeatherForecast\WeatherForecast\bin\roslyn\VBCSCompiler.exe.config
+D:\PRODJECTS_VS_2015\WeatherForecast\WeatherForecast\bin\WeatherForecast.dll.config
+D:\PRODJECTS_VS_2015\WeatherForecast\WeatherForecast\bin\WeatherForecast.dll
+D:\PRODJECTS_VS_2015\WeatherForecast\WeatherForecast\bin\WeatherForecast.pdb
+D:\PRODJECTS_VS_2015\WeatherForecast\WeatherForecast\bin\Antlr3.Runtime.dll
+D:\PRODJECTS_VS_2015\WeatherForecast\WeatherForecast\bin\Common.Logging.Core.dll
+D:\PRODJECTS_VS_2015\WeatherForecast\WeatherForecast\bin\Common.Logging.dll
+D:\PRODJECTS_VS_2015\WeatherForecast\WeatherForecast\bin\EntityFramework.dll
+D:\PRODJECTS_VS_2015\WeatherForecast\WeatherForecast\bin\EntityFramework.SqlServer.dll
+D:\PRODJECTS_VS_2015\WeatherForecast\WeatherForecast\bin\HtmlAgilityPack.dll
+D:\PRODJECTS_VS_2015\WeatherForecast\WeatherForecast\bin\log4net.dll
+D:\PRODJECTS_VS_2015\WeatherForecast\WeatherForecast\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\PRODJECTS_VS_2015\WeatherForecast\WeatherForecast\bin\Microsoft.Web.Infrastructure.dll
+D:\PRODJECTS_VS_2015\WeatherForecast\WeatherForecast\bin\Newtonsoft.Json.dll
+D:\PRODJECTS_VS_2015\WeatherForecast\WeatherForecast\bin\Quartz.dll
+D:\PRODJECTS_VS_2015\WeatherForecast\WeatherForecast\bin\System.Web.Helpers.dll
+D:\PRODJECTS_VS_2015\WeatherForecast\WeatherForecast\bin\System.Web.Mvc.dll
+D:\PRODJECTS_VS_2015\WeatherForecast\WeatherForecast\bin\System.Web.Optimization.dll
+D:\PRODJECTS_VS_2015\WeatherForecast\WeatherForecast\bin\System.Web.Razor.dll
+D:\PRODJECTS_VS_2015\WeatherForecast\WeatherForecast\bin\System.Web.WebPages.Deployment.dll
+D:\PRODJECTS_VS_2015\WeatherForecast\WeatherForecast\bin\System.Web.WebPages.dll
+D:\PRODJECTS_VS_2015\WeatherForecast\WeatherForecast\bin\System.Web.WebPages.Razor.dll
+D:\PRODJECTS_VS_2015\WeatherForecast\WeatherForecast\bin\WebGrease.dll
+D:\PRODJECTS_VS_2015\WeatherForecast\WeatherForecast\bin\Common.Logging.pdb
+D:\PRODJECTS_VS_2015\WeatherForecast\WeatherForecast\bin\Common.Logging.xml
+D:\PRODJECTS_VS_2015\WeatherForecast\WeatherForecast\bin\Common.Logging.Core.pdb
+D:\PRODJECTS_VS_2015\WeatherForecast\WeatherForecast\bin\Common.Logging.Core.xml
+D:\PRODJECTS_VS_2015\WeatherForecast\WeatherForecast\bin\EntityFramework.xml
+D:\PRODJECTS_VS_2015\WeatherForecast\WeatherForecast\bin\EntityFramework.SqlServer.xml
+D:\PRODJECTS_VS_2015\WeatherForecast\WeatherForecast\bin\HtmlAgilityPack.pdb
+D:\PRODJECTS_VS_2015\WeatherForecast\WeatherForecast\bin\log4net.xml
+D:\PRODJECTS_VS_2015\WeatherForecast\WeatherForecast\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\PRODJECTS_VS_2015\WeatherForecast\WeatherForecast\bin\Quartz.pdb
+D:\PRODJECTS_VS_2015\WeatherForecast\WeatherForecast\bin\Quartz.xml
+D:\PRODJECTS_VS_2015\WeatherForecast\WeatherForecast\bin\System.Web.Helpers.xml
+D:\PRODJECTS_VS_2015\WeatherForecast\WeatherForecast\bin\System.Web.Mvc.xml
+D:\PRODJECTS_VS_2015\WeatherForecast\WeatherForecast\bin\System.Web.Optimization.xml
+D:\PRODJECTS_VS_2015\WeatherForecast\WeatherForecast\bin\System.Web.Razor.xml
+D:\PRODJECTS_VS_2015\WeatherForecast\WeatherForecast\bin\System.Web.WebPages.xml
+D:\PRODJECTS_VS_2015\WeatherForecast\WeatherForecast\bin\System.Web.WebPages.Deployment.xml
+D:\PRODJECTS_VS_2015\WeatherForecast\WeatherForecast\bin\System.Web.WebPages.Razor.xml
+D:\PRODJECTS_VS_2015\WeatherForecast\WeatherForecast\bin\Antlr3.Runtime.pdb
+D:\PRODJECTS_VS_2015\WeatherForecast\WeatherForecast\bin\Newtonsoft.Json.xml
+D:\PRODJECTS_VS_2015\WeatherForecast\WeatherForecast\obj\Debug\WeatherForecast.dll
+D:\PRODJECTS_VS_2015\WeatherForecast\WeatherForecast\obj\Debug\WeatherForecast.pdb
+D:\PRODJECTS_VS_2015\WeatherForecast\WeatherForecast\obj\Debug\WeatherForecast.csprojResolveAssemblyReference.cache
+D:\VisualStudio_2017\WeatherForecast\WeatherForecast\bin\WeatherForecast.dll.config
+D:\VisualStudio_2017\WeatherForecast\WeatherForecast\bin\WeatherForecast.dll
+D:\VisualStudio_2017\WeatherForecast\WeatherForecast\bin\WeatherForecast.pdb
+D:\VisualStudio_2017\WeatherForecast\WeatherForecast\bin\Antlr3.Runtime.dll
+D:\VisualStudio_2017\WeatherForecast\WeatherForecast\bin\Common.Logging.Core.dll
+D:\VisualStudio_2017\WeatherForecast\WeatherForecast\bin\Common.Logging.dll
+D:\VisualStudio_2017\WeatherForecast\WeatherForecast\bin\EntityFramework.dll
+D:\VisualStudio_2017\WeatherForecast\WeatherForecast\bin\EntityFramework.SqlServer.dll
+D:\VisualStudio_2017\WeatherForecast\WeatherForecast\bin\HtmlAgilityPack.dll
+D:\VisualStudio_2017\WeatherForecast\WeatherForecast\bin\log4net.dll
+D:\VisualStudio_2017\WeatherForecast\WeatherForecast\bin\Microsoft.Web.Infrastructure.dll
+D:\VisualStudio_2017\WeatherForecast\WeatherForecast\bin\Newtonsoft.Json.dll
+D:\VisualStudio_2017\WeatherForecast\WeatherForecast\bin\Quartz.dll
+D:\VisualStudio_2017\WeatherForecast\WeatherForecast\bin\System.Web.Helpers.dll
+D:\VisualStudio_2017\WeatherForecast\WeatherForecast\bin\System.Web.Mvc.dll
+D:\VisualStudio_2017\WeatherForecast\WeatherForecast\bin\System.Web.Optimization.dll
+D:\VisualStudio_2017\WeatherForecast\WeatherForecast\bin\System.Web.Razor.dll
+D:\VisualStudio_2017\WeatherForecast\WeatherForecast\bin\System.Web.WebPages.Deployment.dll
+D:\VisualStudio_2017\WeatherForecast\WeatherForecast\bin\System.Web.WebPages.dll
+D:\VisualStudio_2017\WeatherForecast\WeatherForecast\bin\System.Web.WebPages.Razor.dll
+D:\VisualStudio_2017\WeatherForecast\WeatherForecast\bin\WebGrease.dll
+D:\VisualStudio_2017\WeatherForecast\WeatherForecast\bin\Common.Logging.pdb
+D:\VisualStudio_2017\WeatherForecast\WeatherForecast\bin\Common.Logging.xml
+D:\VisualStudio_2017\WeatherForecast\WeatherForecast\bin\Common.Logging.Core.pdb
+D:\VisualStudio_2017\WeatherForecast\WeatherForecast\bin\Common.Logging.Core.xml
+D:\VisualStudio_2017\WeatherForecast\WeatherForecast\bin\EntityFramework.xml
+D:\VisualStudio_2017\WeatherForecast\WeatherForecast\bin\EntityFramework.SqlServer.xml
+D:\VisualStudio_2017\WeatherForecast\WeatherForecast\bin\HtmlAgilityPack.pdb
+D:\VisualStudio_2017\WeatherForecast\WeatherForecast\bin\log4net.xml
+D:\VisualStudio_2017\WeatherForecast\WeatherForecast\bin\Quartz.pdb
+D:\VisualStudio_2017\WeatherForecast\WeatherForecast\bin\Quartz.xml
+D:\VisualStudio_2017\WeatherForecast\WeatherForecast\bin\System.Web.Helpers.xml
+D:\VisualStudio_2017\WeatherForecast\WeatherForecast\bin\System.Web.Mvc.xml
+D:\VisualStudio_2017\WeatherForecast\WeatherForecast\bin\System.Web.Optimization.xml
+D:\VisualStudio_2017\WeatherForecast\WeatherForecast\bin\System.Web.Razor.xml
+D:\VisualStudio_2017\WeatherForecast\WeatherForecast\bin\System.Web.WebPages.xml
+D:\VisualStudio_2017\WeatherForecast\WeatherForecast\bin\System.Web.WebPages.Deployment.xml
+D:\VisualStudio_2017\WeatherForecast\WeatherForecast\bin\System.Web.WebPages.Razor.xml
+D:\VisualStudio_2017\WeatherForecast\WeatherForecast\bin\Antlr3.Runtime.pdb
+D:\VisualStudio_2017\WeatherForecast\WeatherForecast\bin\Newtonsoft.Json.xml
+D:\VisualStudio_2017\WeatherForecast\WeatherForecast\obj\Debug\WeatherForecast.csproj.CoreCompileInputs.cache
+D:\VisualStudio_2017\WeatherForecast\WeatherForecast\obj\Debug\WeatherForecast.csproj.CopyComplete
+D:\VisualStudio_2017\WeatherForecast\WeatherForecast\obj\Debug\WeatherForecast.dll
+D:\VisualStudio_2017\WeatherForecast\WeatherForecast\obj\Debug\WeatherForecast.pdb
+D:\VisualStudio_2017\WeatherForecast\WeatherForecast\bin\roslyn\csc.exe
+D:\VisualStudio_2017\WeatherForecast\WeatherForecast\bin\roslyn\csc.exe.config
+D:\VisualStudio_2017\WeatherForecast\WeatherForecast\bin\roslyn\csc.rsp
+D:\VisualStudio_2017\WeatherForecast\WeatherForecast\bin\roslyn\csi.exe
+D:\VisualStudio_2017\WeatherForecast\WeatherForecast\bin\roslyn\csi.exe.config
+D:\VisualStudio_2017\WeatherForecast\WeatherForecast\bin\roslyn\csi.rsp
+D:\VisualStudio_2017\WeatherForecast\WeatherForecast\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\VisualStudio_2017\WeatherForecast\WeatherForecast\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\VisualStudio_2017\WeatherForecast\WeatherForecast\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\VisualStudio_2017\WeatherForecast\WeatherForecast\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\VisualStudio_2017\WeatherForecast\WeatherForecast\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\VisualStudio_2017\WeatherForecast\WeatherForecast\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\VisualStudio_2017\WeatherForecast\WeatherForecast\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\VisualStudio_2017\WeatherForecast\WeatherForecast\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\VisualStudio_2017\WeatherForecast\WeatherForecast\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\VisualStudio_2017\WeatherForecast\WeatherForecast\bin\roslyn\Microsoft.Managed.Core.targets
+D:\VisualStudio_2017\WeatherForecast\WeatherForecast\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\VisualStudio_2017\WeatherForecast\WeatherForecast\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\VisualStudio_2017\WeatherForecast\WeatherForecast\bin\roslyn\System.AppContext.dll
+D:\VisualStudio_2017\WeatherForecast\WeatherForecast\bin\roslyn\System.Collections.Immutable.dll
+D:\VisualStudio_2017\WeatherForecast\WeatherForecast\bin\roslyn\System.Console.dll
+D:\VisualStudio_2017\WeatherForecast\WeatherForecast\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\VisualStudio_2017\WeatherForecast\WeatherForecast\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\VisualStudio_2017\WeatherForecast\WeatherForecast\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\VisualStudio_2017\WeatherForecast\WeatherForecast\bin\roslyn\System.Globalization.Calendars.dll
+D:\VisualStudio_2017\WeatherForecast\WeatherForecast\bin\roslyn\System.IO.Compression.dll
+D:\VisualStudio_2017\WeatherForecast\WeatherForecast\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\VisualStudio_2017\WeatherForecast\WeatherForecast\bin\roslyn\System.IO.FileSystem.dll
+D:\VisualStudio_2017\WeatherForecast\WeatherForecast\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\VisualStudio_2017\WeatherForecast\WeatherForecast\bin\roslyn\System.Net.Http.dll
+D:\VisualStudio_2017\WeatherForecast\WeatherForecast\bin\roslyn\System.Net.Sockets.dll
+D:\VisualStudio_2017\WeatherForecast\WeatherForecast\bin\roslyn\System.Reflection.Metadata.dll
+D:\VisualStudio_2017\WeatherForecast\WeatherForecast\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\VisualStudio_2017\WeatherForecast\WeatherForecast\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\VisualStudio_2017\WeatherForecast\WeatherForecast\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\VisualStudio_2017\WeatherForecast\WeatherForecast\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\VisualStudio_2017\WeatherForecast\WeatherForecast\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\VisualStudio_2017\WeatherForecast\WeatherForecast\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\VisualStudio_2017\WeatherForecast\WeatherForecast\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\VisualStudio_2017\WeatherForecast\WeatherForecast\bin\roslyn\System.ValueTuple.dll
+D:\VisualStudio_2017\WeatherForecast\WeatherForecast\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\VisualStudio_2017\WeatherForecast\WeatherForecast\bin\roslyn\System.Xml.XmlDocument.dll
+D:\VisualStudio_2017\WeatherForecast\WeatherForecast\bin\roslyn\System.Xml.XPath.dll
+D:\VisualStudio_2017\WeatherForecast\WeatherForecast\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\VisualStudio_2017\WeatherForecast\WeatherForecast\bin\roslyn\vbc.exe
+D:\VisualStudio_2017\WeatherForecast\WeatherForecast\bin\roslyn\vbc.exe.config
+D:\VisualStudio_2017\WeatherForecast\WeatherForecast\bin\roslyn\vbc.rsp
+D:\VisualStudio_2017\WeatherForecast\WeatherForecast\bin\roslyn\VBCSCompiler.exe
+D:\VisualStudio_2017\WeatherForecast\WeatherForecast\bin\roslyn\VBCSCompiler.exe.config
+D:\VisualStudio_2017\WeatherForecast\WeatherForecast\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\VisualStudio_2017\WeatherForecast\WeatherForecast\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\VisualStudio_2017\WeatherForecast\WeatherForecast\obj\Debug\WeatherForecast.csprojAssemblyReference.cache
+D:\WORK\OSF Global Services\WeatherForecast\WeatherForecast\obj\Debug\WeatherForecast.csproj.CoreCompileInputs.cache
+D:\WORK\OSF Global Services\WeatherForecast\WeatherForecast\obj\Debug\WeatherForecast.dll
+D:\WORK\OSF Global Services\WeatherForecast\WeatherForecast\obj\Debug\WeatherForecast.pdb
+D:\WORK\OSF Global Services\WeatherForecast\WeatherForecast\bin\WeatherForecast.dll.config
+D:\WORK\OSF Global Services\WeatherForecast\WeatherForecast\bin\WeatherForecast.dll
+D:\WORK\OSF Global Services\WeatherForecast\WeatherForecast\bin\WeatherForecast.pdb
+D:\WORK\OSF Global Services\WeatherForecast\WeatherForecast\bin\roslyn\csc.exe
+D:\WORK\OSF Global Services\WeatherForecast\WeatherForecast\bin\roslyn\csc.exe.config
+D:\WORK\OSF Global Services\WeatherForecast\WeatherForecast\bin\roslyn\csc.rsp
+D:\WORK\OSF Global Services\WeatherForecast\WeatherForecast\bin\roslyn\csi.exe
+D:\WORK\OSF Global Services\WeatherForecast\WeatherForecast\bin\roslyn\csi.exe.config
+D:\WORK\OSF Global Services\WeatherForecast\WeatherForecast\bin\roslyn\csi.rsp
+D:\WORK\OSF Global Services\WeatherForecast\WeatherForecast\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\WORK\OSF Global Services\WeatherForecast\WeatherForecast\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\WORK\OSF Global Services\WeatherForecast\WeatherForecast\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\WORK\OSF Global Services\WeatherForecast\WeatherForecast\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\WORK\OSF Global Services\WeatherForecast\WeatherForecast\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\WORK\OSF Global Services\WeatherForecast\WeatherForecast\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\WORK\OSF Global Services\WeatherForecast\WeatherForecast\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\WORK\OSF Global Services\WeatherForecast\WeatherForecast\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\WORK\OSF Global Services\WeatherForecast\WeatherForecast\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\WORK\OSF Global Services\WeatherForecast\WeatherForecast\bin\roslyn\Microsoft.Managed.Core.targets
+D:\WORK\OSF Global Services\WeatherForecast\WeatherForecast\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\WORK\OSF Global Services\WeatherForecast\WeatherForecast\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\WORK\OSF Global Services\WeatherForecast\WeatherForecast\bin\roslyn\System.AppContext.dll
+D:\WORK\OSF Global Services\WeatherForecast\WeatherForecast\bin\roslyn\System.Collections.Immutable.dll
+D:\WORK\OSF Global Services\WeatherForecast\WeatherForecast\bin\roslyn\System.Console.dll
+D:\WORK\OSF Global Services\WeatherForecast\WeatherForecast\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\WORK\OSF Global Services\WeatherForecast\WeatherForecast\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\WORK\OSF Global Services\WeatherForecast\WeatherForecast\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\WORK\OSF Global Services\WeatherForecast\WeatherForecast\bin\roslyn\System.Globalization.Calendars.dll
+D:\WORK\OSF Global Services\WeatherForecast\WeatherForecast\bin\roslyn\System.IO.Compression.dll
+D:\WORK\OSF Global Services\WeatherForecast\WeatherForecast\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\WORK\OSF Global Services\WeatherForecast\WeatherForecast\bin\roslyn\System.IO.FileSystem.dll
+D:\WORK\OSF Global Services\WeatherForecast\WeatherForecast\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\WORK\OSF Global Services\WeatherForecast\WeatherForecast\bin\roslyn\System.Net.Http.dll
+D:\WORK\OSF Global Services\WeatherForecast\WeatherForecast\bin\roslyn\System.Net.Sockets.dll
+D:\WORK\OSF Global Services\WeatherForecast\WeatherForecast\bin\roslyn\System.Reflection.Metadata.dll
+D:\WORK\OSF Global Services\WeatherForecast\WeatherForecast\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\WORK\OSF Global Services\WeatherForecast\WeatherForecast\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\WORK\OSF Global Services\WeatherForecast\WeatherForecast\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\WORK\OSF Global Services\WeatherForecast\WeatherForecast\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\WORK\OSF Global Services\WeatherForecast\WeatherForecast\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\WORK\OSF Global Services\WeatherForecast\WeatherForecast\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\WORK\OSF Global Services\WeatherForecast\WeatherForecast\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\WORK\OSF Global Services\WeatherForecast\WeatherForecast\bin\roslyn\System.ValueTuple.dll
+D:\WORK\OSF Global Services\WeatherForecast\WeatherForecast\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\WORK\OSF Global Services\WeatherForecast\WeatherForecast\bin\roslyn\System.Xml.XmlDocument.dll
+D:\WORK\OSF Global Services\WeatherForecast\WeatherForecast\bin\roslyn\System.Xml.XPath.dll
+D:\WORK\OSF Global Services\WeatherForecast\WeatherForecast\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\WORK\OSF Global Services\WeatherForecast\WeatherForecast\bin\roslyn\vbc.exe
+D:\WORK\OSF Global Services\WeatherForecast\WeatherForecast\bin\roslyn\vbc.exe.config
+D:\WORK\OSF Global Services\WeatherForecast\WeatherForecast\bin\roslyn\vbc.rsp
+D:\WORK\OSF Global Services\WeatherForecast\WeatherForecast\bin\roslyn\VBCSCompiler.exe
+D:\WORK\OSF Global Services\WeatherForecast\WeatherForecast\bin\roslyn\VBCSCompiler.exe.config
+D:\WORK\OSF Global Services\WeatherForecast\WeatherForecast\bin\Antlr3.Runtime.dll
+D:\WORK\OSF Global Services\WeatherForecast\WeatherForecast\bin\Common.Logging.Core.dll
+D:\WORK\OSF Global Services\WeatherForecast\WeatherForecast\bin\Common.Logging.dll
+D:\WORK\OSF Global Services\WeatherForecast\WeatherForecast\bin\EntityFramework.dll
+D:\WORK\OSF Global Services\WeatherForecast\WeatherForecast\bin\EntityFramework.SqlServer.dll
+D:\WORK\OSF Global Services\WeatherForecast\WeatherForecast\bin\HtmlAgilityPack.dll
+D:\WORK\OSF Global Services\WeatherForecast\WeatherForecast\bin\log4net.dll
+D:\WORK\OSF Global Services\WeatherForecast\WeatherForecast\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\WORK\OSF Global Services\WeatherForecast\WeatherForecast\bin\Microsoft.Web.Infrastructure.dll
+D:\WORK\OSF Global Services\WeatherForecast\WeatherForecast\bin\Newtonsoft.Json.dll
+D:\WORK\OSF Global Services\WeatherForecast\WeatherForecast\bin\Quartz.dll
+D:\WORK\OSF Global Services\WeatherForecast\WeatherForecast\bin\System.Web.Helpers.dll
+D:\WORK\OSF Global Services\WeatherForecast\WeatherForecast\bin\System.Web.Mvc.dll
+D:\WORK\OSF Global Services\WeatherForecast\WeatherForecast\bin\System.Web.Optimization.dll
+D:\WORK\OSF Global Services\WeatherForecast\WeatherForecast\bin\System.Web.Razor.dll
+D:\WORK\OSF Global Services\WeatherForecast\WeatherForecast\bin\System.Web.WebPages.Deployment.dll
+D:\WORK\OSF Global Services\WeatherForecast\WeatherForecast\bin\System.Web.WebPages.dll
+D:\WORK\OSF Global Services\WeatherForecast\WeatherForecast\bin\System.Web.WebPages.Razor.dll
+D:\WORK\OSF Global Services\WeatherForecast\WeatherForecast\bin\WebGrease.dll
+D:\WORK\OSF Global Services\WeatherForecast\WeatherForecast\bin\Common.Logging.pdb
+D:\WORK\OSF Global Services\WeatherForecast\WeatherForecast\bin\Common.Logging.xml
+D:\WORK\OSF Global Services\WeatherForecast\WeatherForecast\bin\Common.Logging.Core.pdb
+D:\WORK\OSF Global Services\WeatherForecast\WeatherForecast\bin\Common.Logging.Core.xml
+D:\WORK\OSF Global Services\WeatherForecast\WeatherForecast\bin\EntityFramework.xml
+D:\WORK\OSF Global Services\WeatherForecast\WeatherForecast\bin\EntityFramework.SqlServer.xml
+D:\WORK\OSF Global Services\WeatherForecast\WeatherForecast\bin\HtmlAgilityPack.pdb
+D:\WORK\OSF Global Services\WeatherForecast\WeatherForecast\bin\log4net.xml
+D:\WORK\OSF Global Services\WeatherForecast\WeatherForecast\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\WORK\OSF Global Services\WeatherForecast\WeatherForecast\bin\Quartz.pdb
+D:\WORK\OSF Global Services\WeatherForecast\WeatherForecast\bin\Quartz.xml
+D:\WORK\OSF Global Services\WeatherForecast\WeatherForecast\bin\System.Web.Helpers.xml
+D:\WORK\OSF Global Services\WeatherForecast\WeatherForecast\bin\System.Web.Mvc.xml
+D:\WORK\OSF Global Services\WeatherForecast\WeatherForecast\bin\System.Web.Optimization.xml
+D:\WORK\OSF Global Services\WeatherForecast\WeatherForecast\bin\System.Web.Razor.xml
+D:\WORK\OSF Global Services\WeatherForecast\WeatherForecast\bin\System.Web.WebPages.xml
+D:\WORK\OSF Global Services\WeatherForecast\WeatherForecast\bin\System.Web.WebPages.Deployment.xml
+D:\WORK\OSF Global Services\WeatherForecast\WeatherForecast\bin\System.Web.WebPages.Razor.xml
+D:\WORK\OSF Global Services\WeatherForecast\WeatherForecast\bin\Antlr3.Runtime.pdb
+D:\WORK\OSF Global Services\WeatherForecast\WeatherForecast\bin\Newtonsoft.Json.xml
+D:\WORK\OSF Global Services\WeatherForecast\WeatherForecast\obj\Debug\WeatherForecast.csproj.CopyComplete

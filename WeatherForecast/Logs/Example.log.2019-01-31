@@ -1,0 +1,44 @@
+2019-01-31 22:45:46,773  DEBUG Starting the schedule forecast in31.01.2019 23:00:00
+2019-01-31 22:45:46,783  DEBUG Starting the schedule current weather in 31.01.2019 22:45:46
+2019-01-31 22:45:46,783  DEBUG Starting the schedule astro in 01.02.2019 0:30:00
+2019-01-31 22:45:46,823  DEBUG Starting of current weather on schedule in 31.01.2019 22:45:46
+2019-01-31 22:46:13,652  ERROR An error occurred while trying to retrieve data from the source: Apixu; in the method : JsonFromUrl; by the address http://api.apixu.com/v1/current.json?key=ae97e7b3f0894de58ea153737171909&q=46.47%2C30.73
+System.Net.WebException: Удаленный сервер возвратил ошибку: (408) Время ожидания запроса истекло.
+   в System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   в System.Net.WebClient.DownloadString(Uri address)
+   в System.Net.WebClient.DownloadString(String address)
+   в WeatherForecast.Models.WeatherSources.CurrentWeatherSource.JsonFromUrl(String URL, String sourceName) в D:\VisualStudio_2017\WeatherForecast\WeatherForecast\Models\WeatherSources\CurrentWeatherSource.cs:строка 181
+2019-01-31 22:50:32,323  DEBUG Starting the schedule forecast in31.01.2019 23:00:00
+2019-01-31 22:50:32,333  DEBUG Starting the schedule current weather in 31.01.2019 22:50:32
+2019-01-31 22:50:32,333  DEBUG Starting the schedule astro in 01.02.2019 0:30:00
+2019-01-31 22:50:32,383  DEBUG Starting of current weather on schedule in 31.01.2019 22:50:32
+2019-01-31 22:55:32,338  DEBUG Starting of current weather on schedule in 31.01.2019 22:55:32
+2019-01-31 22:56:33,347  DEBUG Starting the schedule forecast in31.01.2019 23:00:00
+2019-01-31 22:56:33,360  DEBUG Starting the schedule current weather in 31.01.2019 22:56:33
+2019-01-31 22:56:33,360  DEBUG Starting the schedule astro in 01.02.2019 0:30:00
+2019-01-31 22:56:33,414  DEBUG Starting of current weather on schedule in 31.01.2019 22:56:33
+2019-01-31 23:00:00,072  DEBUG Starting of forecasts on schedule in 31.01.2019 23:00:00
+2019-01-31 23:00:00,072  DEBUG Starting UpdateCurrentWeatherForRating in 31.01.2019 23:00:00 time of current weather - 31.01.2019 22:45:15
+2019-01-31 23:01:00,076  DEBUG Starting UpdateCurrentWeatherForRating in 31.01.2019 23:01:00 time of current weather - 31.01.2019 22:45:15
+2019-01-31 23:01:33,364  DEBUG Starting of current weather on schedule in 31.01.2019 23:01:33
+2019-01-31 23:02:00,082  DEBUG Starting UpdateCurrentWeatherForRating in 31.01.2019 23:02:00 time of current weather - 31.01.2019 22:45:15
+2019-01-31 23:03:00,084  DEBUG Starting UpdateCurrentWeatherForRating in 31.01.2019 23:03:00 time of current weather - 31.01.2019 22:45:15
+2019-01-31 23:04:00,084  DEBUG Starting UpdateCurrentWeatherForRating in 31.01.2019 23:04:00 time of current weather - 31.01.2019 22:45:15
+2019-01-31 23:05:00,086  DEBUG Starting UpdateCurrentWeatherForRating in 31.01.2019 23:05:00 time of current weather - 31.01.2019 22:45:15
+2019-01-31 23:06:00,180  DEBUG Starting UpdateCurrentWeatherForRating in 31.01.2019 23:06:00 time of current weather - 31.01.2019 22:45:15
+2019-01-31 23:06:00,669  DEBUG Successfully saved the forecast openweathermap.org
+2019-01-31 23:06:00,739  DEBUG Successfully saved the forecast weatherbit.io
+2019-01-31 23:06:00,931  DEBUG Successfully saved the forecast wunderground.com
+2019-01-31 23:06:33,359  DEBUG Starting of current weather on schedule in 31.01.2019 23:06:33
+2019-01-31 23:07:00,309  DEBUG Stop UpdateCurrentWeatherForRating in 31.01.2019 23:07:00 time of current weather - 31.01.2019 23:00:15
+2019-01-31 23:07:00,309  DEBUG Starting rating process at 31.01.2019 23:07:00
+2019-01-31 23:07:00,541  DEBUG Starting rating process retriving a best rating at 31.01.2019 23:07:00
+2019-01-31 23:07:01,337  ERROR An error occurred while trying to receive astro data by date. In the method : GetAstroByDate
+2019-01-31 23:07:01,357  ERROR An error occurred while trying to receive astro data by date. In the method : GetAstroByDate
+2019-01-31 23:26:33,365  DEBUG Starting of current weather on schedule in 31.01.2019 23:26:33
+2019-01-31 23:31:33,362  DEBUG Starting of current weather on schedule in 31.01.2019 23:31:33
+2019-01-31 23:36:33,365  DEBUG Starting of current weather on schedule in 31.01.2019 23:36:33
+2019-01-31 23:41:33,358  DEBUG Starting of current weather on schedule in 31.01.2019 23:41:33
+2019-01-31 23:46:33,362  DEBUG Starting of current weather on schedule in 31.01.2019 23:46:33
+2019-01-31 23:51:33,367  DEBUG Starting of current weather on schedule in 31.01.2019 23:51:33
+2019-01-31 23:56:33,362  DEBUG Starting of current weather on schedule in 31.01.2019 23:56:33

@@ -1,0 +1,200 @@
+2019-02-06 09:33:00,554  DEBUG Starting the schedule forecast in06.02.2019 11:00:00
+2019-02-06 09:33:00,564  DEBUG Starting the schedule current weather in 06.02.2019 9:33:00
+2019-02-06 09:33:00,564  DEBUG Starting the schedule astro in 07.02.2019 0:30:00
+2019-02-06 09:34:06,161  DEBUG Starting of current weather on schedule in 06.02.2019 9:34:06
+2019-02-06 09:34:07,739  DEBUG Starting of astro on schedule in06.02.2019 9:34:07
+2019-02-06 09:35:59,311  ERROR An error occurred while trying to retrieve data in the method : JsonFromUrl; by the address https://api.weatherbit.io/v2.0/current?city_id=698740&key=ac82d2131bf64ad3a9e4b91bd3bfc0bc
+System.Net.WebException: Удаленный сервер возвратил ошибку: (408) Время ожидания запроса истекло.
+   в System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   в System.Net.WebClient.DownloadString(Uri address)
+   в System.Net.WebClient.DownloadString(String address)
+   в WeatherForecast.Models.WeatherSources.WeatherSource.JsonFromUrl(String URL, Int32 numberOfAttempts) в D:\VisualStudio_2017\WeatherForecast\WeatherForecast\Models\WeatherSources\WeatherSource.cs:строка 75
+2019-02-06 09:37:18,296  DEBUG Starting the schedule forecast in06.02.2019 11:00:00
+2019-02-06 09:37:18,306  DEBUG Starting the schedule current weather in 06.02.2019 9:37:18
+2019-02-06 09:37:18,316  DEBUG Starting the schedule astro in 07.02.2019 0:30:00
+2019-02-06 09:37:31,624  DEBUG Starting of astro on schedule in06.02.2019 9:37:31
+2019-02-06 09:37:31,716  DEBUG Starting of current weather on schedule in 06.02.2019 9:37:31
+2019-02-06 09:49:32,992  DEBUG Starting the schedule forecast in06.02.2019 11:00:00
+2019-02-06 09:49:33,012  DEBUG Starting the schedule current weather in 06.02.2019 9:49:33
+2019-02-06 09:49:33,012  DEBUG Starting the schedule astro in 07.02.2019 0:30:00
+2019-02-06 09:49:36,834  DEBUG Starting of current weather on schedule in 06.02.2019 9:49:36
+2019-02-06 09:49:36,976  DEBUG Starting of astro on schedule in06.02.2019 9:49:36
+2019-02-06 09:53:45,067  DEBUG Starting the schedule forecast in06.02.2019 11:00:00
+2019-02-06 09:53:45,083  DEBUG Starting the schedule current weather in 06.02.2019 9:53:45
+2019-02-06 09:53:45,083  DEBUG Starting the schedule astro in 07.02.2019 0:30:00
+2019-02-06 09:53:57,152  DEBUG Starting of astro on schedule in06.02.2019 9:53:57
+2019-02-06 09:53:57,290  DEBUG Starting of current weather on schedule in 06.02.2019 9:53:57
+2019-02-06 09:58:53,575  DEBUG Starting of current weather on schedule in 06.02.2019 9:58:53
+2019-02-06 10:04:54,268  DEBUG Starting the schedule forecast in06.02.2019 11:00:00
+2019-02-06 10:04:54,278  DEBUG Starting the schedule current weather in 06.02.2019 10:04:54
+2019-02-06 10:04:54,288  DEBUG Starting the schedule astro in 07.02.2019 0:30:00
+2019-02-06 10:04:59,745  DEBUG Starting of current weather on schedule in 06.02.2019 10:04:59
+2019-02-06 10:04:59,839  DEBUG Starting of astro on schedule in06.02.2019 10:04:59
+2019-02-06 10:30:28,314  DEBUG Starting the schedule forecast in06.02.2019 11:00:00
+2019-02-06 10:30:28,328  DEBUG Starting the schedule current weather in 06.02.2019 10:30:28
+2019-02-06 10:30:28,328  DEBUG Starting the schedule astro in 07.02.2019 0:30:00
+2019-02-06 10:30:30,134  DEBUG Starting of current weather on schedule in 06.02.2019 10:30:30
+2019-02-06 10:31:47,939  ERROR An error occurred while trying to retrieve data in the method : JsonFromUrl; by the address https://api.weatherbit.io/v2.0/current?city_id=698740&key=ac82d2131bf64ad3a9e4b91bd3bfc0bc
+System.Net.WebException: Удаленный сервер возвратил ошибку: (408) Время ожидания запроса истекло.
+   в System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   в System.Net.WebClient.DownloadString(Uri address)
+   в System.Net.WebClient.DownloadString(String address)
+   в WeatherForecast.Models.WeatherSources.WeatherSource.JsonFromUrl(String URL, Int32 numberOfAttempts)
+2019-02-06 10:35:10,381  DEBUG Starting the schedule forecast in06.02.2019 11:00:00
+2019-02-06 10:35:10,403  DEBUG Starting the schedule current weather in 06.02.2019 10:35:10
+2019-02-06 10:35:10,404  DEBUG Starting the schedule astro in 07.02.2019 0:30:00
+2019-02-06 10:35:12,238  DEBUG Starting of current weather on schedule in 06.02.2019 10:35:12
+2019-02-06 10:37:40,910  DEBUG Starting the schedule forecast in06.02.2019 11:00:00
+2019-02-06 10:37:40,920  DEBUG Starting the schedule current weather in 06.02.2019 10:37:40
+2019-02-06 10:37:40,930  DEBUG Starting the schedule astro in 07.02.2019 0:30:00
+2019-02-06 10:37:42,574  DEBUG Starting of current weather on schedule in 06.02.2019 10:37:42
+2019-02-06 10:38:43,662  DEBUG Starting the schedule forecast in06.02.2019 11:00:00
+2019-02-06 10:38:43,677  DEBUG Starting the schedule current weather in 06.02.2019 10:38:43
+2019-02-06 10:38:43,678  DEBUG Starting the schedule astro in 07.02.2019 0:30:00
+2019-02-06 10:38:52,400  DEBUG Starting of current weather on schedule in 06.02.2019 10:38:52
+2019-02-06 10:41:15,355  DEBUG Starting the schedule forecast in06.02.2019 11:00:00
+2019-02-06 10:41:15,370  DEBUG Starting the schedule current weather in 06.02.2019 10:41:15
+2019-02-06 10:41:15,371  DEBUG Starting the schedule astro in 07.02.2019 0:30:00
+2019-02-06 10:41:26,658  DEBUG Starting of current weather on schedule in 06.02.2019 10:41:26
+2019-02-06 10:46:04,001  ERROR An error occurred while trying to retrieve data from the source: Apixu; in the method : JsonFromUrl; by the address http://api.apixu.com/v1/current.json?key=ae97e7b3f0894de58ea153737171909&q=46.47%2C30.73
+System.Net.WebException: Удаленный сервер возвратил ошибку: (408) Время ожидания запроса истекло.
+   в System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   в System.Net.WebClient.DownloadString(Uri address)
+   в System.Net.WebClient.DownloadString(String address)
+   в WeatherForecast.Models.WeatherSources.CurrentWeatherSource.JsonFromUrl(String URL, String sourceName) в D:\VisualStudio_2017\WeatherForecast\WeatherForecast\Models\WeatherSources\CurrentWeatherSource.cs:строка 115
+2019-02-06 10:48:31,123  DEBUG Starting the schedule forecast in06.02.2019 11:00:00
+2019-02-06 10:48:31,141  DEBUG Starting the schedule current weather in 06.02.2019 10:48:31
+2019-02-06 10:48:31,143  DEBUG Starting the schedule astro in 07.02.2019 0:30:00
+2019-02-06 10:48:35,575  DEBUG Starting of current weather on schedule in 06.02.2019 10:48:35
+2019-02-06 10:52:40,334  DEBUG Starting the schedule forecast in06.02.2019 11:00:00
+2019-02-06 10:52:40,444  DEBUG Starting the schedule current weather in 06.02.2019 10:52:40
+2019-02-06 10:52:40,444  DEBUG Starting the schedule astro in 07.02.2019 0:30:00
+2019-02-06 10:59:20,730  DEBUG Starting of current weather on schedule in 06.02.2019 10:59:20
+2019-02-06 11:00:00,050  DEBUG Starting of forecasts on schedule in 06.02.2019 11:00:00
+2019-02-06 11:00:00,060  DEBUG Starting UpdateCurrentWeatherForRating in 06.02.2019 11:00:00 time of current weather - 06.02.2019 10:30:00
+2019-02-06 11:01:00,060  DEBUG Starting UpdateCurrentWeatherForRating in 06.02.2019 11:01:00 time of current weather - 06.02.2019 10:30:00
+2019-02-06 11:02:00,060  DEBUG Starting UpdateCurrentWeatherForRating in 06.02.2019 11:02:00 time of current weather - 06.02.2019 10:30:00
+2019-02-06 11:02:40,497  DEBUG Starting of current weather on schedule in 06.02.2019 11:02:40
+2019-02-06 11:03:00,061  DEBUG Starting UpdateCurrentWeatherForRating in 06.02.2019 11:03:00 time of current weather - 06.02.2019 10:30:00
+2019-02-06 11:04:00,064  DEBUG Starting UpdateCurrentWeatherForRating in 06.02.2019 11:04:00 time of current weather - 06.02.2019 10:30:00
+2019-02-06 11:05:00,067  DEBUG Starting UpdateCurrentWeatherForRating in 06.02.2019 11:05:00 time of current weather - 06.02.2019 10:30:00
+2019-02-06 11:19:45,420  DEBUG Starting the schedule forecast in06.02.2019 14:00:00
+2019-02-06 11:19:45,430  DEBUG Starting the schedule current weather in 06.02.2019 11:19:45
+2019-02-06 11:19:45,430  DEBUG Starting the schedule astro in 07.02.2019 0:30:00
+2019-02-06 11:22:19,936  DEBUG Starting the schedule forecast in06.02.2019 14:00:00
+2019-02-06 11:22:19,946  DEBUG Starting the schedule current weather in 06.02.2019 11:22:19
+2019-02-06 11:22:19,956  DEBUG Starting the schedule astro in 07.02.2019 0:30:00
+2019-02-06 11:22:56,254  DEBUG Starting of current weather on schedule in 06.02.2019 11:22:56
+2019-02-06 12:12:06,621  DEBUG Starting the schedule forecast in06.02.2019 14:00:00
+2019-02-06 12:12:06,631  DEBUG Starting the schedule current weather in 06.02.2019 12:12:06
+2019-02-06 12:12:06,641  DEBUG Starting the schedule astro in 07.02.2019 0:30:00
+2019-02-06 12:12:08,567  DEBUG Starting of current weather on schedule in 06.02.2019 12:12:08
+2019-02-06 12:17:39,401  DEBUG Starting of current weather on schedule in 06.02.2019 12:17:39
+2019-02-06 12:22:06,690  DEBUG Starting of current weather on schedule in 06.02.2019 12:22:06
+2019-02-06 12:27:06,689  DEBUG Starting of current weather on schedule in 06.02.2019 12:27:06
+2019-02-06 12:32:06,986  DEBUG Starting of current weather on schedule in 06.02.2019 12:32:06
+2019-02-06 12:37:06,692  DEBUG Starting of current weather on schedule in 06.02.2019 12:37:06
+2019-02-06 12:42:06,989  DEBUG Starting of current weather on schedule in 06.02.2019 12:42:06
+2019-02-06 12:47:06,687  DEBUG Starting of current weather on schedule in 06.02.2019 12:47:06
+2019-02-06 12:52:06,977  DEBUG Starting of current weather on schedule in 06.02.2019 12:52:06
+2019-02-06 12:57:06,988  DEBUG Starting of current weather on schedule in 06.02.2019 12:57:06
+2019-02-06 13:02:06,945  DEBUG Starting of current weather on schedule in 06.02.2019 13:02:06
+2019-02-06 13:14:59,263  DEBUG Starting the schedule forecast in06.02.2019 14:00:00
+2019-02-06 13:14:59,273  DEBUG Starting the schedule current weather in 06.02.2019 13:14:59
+2019-02-06 13:14:59,273  DEBUG Starting the schedule astro in 07.02.2019 0:30:00
+2019-02-06 13:15:02,605  DEBUG Starting of current weather on schedule in 06.02.2019 13:15:02
+2019-02-06 13:16:03,691  DEBUG Starting the schedule forecast in06.02.2019 14:00:00
+2019-02-06 13:16:03,701  DEBUG Starting the schedule current weather in 06.02.2019 13:16:03
+2019-02-06 13:16:03,701  DEBUG Starting the schedule astro in 07.02.2019 0:30:00
+2019-02-06 13:16:05,731  DEBUG Starting of current weather on schedule in 06.02.2019 13:16:05
+2019-02-06 13:19:22,086  DEBUG Starting the schedule forecast in06.02.2019 14:00:00
+2019-02-06 13:19:22,106  DEBUG Starting the schedule current weather in 06.02.2019 13:19:22
+2019-02-06 13:19:22,106  DEBUG Starting the schedule astro in 07.02.2019 0:30:00
+2019-02-06 13:19:23,916  DEBUG Starting of current weather on schedule in 06.02.2019 13:19:23
+2019-02-06 13:45:02,235  DEBUG Starting the schedule forecast in06.02.2019 14:00:00
+2019-02-06 13:45:02,245  DEBUG Starting the schedule current weather in 06.02.2019 13:45:02
+2019-02-06 13:45:02,245  DEBUG Starting the schedule astro in 07.02.2019 0:30:00
+2019-02-06 13:45:03,963  DEBUG Starting of current weather on schedule in 06.02.2019 13:45:03
+2019-02-06 13:46:06,136  DEBUG Starting the schedule forecast in06.02.2019 14:00:00
+2019-02-06 13:46:06,146  DEBUG Starting the schedule current weather in 06.02.2019 13:46:06
+2019-02-06 13:46:06,146  DEBUG Starting the schedule astro in 07.02.2019 0:30:00
+2019-02-06 13:46:07,930  DEBUG Starting of current weather on schedule in 06.02.2019 13:46:07
+2019-02-06 13:47:50,592  DEBUG Starting the schedule forecast in06.02.2019 14:00:00
+2019-02-06 13:47:50,602  DEBUG Starting the schedule current weather in 06.02.2019 13:47:50
+2019-02-06 13:47:50,602  DEBUG Starting the schedule astro in 07.02.2019 0:30:00
+2019-02-06 13:47:52,402  DEBUG Starting of current weather on schedule in 06.02.2019 13:47:52
+2019-02-06 13:49:45,548  DEBUG Starting the schedule forecast in06.02.2019 14:00:00
+2019-02-06 13:49:45,568  DEBUG Starting the schedule current weather in 06.02.2019 13:49:45
+2019-02-06 13:49:45,568  DEBUG Starting the schedule astro in 07.02.2019 0:30:00
+2019-02-06 13:49:47,348  DEBUG Starting of current weather on schedule in 06.02.2019 13:49:47
+2019-02-06 13:51:55,634  DEBUG Starting the schedule forecast in06.02.2019 14:00:00
+2019-02-06 13:51:55,644  DEBUG Starting the schedule current weather in 06.02.2019 13:51:55
+2019-02-06 13:51:55,654  DEBUG Starting the schedule astro in 07.02.2019 0:30:00
+2019-02-06 13:51:57,570  DEBUG Starting of current weather on schedule in 06.02.2019 13:51:57
+2019-02-06 13:52:20,842  ERROR An error occurred while trying to retrieve data from the source: Apixu; in the method : JsonFromUrl; by the address http://api.apixu.com/v1/current.json?key=ae97e7b3f0894de58ea153737171909&q=46.47%2C30.73
+System.Net.WebException: Удаленный сервер возвратил ошибку: (408) Время ожидания запроса истекло.
+   в System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   в System.Net.WebClient.DownloadString(Uri address)
+   в System.Net.WebClient.DownloadString(String address)
+   в WeatherForecast.Models.WeatherSources.CurrentWeatherSource.JsonFromUrl(String URL, String sourceName) в D:\VisualStudio_2017\WeatherForecast\WeatherForecast\Models\WeatherSources\CurrentWeatherSource.cs:строка 115
+2019-02-06 18:46:14,366  DEBUG Starting the schedule forecast in06.02.2019 19:00:00
+2019-02-06 18:46:14,392  DEBUG Starting the schedule current weather in 06.02.2019 18:46:14
+2019-02-06 18:46:14,393  DEBUG Starting the schedule astro in 07.02.2019 0:30:00
+2019-02-06 18:46:16,744  DEBUG Starting of current weather on schedule in 06.02.2019 18:46:16
+2019-02-06 18:46:19,592  DEBUG LatestForecasts.Count = 0!
+2019-02-06 18:51:14,444  DEBUG Starting of current weather on schedule in 06.02.2019 18:51:14
+2019-02-06 18:56:14,888  DEBUG Starting of current weather on schedule in 06.02.2019 18:56:14
+2019-02-06 19:00:04,333  DEBUG Starting of forecasts on schedule in 06.02.2019 19:00:04
+2019-02-06 19:00:08,291  DEBUG Starting UpdateCurrentWeatherForRating in 06.02.2019 19:00:08 time of current weather - 06.02.2019 18:51:28
+2019-02-06 19:01:08,295  DEBUG Starting UpdateCurrentWeatherForRating in 06.02.2019 19:01:08 time of current weather - 06.02.2019 18:51:28
+2019-02-06 19:01:14,447  DEBUG Starting of current weather on schedule in 06.02.2019 19:01:14
+2019-02-06 19:02:08,297  DEBUG Starting UpdateCurrentWeatherForRating in 06.02.2019 19:02:08 time of current weather - 06.02.2019 18:51:28
+2019-02-06 19:03:22,128  DEBUG Starting UpdateCurrentWeatherForRating in 06.02.2019 19:03:22 time of current weather - 06.02.2019 18:51:28
+2019-02-06 19:04:27,181  DEBUG Starting UpdateCurrentWeatherForRating in 06.02.2019 19:04:27 time of current weather - 06.02.2019 18:51:28
+2019-02-06 19:05:27,227  DEBUG Starting UpdateCurrentWeatherForRating in 06.02.2019 19:05:27 time of current weather - 06.02.2019 18:51:28
+2019-02-06 19:06:14,735  DEBUG Starting of current weather on schedule in 06.02.2019 19:06:14
+2019-02-06 19:06:27,231  DEBUG Starting UpdateCurrentWeatherForRating in 06.02.2019 19:06:27 time of current weather - 06.02.2019 18:51:28
+2019-02-06 19:07:27,232  DEBUG Starting UpdateCurrentWeatherForRating in 06.02.2019 19:07:27 time of current weather - 06.02.2019 18:51:28
+2019-02-06 19:08:27,236  DEBUG Starting UpdateCurrentWeatherForRating in 06.02.2019 19:08:27 time of current weather - 06.02.2019 18:51:28
+2019-02-06 19:09:27,244  DEBUG Starting UpdateCurrentWeatherForRating in 06.02.2019 19:09:27 time of current weather - 06.02.2019 18:51:28
+2019-02-06 19:10:27,252  DEBUG Starting UpdateCurrentWeatherForRating in 06.02.2019 19:10:27 time of current weather - 06.02.2019 18:51:28
+2019-02-06 19:11:14,450  DEBUG Starting of current weather on schedule in 06.02.2019 19:11:14
+2019-02-06 19:11:27,258  DEBUG Starting UpdateCurrentWeatherForRating in 06.02.2019 19:11:27 time of current weather - 06.02.2019 19:08:04
+2019-02-06 19:12:27,267  DEBUG Starting UpdateCurrentWeatherForRating in 06.02.2019 19:12:27 time of current weather - 06.02.2019 19:08:04
+2019-02-06 19:13:27,273  DEBUG Starting UpdateCurrentWeatherForRating in 06.02.2019 19:13:27 time of current weather - 06.02.2019 19:08:04
+2019-02-06 19:14:27,277  DEBUG Starting UpdateCurrentWeatherForRating in 06.02.2019 19:14:27 time of current weather - 06.02.2019 19:08:04
+2019-02-06 19:15:27,281  DEBUG Starting UpdateCurrentWeatherForRating in 06.02.2019 19:15:27 time of current weather - 06.02.2019 19:08:04
+2019-02-06 19:16:14,715  DEBUG Starting of current weather on schedule in 06.02.2019 19:16:14
+2019-02-06 19:16:27,281  DEBUG Starting UpdateCurrentWeatherForRating in 06.02.2019 19:16:27 time of current weather - 06.02.2019 19:08:04
+2019-02-06 19:17:27,289  DEBUG Starting UpdateCurrentWeatherForRating in 06.02.2019 19:17:27 time of current weather - 06.02.2019 19:08:04
+2019-02-06 19:18:27,294  DEBUG Starting UpdateCurrentWeatherForRating in 06.02.2019 19:18:27 time of current weather - 06.02.2019 19:08:04
+2019-02-06 19:19:27,300  DEBUG Starting UpdateCurrentWeatherForRating in 06.02.2019 19:19:27 time of current weather - 06.02.2019 19:08:04
+2019-02-06 19:20:27,306  DEBUG Starting UpdateCurrentWeatherForRating in 06.02.2019 19:20:27 time of current weather - 06.02.2019 19:08:04
+2019-02-06 19:21:14,718  DEBUG Starting of current weather on schedule in 06.02.2019 19:21:14
+2019-02-06 19:21:27,314  DEBUG Starting UpdateCurrentWeatherForRating in 06.02.2019 19:21:27 time of current weather - 06.02.2019 19:08:04
+2019-02-06 19:22:27,316  DEBUG Starting UpdateCurrentWeatherForRating in 06.02.2019 19:22:27 time of current weather - 06.02.2019 19:08:04
+2019-02-06 19:23:27,320  DEBUG Starting UpdateCurrentWeatherForRating in 06.02.2019 19:23:27 time of current weather - 06.02.2019 19:08:04
+2019-02-06 19:24:27,322  DEBUG Starting UpdateCurrentWeatherForRating in 06.02.2019 19:24:27 time of current weather - 06.02.2019 19:08:04
+2019-02-06 19:25:27,326  DEBUG Starting UpdateCurrentWeatherForRating in 06.02.2019 19:25:27 time of current weather - 06.02.2019 19:08:04
+2019-02-06 19:26:14,732  DEBUG Starting of current weather on schedule in 06.02.2019 19:26:14
+2019-02-06 19:26:27,330  DEBUG Starting UpdateCurrentWeatherForRating in 06.02.2019 19:26:27 time of current weather - 06.02.2019 19:25:10
+2019-02-06 19:27:27,338  DEBUG Starting UpdateCurrentWeatherForRating in 06.02.2019 19:27:27 time of current weather - 06.02.2019 19:25:10
+2019-02-06 19:28:27,340  DEBUG Starting UpdateCurrentWeatherForRating in 06.02.2019 19:28:27 time of current weather - 06.02.2019 19:25:10
+2019-02-06 19:29:27,340  DEBUG Starting UpdateCurrentWeatherForRating in 06.02.2019 19:29:27 time of current weather - 06.02.2019 19:25:10
+2019-02-06 19:30:27,346  DEBUG Starting UpdateCurrentWeatherForRating in 06.02.2019 19:30:27 time of current weather - 06.02.2019 19:25:10
+2019-02-06 19:31:14,444  DEBUG Starting of current weather on schedule in 06.02.2019 19:31:14
+2019-02-06 19:31:27,352  DEBUG Starting UpdateCurrentWeatherForRating in 06.02.2019 19:31:27 time of current weather - 06.02.2019 19:25:10
+2019-02-06 19:32:27,358  DEBUG Starting UpdateCurrentWeatherForRating in 06.02.2019 19:32:27 time of current weather - 06.02.2019 19:25:10
+2019-02-06 19:33:27,360  DEBUG Starting UpdateCurrentWeatherForRating in 06.02.2019 19:33:27 time of current weather - 06.02.2019 19:25:10
+2019-02-06 19:34:27,369  DEBUG Starting UpdateCurrentWeatherForRating in 06.02.2019 19:34:27 time of current weather - 06.02.2019 19:25:10
+2019-02-06 19:35:27,377  DEBUG Starting UpdateCurrentWeatherForRating in 06.02.2019 19:35:27 time of current weather - 06.02.2019 19:25:10
+2019-02-06 19:36:14,445  DEBUG Starting of current weather on schedule in 06.02.2019 19:36:14
+2019-02-06 19:36:27,377  DEBUG Starting UpdateCurrentWeatherForRating in 06.02.2019 19:36:27 time of current weather - 06.02.2019 19:25:10
+2019-02-06 19:37:27,379  DEBUG Starting UpdateCurrentWeatherForRating in 06.02.2019 19:37:27 time of current weather - 06.02.2019 19:25:10
+2019-02-06 19:38:27,381  DEBUG Starting UpdateCurrentWeatherForRating in 06.02.2019 19:38:27 time of current weather - 06.02.2019 19:25:10
+2019-02-06 19:39:27,382  DEBUG Starting UpdateCurrentWeatherForRating in 06.02.2019 19:39:27 time of current weather - 06.02.2019 19:25:10
+2019-02-06 19:40:27,384  DEBUG Starting UpdateCurrentWeatherForRating in 06.02.2019 19:40:27 time of current weather - 06.02.2019 19:25:10
+2019-02-06 19:41:14,728  DEBUG Starting of current weather on schedule in 06.02.2019 19:41:14
+2019-02-06 19:41:27,388  DEBUG Starting UpdateCurrentWeatherForRating in 06.02.2019 19:41:27 time of current weather - 06.02.2019 19:41:15
+2019-02-06 19:42:27,390  DEBUG Starting UpdateCurrentWeatherForRating in 06.02.2019 19:42:27 time of current weather - 06.02.2019 19:41:15
+2019-02-06 19:44:08,155  DEBUG Starting UpdateCurrentWeatherForRating in 06.02.2019 19:44:08 time of current weather - 06.02.2019 19:41:15

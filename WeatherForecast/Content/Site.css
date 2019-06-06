@@ -1,0 +1,168 @@
+﻿body {
+    /*padding-top: 50px;*/
+    padding-bottom: 20px;
+    /*лесница*/
+    /*background: url("https://i.ytimg.com/vi/1dCxUXEhrpI/maxresdefault_live.jpg?sqp=CJTT8NQF-oaymwEXCPYBEIoBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLBUN69q6FJK67nKH6OtNpA4hJl__w");*/
+    /*background: url("https://i.ytimg.com/vi/Ivttjl92Lus/maxresdefault_live.jpg?sqp=-oaymwEXCPYBEIoBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLDaj0EUe67pl2iCawnqETnJ_2f0dA");*/ /* Добавляем фон */
+    background: url("https://i.ytimg.com/vi/UVMb-sxEZUk/maxresdefault.jpg?sqp=-oaymwEXCPYBEIoBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLA_7J64bFaeWVoJqg-Dnjx_cbaWxg"); /*//Июльский Восход 2017. Яхтклуб. Воронцовский маяк. Odessa ONLINE.*/
+    /*яхт клуб*/
+    /*background: url("https://i.ytimg.com/vi/e5xomUxE6B4/maxresdefault_live.jpg?sqp=CNCQ79QF-oaymwEXCPYBEIoBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLAlCTAtLA7ccy_b9ncWdk0zmIUb7g");*/
+    /*background: url("https://i.ytimg.com/vi/e5xomUxE6B4/maxresdefault_live.jpg?sqp=CPyF69QF-oaymwEXCPYBEIoBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLApeayyd2ER2JzvAyz-3Mrhi4ig7w");*/
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    /*border: 2px solid black;*/
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+img.image {
+    filter: invert(1);
+    /*filter: drop-shadow(30px 10px 4px #4444dd);*/
+}
+div.area {
+    /* background-color: #ffffff;
+    opacity: 0.1;*/
+    /*margin: 1px;*/
+    /*background-color: rgba(0, 0, 0, 0.25);*/
+    background-color: rgba(15, 39, 59, 0.49);
+    /*51, 75, 76*/
+    /*background-color: rgba(198, 226, 227, 0.3);*/
+    /*background-color: rgba(155,209,225, 0.40);*/
+    box-shadow: 0 4px 8px 0 rgba(15, 39, 59, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.8);
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    /*filter: alpha(opacity=10);  For IE8 and earlier */
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    border-radius: 15px;
+}
+
+div.selected {
+    box-shadow: 6px 6px 6px 6px rgba(227, 232, 240, 0.8);
+
+}
+div.mouseon {
+   background-color: rgba(18, 19, 20, 0.6);
+}
+/*div.curweather {
+   width:50%;
+         height:45px;
+         background: rgba(4, 107, 209, 0.3);
+         -webkit-transform-origin left top;
+         -webkit-transform:rotate(-90deg) translateX(-101%);
+         margin-left:-45px;
+         border-radius: 6px;
+         text-align: center;
+}*/
+/*filter: blur(3px); 
+    -webkit-filter: blur(3px); 
+    -moz-filter: blur(3px);
+    /*-o-filter: blur(3px);*/ 
+    /*-ms-filter: blur(3px);*/
+    /*table.table tr{
+                                   border-top: 0px solid #dddddd;
+                               }*/
+ .table thead > tr > td,
+.table tbody > tr > td,
+.table tfoot > tr > td {
+  /*padding: 8px;
+  line-height: 1.428571429;
+  vertical-align: top;*/
+  border-top: 1px dotted rgb(128, 128, 128); /*1px solid #dddddd;*/
+}
+ div.titles.table thead > tr > td,
+ div.titles.table tbody > tr > td,
+ div.titles.table tfoot > tr > td {
+  /*padding: 8px;
+  line-height: 1.428571429;
+  vertical-align: top;*/
+  border-top: none; /*1px solid #dddddd;*/
+}
+
+div.area p {
+  margin: 2%;
+  font-weight: bold;
+  color: #ffffff;
+
+}
+div.col-md-2 {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+div.jumbotron {
+    padding: 0px;
+    margin-bottom: 0px;
+    padding-right: 20px;
+    padding-left: 20px;
+    /*margin: 1px;*/
+}
+
+.row {
+    margin-right: -5px;
+    margin-left: -5px;
+}
+
+.gradient {
+    background: linear-gradient(210deg,#2e6da4,black);
+}
+
+.homeLink {
+    background: linear-gradient(90deg,#e8eff5,#2379c5);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Harlow Solid Italic;
+    font-size: xx-large;
+}
+    .homeLink:hover {
+        /*text-shadow: 0px 0px 5px #FFF;*/
+        text-shadow: 0px 0px 1px #2B6699;
+    }
+    .p3 {
+    transition: 0.3s ease;
+}
+
+.p3:hover {
+    text-shadow: 0px 0px 20px #FFF;
+    /*box-shadow: 0px 0px 150px #000000;*/
+    /*z-index: 2;*/
+
+
+    opacity: 1;
+    /** default is 1, scale it to 1.5 */
+    transform: scale(1.1, 1.1);
+
+
+    /*-webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.1);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.1);
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.1);
+    transition: all 200ms ease-in;
+    transform: scale(1.1);*/
+}
+.astroTable tbody > tr > td {
+    padding: 0px;
+}

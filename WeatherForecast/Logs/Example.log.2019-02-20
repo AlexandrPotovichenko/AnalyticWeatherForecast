@@ -1,0 +1,68 @@
+2019-02-20 07:23:45,025  DEBUG Starting the schedule forecast in20.02.2019 8:00:00
+2019-02-20 07:23:45,035  DEBUG Starting the schedule current weather in 20.02.2019 7:23:45
+2019-02-20 07:23:45,035  DEBUG Starting the schedule astro in 21.02.2019 0:30:00
+2019-02-20 07:23:47,749  DEBUG Starting of current weather on schedule in 20.02.2019 7:23:47
+2019-02-20 07:23:50,177  DEBUG LatestForecasts.Count = 0!
+2019-02-20 07:28:45,075  DEBUG Starting of current weather on schedule in 20.02.2019 7:28:45
+2019-02-20 07:33:45,262  DEBUG Starting of current weather on schedule in 20.02.2019 7:33:45
+2019-02-20 07:38:45,083  DEBUG Starting of current weather on schedule in 20.02.2019 7:38:45
+2019-02-20 07:43:45,266  DEBUG Starting of current weather on schedule in 20.02.2019 7:43:45
+2019-02-20 07:48:45,089  DEBUG Starting of current weather on schedule in 20.02.2019 7:48:45
+2019-02-20 07:53:45,259  DEBUG Starting of current weather on schedule in 20.02.2019 7:53:45
+2019-02-20 07:58:45,273  DEBUG Starting of current weather on schedule in 20.02.2019 7:58:45
+2019-02-20 08:00:00,077  DEBUG Starting of forecasts on schedule in 20.02.2019 8:00:00
+2019-02-20 08:00:00,087  DEBUG Starting UpdateCurrentWeatherForRating in 20.02.2019 8:00:00 time of current weather - 20.02.2019 7:45:10
+2019-02-20 08:01:00,092  DEBUG Starting UpdateCurrentWeatherForRating in 20.02.2019 8:01:00 time of current weather - 20.02.2019 7:45:10
+2019-02-20 08:02:00,094  DEBUG Starting UpdateCurrentWeatherForRating in 20.02.2019 8:02:00 time of current weather - 20.02.2019 7:45:10
+2019-02-20 08:03:00,102  DEBUG Starting UpdateCurrentWeatherForRating in 20.02.2019 8:03:00 time of current weather - 20.02.2019 7:45:10
+2019-02-20 08:03:45,266  DEBUG Starting of current weather on schedule in 20.02.2019 8:03:45
+2019-02-20 08:04:00,110  DEBUG Starting UpdateCurrentWeatherForRating in 20.02.2019 8:04:00 time of current weather - 20.02.2019 7:45:10
+2019-02-20 08:05:00,116  DEBUG Starting UpdateCurrentWeatherForRating in 20.02.2019 8:05:00 time of current weather - 20.02.2019 7:45:10
+2019-02-20 08:06:00,119  DEBUG Starting UpdateCurrentWeatherForRating in 20.02.2019 8:06:00 time of current weather - 20.02.2019 7:45:10
+2019-02-20 08:06:02,001  DEBUG Successfully saved the forecast openweathermap.org
+2019-02-20 08:06:03,931  DEBUG Successfully saved the forecast weatherbit.io
+2019-02-20 08:06:05,851  DEBUG Successfully saved the forecast wunderground.com
+2019-02-20 08:07:00,127  DEBUG Starting UpdateCurrentWeatherForRating in 20.02.2019 8:07:00 time of current weather - 20.02.2019 7:45:10
+2019-02-20 08:08:00,133  DEBUG Starting UpdateCurrentWeatherForRating in 20.02.2019 8:08:00 time of current weather - 20.02.2019 7:45:10
+2019-02-20 08:08:45,089  DEBUG Starting of current weather on schedule in 20.02.2019 8:08:45
+2019-02-20 08:09:00,133  DEBUG Stop UpdateCurrentWeatherForRating in 20.02.2019 8:09:00 time of current weather - 20.02.2019 8:00:20
+2019-02-20 08:09:00,133  DEBUG Starting rating process at 20.02.2019 8:09:00
+2019-02-20 08:09:01,013  DEBUG Starting rating process retriving a best rating at 20.02.2019 8:09:01
+2019-02-20 08:24:07,664  DEBUG Detached
+2019-02-20 08:25:03,766  DEBUG Detached
+2019-02-20 08:27:35,309  DEBUG Detached
+2019-02-20 10:21:04,906  DEBUG Starting the schedule forecast in20.02.2019 11:00:00
+2019-02-20 10:21:04,919  DEBUG Starting the schedule current weather in 20.02.2019 10:21:04
+2019-02-20 10:21:04,920  DEBUG Starting the schedule astro in 21.02.2019 0:30:00
+2019-02-20 10:21:11,187  DEBUG Starting of current weather on schedule in 20.02.2019 10:21:11
+2019-02-20 10:21:17,920  DEBUG LatestForecasts.Count = 0!
+2019-02-20 10:26:05,239  DEBUG Starting of current weather on schedule in 20.02.2019 10:26:05
+2019-02-20 10:31:05,163  DEBUG Starting of current weather on schedule in 20.02.2019 10:31:05
+2019-02-20 10:36:04,968  DEBUG Starting of current weather on schedule in 20.02.2019 10:36:04
+2019-02-20 10:41:05,145  DEBUG Starting of current weather on schedule in 20.02.2019 10:41:05
+2019-02-20 10:46:04,965  DEBUG Starting of current weather on schedule in 20.02.2019 10:46:04
+2019-02-20 10:46:33,173  DEBUG LatestForecasts.Count = 0!
+2019-02-20 10:51:05,130  DEBUG Starting of current weather on schedule in 20.02.2019 10:51:05
+2019-02-20 10:56:05,172  DEBUG Starting of current weather on schedule in 20.02.2019 10:56:05
+2019-02-20 11:00:00,082  DEBUG Starting of forecasts on schedule in 20.02.2019 11:00:00
+2019-02-20 11:00:00,086  DEBUG Starting UpdateCurrentWeatherForRating in 20.02.2019 11:00:00 time of current weather - 20.02.2019 10:45:11
+2019-02-20 11:01:00,087  DEBUG Starting UpdateCurrentWeatherForRating in 20.02.2019 11:01:00 time of current weather - 20.02.2019 10:45:11
+2019-02-20 11:01:04,970  DEBUG Starting of current weather on schedule in 20.02.2019 11:01:04
+2019-02-20 11:02:00,088  DEBUG Starting UpdateCurrentWeatherForRating in 20.02.2019 11:02:00 time of current weather - 20.02.2019 10:45:11
+2019-02-20 11:03:00,088  DEBUG Starting UpdateCurrentWeatherForRating in 20.02.2019 11:03:00 time of current weather - 20.02.2019 10:45:11
+2019-02-20 11:04:00,089  DEBUG Starting UpdateCurrentWeatherForRating in 20.02.2019 11:04:00 time of current weather - 20.02.2019 10:45:11
+2019-02-20 11:05:00,089  DEBUG Starting UpdateCurrentWeatherForRating in 20.02.2019 11:05:00 time of current weather - 20.02.2019 10:45:11
+2019-02-20 11:06:00,094  DEBUG Starting UpdateCurrentWeatherForRating in 20.02.2019 11:06:00 time of current weather - 20.02.2019 10:45:11
+2019-02-20 11:06:02,210  DEBUG Successfully saved the forecast openweathermap.org
+2019-02-20 11:06:04,029  DEBUG Successfully saved the forecast weatherbit.io
+2019-02-20 11:06:05,128  DEBUG Starting of current weather on schedule in 20.02.2019 11:06:05
+2019-02-20 11:06:05,844  DEBUG Successfully saved the forecast wunderground.com
+2019-02-20 11:07:00,106  DEBUG Starting UpdateCurrentWeatherForRating in 20.02.2019 11:07:00 time of current weather - 20.02.2019 10:45:11
+2019-02-20 11:08:00,107  DEBUG Starting UpdateCurrentWeatherForRating in 20.02.2019 11:08:00 time of current weather - 20.02.2019 10:45:11
+2019-02-20 11:09:00,108  DEBUG Starting UpdateCurrentWeatherForRating in 20.02.2019 11:09:00 time of current weather - 20.02.2019 10:45:11
+2019-02-20 11:10:00,110  DEBUG Starting UpdateCurrentWeatherForRating in 20.02.2019 11:10:00 time of current weather - 20.02.2019 10:45:11
+2019-02-20 11:11:00,112  DEBUG Starting UpdateCurrentWeatherForRating in 20.02.2019 11:11:00 time of current weather - 20.02.2019 10:45:11
+2019-02-20 11:11:04,962  DEBUG Starting of current weather on schedule in 20.02.2019 11:11:04
+2019-02-20 11:12:00,112  DEBUG Stop UpdateCurrentWeatherForRating in 20.02.2019 11:12:00 time of current weather - 20.02.2019 11:00:15
+2019-02-20 11:12:00,112  DEBUG Starting rating process at 20.02.2019 11:12:00
+2019-02-20 11:12:01,103  DEBUG Starting rating process retriving a best rating at 20.02.2019 11:12:01

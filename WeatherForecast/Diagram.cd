@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="WeatherForecast.Models.Weather.Cloudiness" Collapsed="true">
+    <Position X="0.5" Y="2.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAACAEAAAABAAAEAAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Weather\Cloudiness.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WeatherForecast.Models.Weather.Forecast" Collapsed="true">
+    <Position X="2" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAACAAgAAAIAAAAAAAAAABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Weather\Forecast.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WeatherForecast.Models.Weather.WeatherCondition" Collapsed="true">
+    <Position X="2.75" Y="1.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>QEAgAAAAAAAAAAYAqBAAAEAAAAAAAIACAAAAABAAAAA=</HashCode>
+      <FileName>Models\Weather\WeatherCondition.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WeatherForecast.Models.WeatherForecast.Rating">
+    <Position X="5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAiAQAAAAgAAAYIABAAAAAAAAAAAACCAAEAABAAAAA=</HashCode>
+      <FileName>Models\WeatherForecast\Rating.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WeatherForecast.Models.WeatherSources.Apixu">
+    <Position X="9.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\WeatherSources\Apixu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WeatherForecast.Models.WeatherSources.OpenWeatherMap">
+    <Position X="11.25" Y="3.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQBAAAAAAAAAAAAAQAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\WeatherSources\OpenWeatherMap.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WeatherForecast.Models.WeatherSources.WeatherSourceContainer">
+    <Position X="6" Y="4" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAgABAQAAEICBAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\WeatherSources\WeatherSourceContainer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="WeatherForecast.Models.WeatherSources.WeatherBit">
+    <Position X="11.25" Y="2" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\WeatherSources\WeatherBit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="WeatherForecast.Models.Weather.DescriptionOfClouds" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Weather\Cloudiness.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

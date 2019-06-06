@@ -1,0 +1,5 @@
+2019-06-06 13:49:52,997  DEBUG Starting the schedule forecast in06.06.2019 15:00:00
+2019-06-06 13:49:53,017  DEBUG Starting the schedule current weather in 06.06.2019 13:49:53
+2019-06-06 13:49:53,017  DEBUG Starting the schedule astro in 07.06.2019 0:30:00 +03:00
+2019-06-06 13:50:04,451  DEBUG Starting of current weather on schedule in 06.06.2019 13:50:04
+2019-06-06 13:50:13,330  DEBUG LatestForecasts.Count = 0!

@@ -1,0 +1,308 @@
+2019-01-31 09:56:27,730  DEBUG Starting the schedule forecast in31.01.2019 11:00:00
+2019-01-31 09:56:29,704  DEBUG Starting the schedule current weather in 31.01.2019 9:56:29
+2019-01-31 09:56:29,704  DEBUG Starting the schedule astro in 01.02.2019 0:30:00
+2019-01-31 09:56:29,764  DEBUG Starting of current weather on schedule in 31.01.2019 9:56:29
+2019-01-31 09:58:30,832  DEBUG Starting the schedule forecast in31.01.2019 11:00:00
+2019-01-31 09:58:30,845  DEBUG Starting the schedule current weather in 31.01.2019 9:58:30
+2019-01-31 09:58:30,846  DEBUG Starting the schedule astro in 01.02.2019 0:30:00
+2019-01-31 09:58:30,890  DEBUG Starting of current weather on schedule in 31.01.2019 9:58:30
+2019-01-31 09:59:42,380  DEBUG Starting the schedule forecast in31.01.2019 11:00:00
+2019-01-31 09:59:42,400  DEBUG Starting the schedule current weather in 31.01.2019 9:59:42
+2019-01-31 09:59:42,400  DEBUG Starting the schedule astro in 01.02.2019 0:30:00
+2019-01-31 09:59:42,440  DEBUG Starting of current weather on schedule in 31.01.2019 9:59:42
+2019-01-31 11:35:48,084  DEBUG Starting the schedule forecast in31.01.2019 14:00:00
+2019-01-31 11:35:48,094  DEBUG Starting the schedule current weather in 31.01.2019 11:35:48
+2019-01-31 11:35:48,094  DEBUG Starting the schedule astro in 01.02.2019 0:30:00
+2019-01-31 11:35:48,144  DEBUG Starting of current weather on schedule in 31.01.2019 11:35:48
+2019-01-31 11:40:48,127  DEBUG Starting of current weather on schedule in 31.01.2019 11:40:48
+2019-01-31 11:45:48,135  DEBUG Starting of current weather on schedule in 31.01.2019 11:45:48
+2019-01-31 11:50:48,117  DEBUG Starting of current weather on schedule in 31.01.2019 11:50:48
+2019-01-31 11:55:48,096  DEBUG Starting of current weather on schedule in 31.01.2019 11:55:48
+2019-01-31 12:00:48,103  DEBUG Starting of current weather on schedule in 31.01.2019 12:00:48
+2019-01-31 12:05:48,102  DEBUG Starting of current weather on schedule in 31.01.2019 12:05:48
+2019-01-31 12:10:48,097  DEBUG Starting of current weather on schedule in 31.01.2019 12:10:48
+2019-01-31 12:15:48,100  DEBUG Starting of current weather on schedule in 31.01.2019 12:15:48
+2019-01-31 12:20:48,096  DEBUG Starting of current weather on schedule in 31.01.2019 12:20:48
+2019-01-31 12:25:48,114  DEBUG Starting of current weather on schedule in 31.01.2019 12:25:48
+2019-01-31 12:30:48,103  DEBUG Starting of current weather on schedule in 31.01.2019 12:30:48
+2019-01-31 12:35:48,263  DEBUG Starting of current weather on schedule in 31.01.2019 12:35:48
+2019-01-31 12:40:48,095  DEBUG Starting of current weather on schedule in 31.01.2019 12:40:48
+2019-01-31 12:45:48,099  DEBUG Starting of current weather on schedule in 31.01.2019 12:45:48
+2019-01-31 12:50:48,100  DEBUG Starting of current weather on schedule in 31.01.2019 12:50:48
+2019-01-31 12:55:48,098  DEBUG Starting of current weather on schedule in 31.01.2019 12:55:48
+2019-01-31 13:00:48,101  DEBUG Starting of current weather on schedule in 31.01.2019 13:00:48
+2019-01-31 13:05:48,101  DEBUG Starting of current weather on schedule in 31.01.2019 13:05:48
+2019-01-31 13:05:59,761  ERROR An error occurred while trying to retrieve data from the source: Apixu; in the method : JsonFromUrl; by the address http://api.apixu.com/v1/current.json?key=ae97e7b3f0894de58ea153737171909&q=46.47%2C30.73
+System.Net.WebException: Удаленный сервер возвратил ошибку: (408) Время ожидания запроса истекло.
+   в System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   в System.Net.WebClient.DownloadString(Uri address)
+   в System.Net.WebClient.DownloadString(String address)
+   в WeatherForecast.Models.WeatherSources.CurrentWeatherSource.JsonFromUrl(String URL, String sourceName) в D:\VisualStudio_2017\WeatherForecast\WeatherForecast\Models\WeatherSources\CurrentWeatherSource.cs:строка 181
+2019-01-31 13:10:48,139  DEBUG Starting of current weather on schedule in 31.01.2019 13:10:48
+2019-01-31 13:15:48,097  DEBUG Starting of current weather on schedule in 31.01.2019 13:15:48
+2019-01-31 13:20:48,101  DEBUG Starting of current weather on schedule in 31.01.2019 13:20:48
+2019-01-31 13:25:48,103  DEBUG Starting of current weather on schedule in 31.01.2019 13:25:48
+2019-01-31 13:31:53,355  DEBUG Starting the schedule forecast in31.01.2019 14:00:00
+2019-01-31 13:31:53,375  DEBUG Starting the schedule current weather in 31.01.2019 13:31:53
+2019-01-31 13:31:53,375  DEBUG Starting the schedule astro in 01.02.2019 0:30:00
+2019-01-31 13:31:53,487  DEBUG Starting of current weather on schedule in 31.01.2019 13:31:53
+2019-01-31 13:36:53,391  DEBUG Starting of current weather on schedule in 31.01.2019 13:36:53
+2019-01-31 13:41:53,378  DEBUG Starting of current weather on schedule in 31.01.2019 13:41:53
+2019-01-31 13:46:53,376  DEBUG Starting of current weather on schedule in 31.01.2019 13:46:53
+2019-01-31 13:51:53,383  DEBUG Starting of current weather on schedule in 31.01.2019 13:51:53
+2019-01-31 13:53:48,642  DEBUG Starting the schedule forecast in31.01.2019 14:00:00
+2019-01-31 13:53:48,657  DEBUG Starting the schedule current weather in 31.01.2019 13:53:48
+2019-01-31 13:53:48,657  DEBUG Starting the schedule astro in 01.02.2019 0:30:00
+2019-01-31 13:53:48,798  DEBUG Starting of current weather on schedule in 31.01.2019 13:53:48
+2019-01-31 13:54:23,343  DEBUG Starting the schedule forecast in31.01.2019 14:00:00
+2019-01-31 13:54:23,358  DEBUG Starting the schedule current weather in 31.01.2019 13:54:23
+2019-01-31 13:54:23,358  DEBUG Starting the schedule astro in 01.02.2019 0:30:00
+2019-01-31 13:54:23,561  DEBUG Starting of current weather on schedule in 31.01.2019 13:54:23
+2019-01-31 13:59:23,367  DEBUG Starting of current weather on schedule in 31.01.2019 13:59:23
+2019-01-31 14:54:05,695  DEBUG Starting the schedule forecast in31.01.2019 17:00:00
+2019-01-31 14:54:12,545  DEBUG Starting the schedule current weather in 31.01.2019 14:54:12
+2019-01-31 14:54:16,970  DEBUG Starting the schedule astro in 01.02.2019 0:30:00
+2019-01-31 14:54:22,649  DEBUG Starting of current weather on schedule in 31.01.2019 14:54:22
+2019-01-31 15:04:25,305  DEBUG Starting the schedule forecast in31.01.2019 17:00:00
+2019-01-31 15:59:43,660  DEBUG Starting the schedule forecast in31.01.2019 17:00:00
+2019-01-31 15:59:47,356  DEBUG Starting the schedule current weather in 31.01.2019 15:59:47
+2019-01-31 15:59:50,673  DEBUG Starting the schedule astro in 01.02.2019 0:30:00
+2019-01-31 16:00:22,082  DEBUG Starting of current weather on schedule in 31.01.2019 16:00:22
+2019-01-31 16:00:31,361  DEBUG Starting of forecasts on schedule in 31.01.2019 16:00:31
+2019-01-31 16:01:06,769  DEBUG Starting UpdateCurrentWeatherForRating in 31.01.2019 16:01:02 time of current weather -   -  null  -  
+2019-01-31 16:02:30,850  DEBUG Starting UpdateCurrentWeatherForRating in 31.01.2019 16:02:22 time of current weather - 31.01.2019 15:45:16
+2019-01-31 16:04:16,163  DEBUG Starting UpdateCurrentWeatherForRating in 31.01.2019 16:04:00 time of current weather - 31.01.2019 15:45:16
+2019-01-31 16:04:45,203  DEBUG Starting of current weather on schedule in 31.01.2019 16:04:45
+2019-01-31 16:05:40,498  DEBUG Starting UpdateCurrentWeatherForRating in 31.01.2019 16:05:35 time of current weather - 31.01.2019 15:45:16
+2019-01-31 16:06:40,513  DEBUG Starting UpdateCurrentWeatherForRating in 31.01.2019 16:06:40 time of current weather - 31.01.2019 15:45:16
+2019-01-31 16:07:42,816  DEBUG Starting UpdateCurrentWeatherForRating in 31.01.2019 16:07:42 time of current weather - 31.01.2019 15:45:16
+2019-01-31 16:07:45,814  DEBUG Successfully saved the forecast openweathermap.org
+2019-01-31 16:07:49,975  DEBUG Successfully saved the forecast weatherbit.io
+2019-01-31 16:07:52,091  DEBUG Successfully saved the forecast wunderground.com
+2019-01-31 16:08:42,821  DEBUG Starting UpdateCurrentWeatherForRating in 31.01.2019 16:08:42 time of current weather - 31.01.2019 15:45:16
+2019-01-31 16:09:42,825  DEBUG Starting UpdateCurrentWeatherForRating in 31.01.2019 16:09:42 time of current weather - 31.01.2019 15:45:16
+2019-01-31 16:09:45,205  DEBUG Starting of current weather on schedule in 31.01.2019 16:09:45
+2019-01-31 16:11:23,571  DEBUG Stop UpdateCurrentWeatherForRating in 31.01.2019 16:10:58 time of current weather - 31.01.2019 16:00:20
+2019-01-31 16:11:29,487  DEBUG Starting rating process at 31.01.2019 16:11:29
+2019-01-31 16:11:31,583  ERROR An error occurred because there are no forecasts on 31.01.2019 16:00:00
+2019-01-31 16:11:33,822  ERROR An error occurred while trying to save ratings
+2019-01-31 16:11:39,715  DEBUG Starting rating process retriving a best rating at 31.01.2019 16:11:39
+2019-01-31 16:15:02,211  DEBUG Starting the schedule forecast in31.01.2019 17:00:00
+2019-01-31 16:40:04,643  DEBUG Starting the schedule forecast in31.01.2019 17:00:00
+2019-01-31 16:40:08,599  DEBUG Starting the schedule current weather in 31.01.2019 16:40:08
+2019-01-31 16:40:08,600  DEBUG Starting the schedule astro in 01.02.2019 0:30:00
+2019-01-31 16:40:16,635  DEBUG Starting of current weather on schedule in 31.01.2019 16:40:16
+2019-01-31 16:40:30,567  DEBUG Starting of forecasts on schedule in 31.01.2019 16:40:30
+2019-01-31 16:40:34,924  DEBUG Starting UpdateCurrentWeatherForRating in 31.01.2019 16:40:34 time of current weather -   -  null  -  
+2019-01-31 16:52:24,213  DEBUG Starting the schedule forecast in31.01.2019 17:00:00
+2019-01-31 16:52:24,233  DEBUG Starting the schedule current weather in 31.01.2019 16:52:24
+2019-01-31 16:52:24,233  DEBUG Starting the schedule astro in 01.02.2019 0:30:00
+2019-01-31 16:52:24,283  DEBUG Starting of current weather on schedule in 31.01.2019 16:52:24
+2019-01-31 16:57:24,230  DEBUG Starting of current weather on schedule in 31.01.2019 16:57:24
+2019-01-31 17:00:03,650  DEBUG Starting of forecasts on schedule in 31.01.2019 17:00:03
+2019-01-31 17:00:05,472  DEBUG Starting UpdateCurrentWeatherForRating in 31.01.2019 17:00:05 time of current weather - 31.01.2019 16:45:15
+2019-01-31 17:01:05,481  DEBUG Starting UpdateCurrentWeatherForRating in 31.01.2019 17:01:05 time of current weather - 31.01.2019 16:45:15
+2019-01-31 17:02:05,484  DEBUG Starting UpdateCurrentWeatherForRating in 31.01.2019 17:02:05 time of current weather - 31.01.2019 16:45:15
+2019-01-31 17:02:24,226  DEBUG Starting of current weather on schedule in 31.01.2019 17:02:24
+2019-01-31 17:03:05,490  DEBUG Starting UpdateCurrentWeatherForRating in 31.01.2019 17:03:05 time of current weather - 31.01.2019 16:45:15
+2019-01-31 17:04:05,494  DEBUG Starting UpdateCurrentWeatherForRating in 31.01.2019 17:04:05 time of current weather - 31.01.2019 16:45:15
+2019-01-31 17:05:05,496  DEBUG Starting UpdateCurrentWeatherForRating in 31.01.2019 17:05:05 time of current weather - 31.01.2019 16:45:15
+2019-01-31 17:06:05,523  DEBUG Starting UpdateCurrentWeatherForRating in 31.01.2019 17:06:05 time of current weather - 31.01.2019 16:45:15
+2019-01-31 17:06:20,826  DEBUG Successfully saved the forecast openweathermap.org
+2019-01-31 17:06:23,761  DEBUG Successfully saved the forecast weatherbit.io
+2019-01-31 17:06:29,836  DEBUG Successfully saved the forecast wunderground.com
+2019-01-31 17:07:05,530  DEBUG Starting UpdateCurrentWeatherForRating in 31.01.2019 17:07:05 time of current weather - 31.01.2019 16:45:15
+2019-01-31 17:07:24,228  DEBUG Starting of current weather on schedule in 31.01.2019 17:07:24
+2019-01-31 17:08:05,537  DEBUG Stop UpdateCurrentWeatherForRating in 31.01.2019 17:08:05 time of current weather - 31.01.2019 17:00:15
+2019-01-31 17:08:09,350  DEBUG Starting rating process at 31.01.2019 17:08:09
+2019-01-31 17:08:16,512  DEBUG Starting rating process retriving a best rating at 31.01.2019 17:08:16
+2019-01-31 17:09:45,918  ERROR An error occurred while trying to delete WeatherConditions
+System.Reflection.TargetInvocationException: Адресат вызова создал исключение. ---> System.InvalidOperationException: The class 'WeatherForecast.Models.Weather.WindDirection' has no parameterless constructor.
+   в System.Data.Entity.Core.Objects.DelegateFactory.GetConstructorForType(Type type)
+   в System.Data.Entity.Core.Common.Internal.Materialization.Translator.TranslatorVisitor.Visit(ComplexTypeColumnMap columnMap, TranslatorArg arg)
+   в System.Data.Entity.Core.Query.InternalTrees.ComplexTypeColumnMap.Accept[TResultType,TArgType](ColumnMapVisitorWithResults`2 visitor, TArgType arg)
+   в System.Data.Entity.Core.Common.Internal.Materialization.Translator.TranslatorVisitor.CreatePropertyBindings(StructuredColumnMap columnMap, ReadOnlyMetadataCollection`1 properties)
+   в System.Data.Entity.Core.Common.Internal.Materialization.Translator.TranslatorVisitor.Visit(EntityColumnMap columnMap, TranslatorArg arg)
+   в System.Data.Entity.Core.Query.InternalTrees.EntityColumnMap.Accept[TResultType,TArgType](ColumnMapVisitorWithResults`2 visitor, TArgType arg)
+   в System.Data.Entity.Core.Common.Internal.Materialization.Translator.TranslatorVisitor.Visit(SimplePolymorphicColumnMap columnMap, TranslatorArg arg)
+   в System.Data.Entity.Core.Query.InternalTrees.SimplePolymorphicColumnMap.Accept[TResultType,TArgType](ColumnMapVisitorWithResults`2 visitor, TArgType arg)
+   в System.Data.Entity.Core.Common.Internal.Materialization.Translator.TranslatorVisitor.HandleSpandexRecord(RecordColumnMap columnMap, TranslatorArg arg, RowType spanRowType)
+   в System.Data.Entity.Core.Common.Internal.Materialization.Translator.TranslatorVisitor.Visit(RecordColumnMap columnMap, TranslatorArg arg)
+   в System.Data.Entity.Core.Query.InternalTrees.RecordColumnMap.Accept[TResultType,TArgType](ColumnMapVisitorWithResults`2 visitor, TArgType arg)
+   в System.Data.Entity.Core.Common.Internal.Materialization.Translator.TranslatorVisitor.ProcessCollectionColumnMap(CollectionColumnMap columnMap, TranslatorArg arg, ColumnMap discriminatorColumnMap, Object discriminatorValue)
+   в System.Data.Entity.Core.Common.Internal.Materialization.Translator.TranslatorVisitor.Visit(SimpleCollectionColumnMap columnMap, TranslatorArg arg)
+   в System.Data.Entity.Core.Query.InternalTrees.SimpleCollectionColumnMap.Accept[TResultType,TArgType](ColumnMapVisitorWithResults`2 visitor, TArgType arg)
+   в System.Data.Entity.Core.Common.Internal.Materialization.Translator.TranslateColumnMap[T](ColumnMap columnMap, MetadataWorkspace workspace, SpanIndex spanIndex, MergeOption mergeOption, Boolean streaming, Boolean valueLayer)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   в System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   в System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   в System.Data.Entity.Core.Common.Internal.Materialization.Translator.TranslateColumnMap(Translator translator, Type elementType, ColumnMap columnMap, MetadataWorkspace workspace, SpanIndex spanIndex, MergeOption mergeOption, Boolean streaming, Boolean valueLayer)
+   в System.Data.Entity.Core.Objects.Internal.ObjectQueryExecutionPlanFactory.Prepare(ObjectContext context, DbQueryCommandTree tree, Type elementType, MergeOption mergeOption, Boolean streaming, Span span, IEnumerable`1 compiledQueryParameters, AliasGenerator aliasGenerator)
+   в System.Data.Entity.Core.Objects.EntitySqlQueryState.GetExecutionPlan(Nullable`1 forMergeOption)
+   в System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__6()
+   в System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   в System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   в System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   в System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   в System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   в System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   в System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   в System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   в WeatherForecast.Models.AnalyticForecast.AnalyticForecastFactory.UpDateForecasts(IEnumerable`1 latestForecastsFromSourse, IEnumerable`1 dailyIcons) в D:\VisualStudio_2017\WeatherForecast\WeatherForecast\Models\AnalyticForecast\AnalyticForecastFactory.cs:строка 272
+2019-01-31 19:43:24,762  DEBUG Starting the schedule forecast in31.01.2019 20:00:00
+2019-01-31 19:43:24,772  DEBUG Starting the schedule current weather in 31.01.2019 19:43:24
+2019-01-31 19:43:24,772  DEBUG Starting the schedule astro in 01.02.2019 0:30:00
+2019-01-31 19:43:24,822  DEBUG Starting of current weather on schedule in 31.01.2019 19:43:24
+2019-01-31 19:48:24,776  DEBUG Starting of current weather on schedule in 31.01.2019 19:48:24
+2019-01-31 19:53:24,781  DEBUG Starting of current weather on schedule in 31.01.2019 19:53:24
+2019-01-31 19:58:24,781  DEBUG Starting of current weather on schedule in 31.01.2019 19:58:24
+2019-01-31 20:00:00,374  DEBUG Starting of forecasts on schedule in 31.01.2019 20:00:00
+2019-01-31 20:00:00,384  DEBUG Starting UpdateCurrentWeatherForRating in 31.01.2019 20:00:00 time of current weather - 31.01.2019 19:45:19
+2019-01-31 20:01:00,388  DEBUG Starting UpdateCurrentWeatherForRating in 31.01.2019 20:01:00 time of current weather - 31.01.2019 19:45:19
+2019-01-31 20:02:00,392  DEBUG Starting UpdateCurrentWeatherForRating in 31.01.2019 20:02:00 time of current weather - 31.01.2019 19:45:19
+2019-01-31 20:03:00,392  DEBUG Starting UpdateCurrentWeatherForRating in 31.01.2019 20:03:00 time of current weather - 31.01.2019 19:45:19
+2019-01-31 20:03:24,773  DEBUG Starting of current weather on schedule in 31.01.2019 20:03:24
+2019-01-31 20:04:00,397  DEBUG Starting UpdateCurrentWeatherForRating in 31.01.2019 20:04:00 time of current weather - 31.01.2019 19:45:19
+2019-01-31 20:05:00,397  DEBUG Starting UpdateCurrentWeatherForRating in 31.01.2019 20:05:00 time of current weather - 31.01.2019 19:45:19
+2019-01-31 20:06:00,405  DEBUG Starting UpdateCurrentWeatherForRating in 31.01.2019 20:06:00 time of current weather - 31.01.2019 19:45:19
+2019-01-31 20:06:00,587  DEBUG Successfully saved the forecast openweathermap.org
+2019-01-31 20:06:00,724  DEBUG Successfully saved the forecast weatherbit.io
+2019-01-31 20:06:00,781  DEBUG Successfully saved the forecast wunderground.com
+2019-01-31 20:07:00,409  DEBUG Starting UpdateCurrentWeatherForRating in 31.01.2019 20:07:00 time of current weather - 31.01.2019 19:45:19
+2019-01-31 20:08:00,411  DEBUG Starting UpdateCurrentWeatherForRating in 31.01.2019 20:08:00 time of current weather - 31.01.2019 19:45:19
+2019-01-31 20:08:24,775  DEBUG Starting of current weather on schedule in 31.01.2019 20:08:24
+2019-01-31 20:09:00,418  DEBUG Starting UpdateCurrentWeatherForRating in 31.01.2019 20:09:00 time of current weather - 31.01.2019 19:45:19
+2019-01-31 20:10:00,429  DEBUG Starting UpdateCurrentWeatherForRating in 31.01.2019 20:10:00 time of current weather - 31.01.2019 19:45:19
+2019-01-31 20:11:00,437  DEBUG Starting UpdateCurrentWeatherForRating in 31.01.2019 20:11:00 time of current weather - 31.01.2019 19:45:19
+2019-01-31 20:12:00,443  DEBUG Starting UpdateCurrentWeatherForRating in 31.01.2019 20:12:00 time of current weather - 31.01.2019 19:45:19
+2019-01-31 20:13:00,443  DEBUG Starting UpdateCurrentWeatherForRating in 31.01.2019 20:13:00 time of current weather - 31.01.2019 19:45:19
+2019-01-31 20:13:24,777  DEBUG Starting of current weather on schedule in 31.01.2019 20:13:24
+2019-01-31 20:14:00,445  DEBUG Stop UpdateCurrentWeatherForRating in 31.01.2019 20:14:00 time of current weather - 31.01.2019 20:00:28
+2019-01-31 20:14:00,445  DEBUG Starting rating process at 31.01.2019 20:14:00
+2019-01-31 20:14:00,825  DEBUG Starting rating process retriving a best rating at 31.01.2019 20:14:00
+2019-01-31 20:14:01,731  ERROR An error occurred while trying to receive astro data by date. In the method : GetAstroByDate
+2019-01-31 21:42:23,593  ERROR An error occurred while trying to delete WeatherConditions
+System.Reflection.TargetInvocationException: Адресат вызова создал исключение. ---> System.InvalidOperationException: The class 'WeatherForecast.Models.Weather.WindDirection' has no parameterless constructor.
+   в System.Data.Entity.Core.Objects.DelegateFactory.GetConstructorForType(Type type)
+   в System.Data.Entity.Core.Common.Internal.Materialization.Translator.TranslatorVisitor.Visit(ComplexTypeColumnMap columnMap, TranslatorArg arg)
+   в System.Data.Entity.Core.Query.InternalTrees.ComplexTypeColumnMap.Accept[TResultType,TArgType](ColumnMapVisitorWithResults`2 visitor, TArgType arg)
+   в System.Data.Entity.Core.Common.Internal.Materialization.Translator.TranslatorVisitor.CreatePropertyBindings(StructuredColumnMap columnMap, ReadOnlyMetadataCollection`1 properties)
+   в System.Data.Entity.Core.Common.Internal.Materialization.Translator.TranslatorVisitor.Visit(EntityColumnMap columnMap, TranslatorArg arg)
+   в System.Data.Entity.Core.Query.InternalTrees.EntityColumnMap.Accept[TResultType,TArgType](ColumnMapVisitorWithResults`2 visitor, TArgType arg)
+   в System.Data.Entity.Core.Common.Internal.Materialization.Translator.TranslatorVisitor.Visit(SimplePolymorphicColumnMap columnMap, TranslatorArg arg)
+   в System.Data.Entity.Core.Query.InternalTrees.SimplePolymorphicColumnMap.Accept[TResultType,TArgType](ColumnMapVisitorWithResults`2 visitor, TArgType arg)
+   в System.Data.Entity.Core.Common.Internal.Materialization.Translator.TranslatorVisitor.HandleSpandexRecord(RecordColumnMap columnMap, TranslatorArg arg, RowType spanRowType)
+   в System.Data.Entity.Core.Common.Internal.Materialization.Translator.TranslatorVisitor.Visit(RecordColumnMap columnMap, TranslatorArg arg)
+   в System.Data.Entity.Core.Query.InternalTrees.RecordColumnMap.Accept[TResultType,TArgType](ColumnMapVisitorWithResults`2 visitor, TArgType arg)
+   в System.Data.Entity.Core.Common.Internal.Materialization.Translator.TranslatorVisitor.ProcessCollectionColumnMap(CollectionColumnMap columnMap, TranslatorArg arg, ColumnMap discriminatorColumnMap, Object discriminatorValue)
+   в System.Data.Entity.Core.Common.Internal.Materialization.Translator.TranslatorVisitor.Visit(SimpleCollectionColumnMap columnMap, TranslatorArg arg)
+   в System.Data.Entity.Core.Query.InternalTrees.SimpleCollectionColumnMap.Accept[TResultType,TArgType](ColumnMapVisitorWithResults`2 visitor, TArgType arg)
+   в System.Data.Entity.Core.Common.Internal.Materialization.Translator.TranslateColumnMap[T](ColumnMap columnMap, MetadataWorkspace workspace, SpanIndex spanIndex, MergeOption mergeOption, Boolean streaming, Boolean valueLayer)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   в System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   в System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   в System.Data.Entity.Core.Common.Internal.Materialization.Translator.TranslateColumnMap(Translator translator, Type elementType, ColumnMap columnMap, MetadataWorkspace workspace, SpanIndex spanIndex, MergeOption mergeOption, Boolean streaming, Boolean valueLayer)
+   в System.Data.Entity.Core.Objects.Internal.ObjectQueryExecutionPlanFactory.Prepare(ObjectContext context, DbQueryCommandTree tree, Type elementType, MergeOption mergeOption, Boolean streaming, Span span, IEnumerable`1 compiledQueryParameters, AliasGenerator aliasGenerator)
+   в System.Data.Entity.Core.Objects.EntitySqlQueryState.GetExecutionPlan(Nullable`1 forMergeOption)
+   в System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__6()
+   в System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   в System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   в System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   в System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   в System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   в System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   в System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   в System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   в WeatherForecast.Models.AnalyticForecast.AnalyticForecastFactory.UpDateForecasts(IEnumerable`1 latestForecastsFromSourse, IEnumerable`1 dailyIcons) в D:\VisualStudio_2017\WeatherForecast\WeatherForecast\Models\AnalyticForecast\AnalyticForecastFactory.cs:строка 272
+2019-01-31 21:44:01,850  DEBUG Starting the schedule forecast in31.01.2019 23:00:00
+2019-01-31 21:44:01,870  DEBUG Starting the schedule current weather in 31.01.2019 21:44:01
+2019-01-31 21:44:01,870  DEBUG Starting the schedule astro in 01.02.2019 0:30:00
+2019-01-31 21:44:01,920  DEBUG Starting of current weather on schedule in 31.01.2019 21:44:01
+2019-01-31 21:44:25,331  ERROR An error occurred while trying to delete WeatherConditions
+System.Reflection.TargetInvocationException: Адресат вызова создал исключение. ---> System.InvalidOperationException: The class 'WeatherForecast.Models.Weather.WindDirection' has no parameterless constructor.
+   в System.Data.Entity.Core.Objects.DelegateFactory.GetConstructorForType(Type type)
+   в System.Data.Entity.Core.Common.Internal.Materialization.Translator.TranslatorVisitor.Visit(ComplexTypeColumnMap columnMap, TranslatorArg arg)
+   в System.Data.Entity.Core.Query.InternalTrees.ComplexTypeColumnMap.Accept[TResultType,TArgType](ColumnMapVisitorWithResults`2 visitor, TArgType arg)
+   в System.Data.Entity.Core.Common.Internal.Materialization.Translator.TranslatorVisitor.CreatePropertyBindings(StructuredColumnMap columnMap, ReadOnlyMetadataCollection`1 properties)
+   в System.Data.Entity.Core.Common.Internal.Materialization.Translator.TranslatorVisitor.Visit(EntityColumnMap columnMap, TranslatorArg arg)
+   в System.Data.Entity.Core.Query.InternalTrees.EntityColumnMap.Accept[TResultType,TArgType](ColumnMapVisitorWithResults`2 visitor, TArgType arg)
+   в System.Data.Entity.Core.Common.Internal.Materialization.Translator.TranslatorVisitor.Visit(SimplePolymorphicColumnMap columnMap, TranslatorArg arg)
+   в System.Data.Entity.Core.Query.InternalTrees.SimplePolymorphicColumnMap.Accept[TResultType,TArgType](ColumnMapVisitorWithResults`2 visitor, TArgType arg)
+   в System.Data.Entity.Core.Common.Internal.Materialization.Translator.TranslatorVisitor.HandleSpandexRecord(RecordColumnMap columnMap, TranslatorArg arg, RowType spanRowType)
+   в System.Data.Entity.Core.Common.Internal.Materialization.Translator.TranslatorVisitor.Visit(RecordColumnMap columnMap, TranslatorArg arg)
+   в System.Data.Entity.Core.Query.InternalTrees.RecordColumnMap.Accept[TResultType,TArgType](ColumnMapVisitorWithResults`2 visitor, TArgType arg)
+   в System.Data.Entity.Core.Common.Internal.Materialization.Translator.TranslatorVisitor.ProcessCollectionColumnMap(CollectionColumnMap columnMap, TranslatorArg arg, ColumnMap discriminatorColumnMap, Object discriminatorValue)
+   в System.Data.Entity.Core.Common.Internal.Materialization.Translator.TranslatorVisitor.Visit(SimpleCollectionColumnMap columnMap, TranslatorArg arg)
+   в System.Data.Entity.Core.Query.InternalTrees.SimpleCollectionColumnMap.Accept[TResultType,TArgType](ColumnMapVisitorWithResults`2 visitor, TArgType arg)
+   в System.Data.Entity.Core.Common.Internal.Materialization.Translator.TranslateColumnMap[T](ColumnMap columnMap, MetadataWorkspace workspace, SpanIndex spanIndex, MergeOption mergeOption, Boolean streaming, Boolean valueLayer)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   в System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   в System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   в System.Data.Entity.Core.Common.Internal.Materialization.Translator.TranslateColumnMap(Translator translator, Type elementType, ColumnMap columnMap, MetadataWorkspace workspace, SpanIndex spanIndex, MergeOption mergeOption, Boolean streaming, Boolean valueLayer)
+   в System.Data.Entity.Core.Objects.Internal.ObjectQueryExecutionPlanFactory.Prepare(ObjectContext context, DbQueryCommandTree tree, Type elementType, MergeOption mergeOption, Boolean streaming, Span span, IEnumerable`1 compiledQueryParameters, AliasGenerator aliasGenerator)
+   в System.Data.Entity.Core.Objects.EntitySqlQueryState.GetExecutionPlan(Nullable`1 forMergeOption)
+   в System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__6()
+   в System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   в System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   в System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   в System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   в System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   в System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   в System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   в System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   в WeatherForecast.Controllers.HomeController.Index()
+2019-01-31 21:44:57,610  DEBUG Starting the schedule forecast in31.01.2019 23:00:00
+2019-01-31 21:44:57,630  DEBUG Starting the schedule current weather in 31.01.2019 21:44:57
+2019-01-31 21:44:57,630  DEBUG Starting the schedule astro in 01.02.2019 0:30:00
+2019-01-31 21:44:57,736  DEBUG Starting of current weather on schedule in 31.01.2019 21:44:57
+2019-01-31 21:46:25,478  DEBUG Starting the schedule forecast in31.01.2019 23:00:00
+2019-01-31 21:46:25,498  DEBUG Starting the schedule current weather in 31.01.2019 21:46:25
+2019-01-31 21:46:25,498  DEBUG Starting the schedule astro in 01.02.2019 0:30:00
+2019-01-31 21:46:25,548  DEBUG Starting of current weather on schedule in 31.01.2019 21:46:25
+2019-01-31 21:46:30,030  ERROR An error occurred while trying to delete WeatherConditions
+System.Reflection.TargetInvocationException: Адресат вызова создал исключение. ---> System.InvalidOperationException: The class 'WeatherForecast.Models.Weather.WindDirection' has no parameterless constructor.
+   в System.Data.Entity.Core.Objects.DelegateFactory.GetConstructorForType(Type type)
+   в System.Data.Entity.Core.Common.Internal.Materialization.Translator.TranslatorVisitor.Visit(ComplexTypeColumnMap columnMap, TranslatorArg arg)
+   в System.Data.Entity.Core.Query.InternalTrees.ComplexTypeColumnMap.Accept[TResultType,TArgType](ColumnMapVisitorWithResults`2 visitor, TArgType arg)
+   в System.Data.Entity.Core.Common.Internal.Materialization.Translator.TranslatorVisitor.CreatePropertyBindings(StructuredColumnMap columnMap, ReadOnlyMetadataCollection`1 properties)
+   в System.Data.Entity.Core.Common.Internal.Materialization.Translator.TranslatorVisitor.Visit(EntityColumnMap columnMap, TranslatorArg arg)
+   в System.Data.Entity.Core.Query.InternalTrees.EntityColumnMap.Accept[TResultType,TArgType](ColumnMapVisitorWithResults`2 visitor, TArgType arg)
+   в System.Data.Entity.Core.Common.Internal.Materialization.Translator.TranslatorVisitor.Visit(SimplePolymorphicColumnMap columnMap, TranslatorArg arg)
+   в System.Data.Entity.Core.Query.InternalTrees.SimplePolymorphicColumnMap.Accept[TResultType,TArgType](ColumnMapVisitorWithResults`2 visitor, TArgType arg)
+   в System.Data.Entity.Core.Common.Internal.Materialization.Translator.TranslatorVisitor.HandleSpandexRecord(RecordColumnMap columnMap, TranslatorArg arg, RowType spanRowType)
+   в System.Data.Entity.Core.Common.Internal.Materialization.Translator.TranslatorVisitor.Visit(RecordColumnMap columnMap, TranslatorArg arg)
+   в System.Data.Entity.Core.Query.InternalTrees.RecordColumnMap.Accept[TResultType,TArgType](ColumnMapVisitorWithResults`2 visitor, TArgType arg)
+   в System.Data.Entity.Core.Common.Internal.Materialization.Translator.TranslatorVisitor.ProcessCollectionColumnMap(CollectionColumnMap columnMap, TranslatorArg arg, ColumnMap discriminatorColumnMap, Object discriminatorValue)
+   в System.Data.Entity.Core.Common.Internal.Materialization.Translator.TranslatorVisitor.Visit(SimpleCollectionColumnMap columnMap, TranslatorArg arg)
+   в System.Data.Entity.Core.Query.InternalTrees.SimpleCollectionColumnMap.Accept[TResultType,TArgType](ColumnMapVisitorWithResults`2 visitor, TArgType arg)
+   в System.Data.Entity.Core.Common.Internal.Materialization.Translator.TranslateColumnMap[T](ColumnMap columnMap, MetadataWorkspace workspace, SpanIndex spanIndex, MergeOption mergeOption, Boolean streaming, Boolean valueLayer)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   в System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   в System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   в System.Data.Entity.Core.Common.Internal.Materialization.Translator.TranslateColumnMap(Translator translator, Type elementType, ColumnMap columnMap, MetadataWorkspace workspace, SpanIndex spanIndex, MergeOption mergeOption, Boolean streaming, Boolean valueLayer)
+   в System.Data.Entity.Core.Objects.Internal.ObjectQueryExecutionPlanFactory.Prepare(ObjectContext context, DbQueryCommandTree tree, Type elementType, MergeOption mergeOption, Boolean streaming, Span span, IEnumerable`1 compiledQueryParameters, AliasGenerator aliasGenerator)
+   в System.Data.Entity.Core.Objects.EntitySqlQueryState.GetExecutionPlan(Nullable`1 forMergeOption)
+   в System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__6()
+   в System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   в System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   в System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   в System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   в System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   в System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   в WeatherForecast.Controllers.HomeController.Index() в D:\VisualStudio_2017\WeatherForecast\WeatherForecast\Controllers\HomeController.cs:строка 52
+2019-01-31 21:46:55,257  DEBUG Starting the schedule forecast in31.01.2019 23:00:00
+2019-01-31 21:46:55,276  DEBUG Starting the schedule current weather in 31.01.2019 21:46:55
+2019-01-31 21:46:55,277  DEBUG Starting the schedule astro in 01.02.2019 0:30:00
+2019-01-31 21:46:55,329  DEBUG Starting of current weather on schedule in 31.01.2019 21:46:55
+2019-01-31 21:48:23,848  DEBUG Starting the schedule forecast in31.01.2019 23:00:00
+2019-01-31 21:48:23,858  DEBUG Starting the schedule current weather in 31.01.2019 21:48:23
+2019-01-31 21:48:23,868  DEBUG Starting the schedule astro in 01.02.2019 0:30:00
+2019-01-31 21:48:23,908  DEBUG Starting of current weather on schedule in 31.01.2019 21:48:23
+2019-01-31 21:50:00,470  DEBUG Starting the schedule forecast in31.01.2019 23:00:00
+2019-01-31 21:50:00,504  DEBUG Starting the schedule current weather in 31.01.2019 21:50:00
+2019-01-31 21:50:00,505  DEBUG Starting the schedule astro in 01.02.2019 0:30:00
+2019-01-31 21:50:00,552  DEBUG Starting of current weather on schedule in 31.01.2019 21:50:00

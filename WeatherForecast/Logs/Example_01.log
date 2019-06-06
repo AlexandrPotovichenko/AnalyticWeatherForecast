@@ -1,0 +1,194 @@
+2019-02-01 00:01:33,363  DEBUG Starting of current weather on schedule in 01.02.2019 0:01:33
+2019-02-01 10:33:43,604  DEBUG Starting the schedule forecast in01.02.2019 11:00:00
+2019-02-01 10:33:43,617  DEBUG Starting the schedule current weather in 01.02.2019 10:33:43
+2019-02-01 10:33:43,617  DEBUG Starting the schedule astro in 02.02.2019 0:30:00
+2019-02-01 10:33:43,656  DEBUG Starting of current weather on schedule in 01.02.2019 10:33:43
+2019-02-01 10:38:43,615  DEBUG Starting of current weather on schedule in 01.02.2019 10:38:43
+2019-02-01 10:43:43,615  DEBUG Starting of current weather on schedule in 01.02.2019 10:43:43
+2019-02-01 10:48:43,615  DEBUG Starting of current weather on schedule in 01.02.2019 10:48:43
+2019-02-01 10:48:49,519  ERROR An error occurred while trying to get current weather from the source: openweathermap.org; in the method : GetCurrentWeather; by the address http://api.openweathermap.org/data/2.5/weather?q=Odessa,ua&units=metric&APPID=9c22b55a2f9c0b8b8400d4618f13582f
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: Cannot convert null to "bool" because it is a non-nullable value type
+   в CallSite.Target(Closure , CallSite , Object )
+   в System.Dynamic.UpdateDelegates.UpdateAndExecute1[T0,TRet](CallSite site, T0 arg0)
+   в WeatherForecast.Models.WeatherSources.OpenWeatherMap.GetCurrentWeather() в D:\VisualStudio_2017\WeatherForecast\WeatherForecast\Models\WeatherSources\OpenWeatherMap.cs:строка 259
+2019-02-01 10:58:43,619  DEBUG Starting of current weather on schedule in 01.02.2019 10:58:43
+2019-02-01 10:58:43,919  ERROR An error occurred while trying to get current weather from the source: openweathermap.org; in the method : GetCurrentWeather; by the address http://api.openweathermap.org/data/2.5/weather?q=Odessa,ua&units=metric&APPID=9c22b55a2f9c0b8b8400d4618f13582f
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: Cannot convert null to "bool" because it is a non-nullable value type
+   в CallSite.Target(Closure , CallSite , Object )
+   в WeatherForecast.Models.WeatherSources.OpenWeatherMap.GetCurrentWeather()
+2019-02-01 11:00:13,734  DEBUG Starting of forecasts on schedule in 01.02.2019 11:00:13
+2019-02-01 11:00:13,734  DEBUG Starting UpdateCurrentWeatherForRating in 01.02.2019 11:00:13 time of current weather - 01.02.2019 10:15:11
+2019-02-01 11:01:13,738  DEBUG Starting UpdateCurrentWeatherForRating in 01.02.2019 11:01:13 time of current weather - 01.02.2019 10:15:11
+2019-02-01 11:02:13,740  DEBUG Starting UpdateCurrentWeatherForRating in 01.02.2019 11:02:13 time of current weather - 01.02.2019 10:15:11
+2019-02-01 11:03:13,746  DEBUG Starting UpdateCurrentWeatherForRating in 01.02.2019 11:03:13 time of current weather - 01.02.2019 10:15:11
+2019-02-01 11:03:43,620  DEBUG Starting of current weather on schedule in 01.02.2019 11:03:43
+2019-02-01 11:04:13,746  DEBUG Stop UpdateCurrentWeatherForRating in 01.02.2019 11:04:13 time of current weather - 01.02.2019 11:00:10
+2019-02-01 11:06:13,924  DEBUG Successfully saved the forecast openweathermap.org
+2019-02-01 11:06:13,974  DEBUG Successfully saved the forecast weatherbit.io
+2019-02-01 11:06:14,024  DEBUG Successfully saved the forecast wunderground.com
+2019-02-01 11:06:14,024  DEBUG Starting rating process at 01.02.2019 11:06:14
+2019-02-01 11:06:14,074  ERROR An error occurred because there are no forecasts on 01.02.2019 11:00:00
+2019-02-01 11:06:14,074  ERROR An error occurred while trying to save ratings
+2019-02-01 11:06:14,074  DEBUG Starting rating process retriving a best rating at 01.02.2019 11:06:14
+2019-02-01 11:08:43,618  DEBUG Starting of current weather on schedule in 01.02.2019 11:08:43
+2019-02-01 11:13:43,621  DEBUG Starting of current weather on schedule in 01.02.2019 11:13:43
+2019-02-01 11:18:43,623  DEBUG Starting of current weather on schedule in 01.02.2019 11:18:43
+2019-02-01 11:23:43,616  DEBUG Starting of current weather on schedule in 01.02.2019 11:23:43
+2019-02-01 11:28:43,623  DEBUG Starting of current weather on schedule in 01.02.2019 11:28:43
+2019-02-01 11:33:43,622  DEBUG Starting of current weather on schedule in 01.02.2019 11:33:43
+2019-02-01 11:38:43,618  DEBUG Starting of current weather on schedule in 01.02.2019 11:38:43
+2019-02-01 11:43:43,625  DEBUG Starting of current weather on schedule in 01.02.2019 11:43:43
+2019-02-01 11:48:43,620  DEBUG Starting of current weather on schedule in 01.02.2019 11:48:43
+2019-02-01 11:53:43,624  DEBUG Starting of current weather on schedule in 01.02.2019 11:53:43
+2019-02-01 11:58:43,624  DEBUG Starting of current weather on schedule in 01.02.2019 11:58:43
+2019-02-01 12:03:43,619  DEBUG Starting of current weather on schedule in 01.02.2019 12:03:43
+2019-02-01 12:08:43,623  DEBUG Starting of current weather on schedule in 01.02.2019 12:08:43
+2019-02-01 12:13:43,620  DEBUG Starting of current weather on schedule in 01.02.2019 12:13:43
+2019-02-01 12:18:43,618  DEBUG Starting of current weather on schedule in 01.02.2019 12:18:43
+2019-02-01 12:23:43,616  DEBUG Starting of current weather on schedule in 01.02.2019 12:23:43
+2019-02-01 12:28:43,620  DEBUG Starting of current weather on schedule in 01.02.2019 12:28:43
+2019-02-01 12:33:43,616  DEBUG Starting of current weather on schedule in 01.02.2019 12:33:43
+2019-02-01 12:38:43,620  DEBUG Starting of current weather on schedule in 01.02.2019 12:38:43
+2019-02-01 12:43:43,618  DEBUG Starting of current weather on schedule in 01.02.2019 12:43:43
+2019-02-01 12:48:43,620  DEBUG Starting of current weather on schedule in 01.02.2019 12:48:43
+2019-02-01 12:53:43,619  DEBUG Starting of current weather on schedule in 01.02.2019 12:53:43
+2019-02-01 12:58:43,622  DEBUG Starting of current weather on schedule in 01.02.2019 12:58:43
+2019-02-01 13:03:43,624  DEBUG Starting of current weather on schedule in 01.02.2019 13:03:43
+2019-02-01 13:08:43,623  DEBUG Starting of current weather on schedule in 01.02.2019 13:08:43
+2019-02-01 13:13:43,615  DEBUG Starting of current weather on schedule in 01.02.2019 13:13:43
+2019-02-01 13:18:43,622  DEBUG Starting of current weather on schedule in 01.02.2019 13:18:43
+2019-02-01 13:23:43,621  DEBUG Starting of current weather on schedule in 01.02.2019 13:23:43
+2019-02-01 13:28:43,622  DEBUG Starting of current weather on schedule in 01.02.2019 13:28:43
+2019-02-01 13:33:43,617  DEBUG Starting of current weather on schedule in 01.02.2019 13:33:43
+2019-02-01 13:38:43,624  DEBUG Starting of current weather on schedule in 01.02.2019 13:38:43
+2019-02-01 13:43:43,615  DEBUG Starting of current weather on schedule in 01.02.2019 13:43:43
+2019-02-01 13:48:43,619  DEBUG Starting of current weather on schedule in 01.02.2019 13:48:43
+2019-02-01 13:53:43,620  DEBUG Starting of current weather on schedule in 01.02.2019 13:53:43
+2019-02-01 13:58:43,691  DEBUG Starting of current weather on schedule in 01.02.2019 13:58:43
+2019-02-01 14:00:00,028  DEBUG Starting of forecasts on schedule in 01.02.2019 14:00:00
+2019-02-01 14:00:00,028  DEBUG Starting UpdateCurrentWeatherForRating in 01.02.2019 14:00:00 time of current weather - 01.02.2019 13:30:00
+2019-02-01 14:01:00,031  DEBUG Starting UpdateCurrentWeatherForRating in 01.02.2019 14:01:00 time of current weather - 01.02.2019 13:30:00
+2019-02-01 14:02:00,031  DEBUG Starting UpdateCurrentWeatherForRating in 01.02.2019 14:02:00 time of current weather - 01.02.2019 13:30:00
+2019-02-01 14:03:00,038  DEBUG Starting UpdateCurrentWeatherForRating in 01.02.2019 14:03:00 time of current weather - 01.02.2019 13:30:00
+2019-02-01 14:03:43,623  DEBUG Starting of current weather on schedule in 01.02.2019 14:03:43
+2019-02-01 14:04:00,043  DEBUG Starting UpdateCurrentWeatherForRating in 01.02.2019 14:04:00 time of current weather - 01.02.2019 13:30:00
+2019-02-01 14:05:00,043  DEBUG Starting UpdateCurrentWeatherForRating in 01.02.2019 14:05:00 time of current weather - 01.02.2019 13:30:00
+2019-02-01 14:06:00,051  DEBUG Starting UpdateCurrentWeatherForRating in 01.02.2019 14:06:00 time of current weather - 01.02.2019 13:30:00
+2019-02-01 14:06:00,171  DEBUG Successfully saved the forecast openweathermap.org
+2019-02-01 14:06:00,231  DEBUG Successfully saved the forecast weatherbit.io
+2019-02-01 14:06:00,301  DEBUG Successfully saved the forecast wunderground.com
+2019-02-01 14:07:00,053  DEBUG Starting UpdateCurrentWeatherForRating in 01.02.2019 14:07:00 time of current weather - 01.02.2019 13:30:00
+2019-02-01 14:08:00,053  DEBUG Starting UpdateCurrentWeatherForRating in 01.02.2019 14:08:00 time of current weather - 01.02.2019 13:30:00
+2019-02-01 14:08:43,617  DEBUG Starting of current weather on schedule in 01.02.2019 14:08:43
+2019-02-01 14:09:00,055  DEBUG Starting UpdateCurrentWeatherForRating in 01.02.2019 14:09:00 time of current weather - 01.02.2019 13:30:00
+2019-02-01 14:10:00,059  DEBUG Starting UpdateCurrentWeatherForRating in 01.02.2019 14:10:00 time of current weather - 01.02.2019 13:30:00
+2019-02-01 14:11:00,065  DEBUG Starting UpdateCurrentWeatherForRating in 01.02.2019 14:11:00 time of current weather - 01.02.2019 13:30:00
+2019-02-01 14:12:00,072  DEBUG Starting UpdateCurrentWeatherForRating in 01.02.2019 14:12:00 time of current weather - 01.02.2019 13:30:00
+2019-02-01 14:13:00,077  DEBUG Starting UpdateCurrentWeatherForRating in 01.02.2019 14:13:00 time of current weather - 01.02.2019 13:30:00
+2019-02-01 14:13:43,621  DEBUG Starting of current weather on schedule in 01.02.2019 14:13:43
+2019-02-01 14:14:00,083  DEBUG Starting UpdateCurrentWeatherForRating in 01.02.2019 14:14:00 time of current weather - 01.02.2019 14:13:47
+2019-02-01 14:15:00,089  DEBUG Starting UpdateCurrentWeatherForRating in 01.02.2019 14:15:00 time of current weather - 01.02.2019 14:13:47
+2019-02-01 14:16:00,091  DEBUG Starting UpdateCurrentWeatherForRating in 01.02.2019 14:16:00 time of current weather - 01.02.2019 14:13:47
+2019-02-01 14:17:00,097  DEBUG Starting UpdateCurrentWeatherForRating in 01.02.2019 14:17:00 time of current weather - 01.02.2019 14:13:47
+2019-02-01 14:18:00,101  DEBUG Starting UpdateCurrentWeatherForRating in 01.02.2019 14:18:00 time of current weather - 01.02.2019 14:13:47
+2019-02-01 14:18:43,615  DEBUG Starting of current weather on schedule in 01.02.2019 14:18:43
+2019-02-01 14:19:00,103  DEBUG Starting UpdateCurrentWeatherForRating in 01.02.2019 14:19:00 time of current weather - 01.02.2019 14:13:47
+2019-02-01 14:20:00,103  DEBUG Starting UpdateCurrentWeatherForRating in 01.02.2019 14:20:00 time of current weather - 01.02.2019 14:13:47
+2019-02-01 14:21:00,112  DEBUG Starting UpdateCurrentWeatherForRating in 01.02.2019 14:21:00 time of current weather - 01.02.2019 14:13:47
+2019-02-01 14:22:00,120  DEBUG Starting UpdateCurrentWeatherForRating in 01.02.2019 14:22:00 time of current weather - 01.02.2019 14:13:47
+2019-02-01 14:23:00,124  DEBUG Starting UpdateCurrentWeatherForRating in 01.02.2019 14:23:00 time of current weather - 01.02.2019 14:13:47
+2019-02-01 14:23:43,624  DEBUG Starting of current weather on schedule in 01.02.2019 14:23:43
+2019-02-01 14:24:00,126  DEBUG Starting UpdateCurrentWeatherForRating in 01.02.2019 14:24:00 time of current weather - 01.02.2019 14:13:47
+2019-02-01 14:25:00,204  DEBUG Starting UpdateCurrentWeatherForRating in 01.02.2019 14:25:00 time of current weather - 01.02.2019 14:13:47
+2019-02-01 14:26:00,209  DEBUG Starting UpdateCurrentWeatherForRating in 01.02.2019 14:26:00 time of current weather - 01.02.2019 14:13:47
+2019-02-01 14:27:00,217  DEBUG Starting UpdateCurrentWeatherForRating in 01.02.2019 14:27:00 time of current weather - 01.02.2019 14:13:47
+2019-02-01 14:28:00,224  DEBUG Starting UpdateCurrentWeatherForRating in 01.02.2019 14:28:00 time of current weather - 01.02.2019 14:13:47
+2019-02-01 14:28:43,625  DEBUG Starting of current weather on schedule in 01.02.2019 14:28:43
+2019-02-01 14:29:00,231  DEBUG Starting UpdateCurrentWeatherForRating in 01.02.2019 14:29:00 time of current weather - 01.02.2019 14:13:47
+2019-02-01 14:30:00,233  DEBUG Starting UpdateCurrentWeatherForRating in 01.02.2019 14:30:00 time of current weather - 01.02.2019 14:13:47
+2019-02-01 14:31:00,233  DEBUG Starting UpdateCurrentWeatherForRating in 01.02.2019 14:31:00 time of current weather - 01.02.2019 14:13:47
+2019-02-01 14:32:00,234  DEBUG Starting UpdateCurrentWeatherForRating in 01.02.2019 14:32:00 time of current weather - 01.02.2019 14:13:47
+2019-02-01 14:33:00,244  DEBUG Starting UpdateCurrentWeatherForRating in 01.02.2019 14:33:00 time of current weather - 01.02.2019 14:13:47
+2019-02-01 14:33:43,622  DEBUG Starting of current weather on schedule in 01.02.2019 14:33:43
+2019-02-01 14:34:00,253  DEBUG Starting UpdateCurrentWeatherForRating in 01.02.2019 14:34:00 time of current weather - 01.02.2019 14:13:47
+2019-02-01 14:35:00,255  DEBUG Starting UpdateCurrentWeatherForRating in 01.02.2019 14:35:00 time of current weather - 01.02.2019 14:13:47
+2019-02-01 14:36:00,261  DEBUG Starting UpdateCurrentWeatherForRating in 01.02.2019 14:36:00 time of current weather - 01.02.2019 14:13:47
+2019-02-01 14:37:00,267  DEBUG Starting UpdateCurrentWeatherForRating in 01.02.2019 14:37:00 time of current weather - 01.02.2019 14:13:47
+2019-02-01 14:38:00,271  DEBUG Starting UpdateCurrentWeatherForRating in 01.02.2019 14:38:00 time of current weather - 01.02.2019 14:13:47
+2019-02-01 14:38:43,618  DEBUG Starting of current weather on schedule in 01.02.2019 14:38:43
+2019-02-01 14:39:00,272  DEBUG Starting UpdateCurrentWeatherForRating in 01.02.2019 14:39:00 time of current weather - 01.02.2019 14:13:47
+2019-02-01 14:40:00,309  DEBUG Starting UpdateCurrentWeatherForRating in 01.02.2019 14:40:00 time of current weather - 01.02.2019 14:13:47
+2019-02-01 14:41:00,317  DEBUG Starting UpdateCurrentWeatherForRating in 01.02.2019 14:41:00 time of current weather - 01.02.2019 14:13:47
+2019-02-01 14:42:00,318  DEBUG Starting UpdateCurrentWeatherForRating in 01.02.2019 14:42:00 time of current weather - 01.02.2019 14:13:47
+2019-02-01 14:43:00,322  DEBUG Starting UpdateCurrentWeatherForRating in 01.02.2019 14:43:00 time of current weather - 01.02.2019 14:13:47
+2019-02-01 14:43:43,616  DEBUG Starting of current weather on schedule in 01.02.2019 14:43:43
+2019-02-01 14:44:00,330  DEBUG Starting UpdateCurrentWeatherForRating in 01.02.2019 14:44:00 time of current weather - 01.02.2019 14:43:47
+2019-02-01 14:45:00,330  DEBUG Starting UpdateCurrentWeatherForRating in 01.02.2019 14:45:00 time of current weather - 01.02.2019 14:43:47
+2019-02-01 14:46:00,335  DEBUG Starting UpdateCurrentWeatherForRating in 01.02.2019 14:46:00 time of current weather - 01.02.2019 14:43:47
+2019-02-01 15:02:13,422  DEBUG Starting the schedule forecast in01.02.2019 17:00:00
+2019-02-01 15:02:13,432  DEBUG Starting the schedule current weather in 01.02.2019 15:02:13
+2019-02-01 15:02:13,432  DEBUG Starting the schedule astro in 02.02.2019 0:30:00
+2019-02-01 15:02:13,482  DEBUG Starting of current weather on schedule in 01.02.2019 15:02:13
+2019-02-01 15:04:06,873  ERROR An error occurred while trying to get current weather from the source: openweathermap.org; in the method : GetCurrentWeather; by the address http://api.openweathermap.org/data/2.5/weather?q=Odessa,ua&units=metric&APPID=9c22b55a2f9c0b8b8400d4618f13582f
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: Не удается выполнить привязки исполняющей среды по нулевой ссылке
+   в CallSite.Target(Closure , CallSite , Object )
+   в System.Dynamic.UpdateDelegates.UpdateAndExecute1[T0,TRet](CallSite site, T0 arg0)
+   в WeatherForecast.Models.WeatherSources.OpenWeatherMap.GetCurrentWeather() в D:\VisualStudio_2017\WeatherForecast\WeatherForecast\Models\WeatherSources\OpenWeatherMap.cs:строка 258
+2019-02-01 15:04:08,412  ERROR An error occurred while trying to get current weather from the source: openweathermap.org; in the method : GetCurrentWeather; by the address http://api.openweathermap.org/data/2.5/weather?q=Odessa,ua&units=metric&APPID=9c22b55a2f9c0b8b8400d4618f13582f
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: Не удается выполнить привязки исполняющей среды по нулевой ссылке
+   в CallSite.Target(Closure , CallSite , Object )
+   в System.Dynamic.UpdateDelegates.UpdateAndExecute1[T0,TRet](CallSite site, T0 arg0)
+   в WeatherForecast.Models.WeatherSources.OpenWeatherMap.GetCurrentWeather() в D:\VisualStudio_2017\WeatherForecast\WeatherForecast\Models\WeatherSources\OpenWeatherMap.cs:строка 258
+2019-02-01 15:04:36,226  ERROR An error occurred while trying to get current weather from the source: openweathermap.org; in the method : GetCurrentWeather; by the address http://api.openweathermap.org/data/2.5/weather?q=Odessa,ua&units=metric&APPID=9c22b55a2f9c0b8b8400d4618f13582f
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: Не удается выполнить привязки исполняющей среды по нулевой ссылке
+   в CallSite.Target(Closure , CallSite , Object )
+   в WeatherForecast.Models.WeatherSources.OpenWeatherMap.GetCurrentWeather() в D:\VisualStudio_2017\WeatherForecast\WeatherForecast\Models\WeatherSources\OpenWeatherMap.cs:строка 258
+2019-02-01 15:04:41,854  ERROR An error occurred while trying to get current weather from the source: openweathermap.org; in the method : GetCurrentWeather; by the address http://api.openweathermap.org/data/2.5/weather?q=Odessa,ua&units=metric&APPID=9c22b55a2f9c0b8b8400d4618f13582f
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: Не удается выполнить привязки исполняющей среды по нулевой ссылке
+   в CallSite.Target(Closure , CallSite , Object )
+   в WeatherForecast.Models.WeatherSources.OpenWeatherMap.GetCurrentWeather() в D:\VisualStudio_2017\WeatherForecast\WeatherForecast\Models\WeatherSources\OpenWeatherMap.cs:строка 258
+2019-02-01 15:16:58,454  DEBUG Starting the schedule forecast in01.02.2019 17:00:00
+2019-02-01 15:16:58,471  DEBUG Starting the schedule current weather in 01.02.2019 15:16:58
+2019-02-01 15:16:58,471  DEBUG Starting the schedule astro in 02.02.2019 0:30:00
+2019-02-01 15:16:58,556  DEBUG Starting of current weather on schedule in 01.02.2019 15:16:58
+2019-02-01 15:16:59,816  ERROR An error occurred while trying to get current weather from the source: openweathermap.org; in the method : GetCurrentWeather; by the address http://api.openweathermap.org/data/2.5/weather?q=Odessa,ua&units=metric&APPID=9c22b55a2f9c0b8b8400d4618f13582f
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: Не удается выполнить привязки исполняющей среды по нулевой ссылке
+   в CallSite.Target(Closure , CallSite , Object )
+   в System.Dynamic.UpdateDelegates.UpdateAndExecute1[T0,TRet](CallSite site, T0 arg0)
+   в WeatherForecast.Models.WeatherSources.OpenWeatherMap.GetCurrentWeather() в D:\VisualStudio_2017\WeatherForecast\WeatherForecast\Models\WeatherSources\OpenWeatherMap.cs:строка 258
+2019-02-01 15:21:58,475  DEBUG Starting of current weather on schedule in 01.02.2019 15:21:58
+2019-02-01 15:21:58,725  ERROR An error occurred while trying to get current weather from the source: openweathermap.org; in the method : GetCurrentWeather; by the address http://api.openweathermap.org/data/2.5/weather?q=Odessa,ua&units=metric&APPID=9c22b55a2f9c0b8b8400d4618f13582f
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: Не удается выполнить привязки исполняющей среды по нулевой ссылке
+   в CallSite.Target(Closure , CallSite , Object )
+   в WeatherForecast.Models.WeatherSources.OpenWeatherMap.GetCurrentWeather() в D:\VisualStudio_2017\WeatherForecast\WeatherForecast\Models\WeatherSources\OpenWeatherMap.cs:строка 258
+2019-02-01 15:22:54,385  DEBUG Starting the schedule forecast in01.02.2019 17:00:00
+2019-02-01 15:22:54,411  DEBUG Starting the schedule current weather in 01.02.2019 15:22:54
+2019-02-01 15:22:54,412  DEBUG Starting the schedule astro in 02.02.2019 0:30:00
+2019-02-01 15:23:06,550  DEBUG Starting of current weather on schedule in 01.02.2019 15:23:06
+2019-02-01 15:23:13,343  ERROR An error occurred while trying to get current weather from the source: openweathermap.org; in the method : GetCurrentWeather; by the address http://api.openweathermap.org/data/2.5/weather?q=Odessa,ua&units=metric&APPID=9c22b55a2f9c0b8b8400d4618f13582f
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: Не удается выполнить привязки исполняющей среды по нулевой ссылке
+   в CallSite.Target(Closure , CallSite , Object )
+   в System.Dynamic.UpdateDelegates.UpdateAndExecute1[T0,TRet](CallSite site, T0 arg0)
+   в WeatherForecast.Models.WeatherSources.OpenWeatherMap.GetCurrentWeather() в D:\VisualStudio_2017\WeatherForecast\WeatherForecast\Models\WeatherSources\OpenWeatherMap.cs:строка 258
+2019-02-01 15:23:50,775  DEBUG Starting the schedule forecast in01.02.2019 17:00:00
+2019-02-01 15:23:50,785  DEBUG Starting the schedule current weather in 01.02.2019 15:23:50
+2019-02-01 15:23:50,795  DEBUG Starting the schedule astro in 02.02.2019 0:30:00
+2019-02-01 15:23:52,932  DEBUG Starting of current weather on schedule in 01.02.2019 15:23:52
+2019-02-01 15:23:55,904  ERROR An error occurred while trying to get current weather from the source: openweathermap.org; in the method : GetCurrentWeather; by the address http://api.openweathermap.org/data/2.5/weather?q=Odessa,ua&units=metric&APPID=9c22b55a2f9c0b8b8400d4618f13582f
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: Не удается выполнить привязки исполняющей среды по нулевой ссылке
+   в CallSite.Target(Closure , CallSite , Object )
+   в System.Dynamic.UpdateDelegates.UpdateAndExecute1[T0,TRet](CallSite site, T0 arg0)
+   в WeatherForecast.Models.WeatherSources.OpenWeatherMap.GetCurrentWeather() в D:\VisualStudio_2017\WeatherForecast\WeatherForecast\Models\WeatherSources\OpenWeatherMap.cs:строка 258
+2019-02-01 15:24:34,679  DEBUG Starting the schedule forecast in01.02.2019 17:00:00
+2019-02-01 15:24:34,693  DEBUG Starting the schedule current weather in 01.02.2019 15:24:34
+2019-02-01 15:24:34,694  DEBUG Starting the schedule astro in 02.02.2019 0:30:00
+2019-02-01 15:24:38,012  DEBUG Starting of current weather on schedule in 01.02.2019 15:24:38
+2019-02-01 15:25:10,801  ERROR An error occurred while trying to get current weather from the source: openweathermap.org; in the method : GetCurrentWeather; by the address http://api.openweathermap.org/data/2.5/weather?q=Odessa,ua&units=metric&APPID=9c22b55a2f9c0b8b8400d4618f13582f
+Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: Не удается выполнить привязки исполняющей среды по нулевой ссылке
+   в CallSite.Target(Closure , CallSite , Object )
+   в System.Dynamic.UpdateDelegates.UpdateAndExecute1[T0,TRet](CallSite site, T0 arg0)
+   в WeatherForecast.Models.WeatherSources.OpenWeatherMap.GetCurrentWeather() в D:\VisualStudio_2017\WeatherForecast\WeatherForecast\Models\WeatherSources\OpenWeatherMap.cs:строка 258
+2019-02-01 15:25:32,382  DEBUG Starting the schedule forecast in01.02.2019 17:00:00
+2019-02-01 15:25:32,392  DEBUG Starting the schedule current weather in 01.02.2019 15:25:32
+2019-02-01 15:25:32,392  DEBUG Starting the schedule astro in 02.02.2019 0:30:00
+2019-02-01 15:25:41,557  DEBUG Starting of current weather on schedule in 01.02.2019 15:25:41

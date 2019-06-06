@@ -1,0 +1,238 @@
+﻿@model WeatherForecast.Models.ViewModels.AnalyticWeatherForecastView
+@{
+    ViewBag.Title = "Analytic Weather Forecast";
+}
+@*@model WeatherForecast.Models.ViewModels.PrognosticatedWeather*@
+
+
+
+
+
+
+
+
+
+
+@*<div id="card">
+    <div class="front">*@
+<div class="jumbotron area" id="jumbotron">
+    @*<div class="curweather">CURRENT WEATHER</div>*@
+    <div id="jumbodiv">
+    </div>
+    @*<div class="row">
+            <div class="col-sm-4" style="text-align :center">
+                <h2>Back side Odessa 05 March 2018 Monday</h2>
+                <img class="image" src="~/Content/Simple.gif" width="200" height="200" />
+                <h3>SUPER SUNNY</h3>
+
+                <h3>ATTENTION IS VERY HOT</h3>
+                <h3>LIKE IN THE HELL</h3>
+            </div>
+
+            <div class="col-sm-8">
+
+                <div class="container">
+
+                    <p>Latest update :   @DateTime.Now.ToString("dd.MM.yyyy HH:mm")</p>
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>conditions</th>
+                                <th>02:00</th>
+                                <th>05:00</th>
+                                <th>08:00</th>
+                                <th>11:00</th>
+                                <th>14:00</th>
+                                <th>17:00</th>
+                                <th>20:00</th>
+                                <th>23:00</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <td> </td>
+
+                                <td><img class="image" src="~/Content/Simple.gif" width="40" height="40" /></td>
+                                <td><img class="image" src="~/Content/Simple1.gif" width="40" height="40" /></td>
+                                <td><img class="image" src="~/Content/Simple.gif" width="40" height="40" /></td>
+                                <td><img class="image" src="~/Content/Simple1.gif" width="40" height="40" /></td>
+                                <td><img class="image" src="~/Content/Simple.gif" width="40" height="40" /></td>
+                                <td><img class="image" src="~/Content/Simple1.gif" width="40" height="40" /></td>
+                                <td><img class="image" src="~/Content/Simple.gif" width="40" height="40" /></td>
+                                <td><img class="image" src="~/Content/Simple1.gif" width="40" height="40" /></td>
+
+                            </tr>
+
+                            <tr>
+                                <td> </td>
+                                <td>+50</td>
+                            </tr>
+                            <tr>
+                                <td> </td>
+                                <td>+50</td>
+                            </tr>
+                            <tr>
+                                <td> </td>
+                                <td>+50</td>
+                            </tr>
+                            <tr>
+                                <td> </td>
+                                <td>+50</td>
+                            </tr>
+                            <tr>
+                                <td> </td>
+                                <td>+50</td>
+                            </tr>
+                            <tr>
+                                <td> </td>
+                                <td>+50</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+            </div>
+        </div>*@
+
+</div>
+
+@*<div class="row">
+
+        <div class="col-md-2">
+            <div class="area">
+                <h2 style="text-align:center">Today</h2>
+                <h1 style="text-align:center"><img class="image" src="~/Content/Simple.gif" width="100" height="100" /></h1>
+                <p style="text-align:center;font-size:170%">Sunny</p>
+                <p style="text-align:center;font-size:120%"> min  -2 °C<br />max  +2 °C<br />Fallout: 0.0 mm</p>
+
+            </div>
+
+        </div>
+    </div>*@
+
+<div class="row">
+    @{int index = 0;
+        foreach (var df in Model.AllForecasts)
+        {
+            //var url = "/Home/GetForecast?day=" + i;
+            //goAjax(url, list[i].id);
+            //// df.date.DayOfWeek// == DayOfWeek.Thursday
+                    <div class="col-md-2" >
+        @*<div class="area" onmouseover="mouseon(this)" onmouseout="mouseover(this)" onclick="goAjax('/Home/GetForecast?day=' + index, this)">*@
+                        <div class="area daytab"  id=@index onmouseover= "this.classList.add('mouseon')" onmouseout= "this.classList.remove('mouseon')" onclick="goAjax('/Home/GetForecast?day=' + @index, this);" >
+                            <h2 style="text-align:center"> @df.date.DayOfWeek </h2>
+                            <h1 style="text-align:center"><img class="image" src=@df.description.Icon.GetIconURL(true).Replace("~", "") width="100" height="100" /></h1>
+                            <p style="text-align:center;font-size:150%"> @df.description.Description </p>
+                            <p style="text-align:center;font-size:120%"> @df.GetMinTemperature() <br /> @df.GetMaxTemperature() <br /> Fallout: @df.GetFallout()</p>
+
+                        </div>
+    </div>
+
+                index++;
+            }
+        }
+
+    @*<div class="col-md-2" id="firstday">
+        <div class="area" id="firstdayTab" onmouseover="mouseon(this)" onmouseout="mouseover(this)">
+            <h2 style="text-align:center">Today</h2>
+            <h1 style="text-align:center"><img class="image" src="~/Content/Simple.gif" width="100" height="100" /></h1>
+            <p style="text-align:center;font-size:170%">Sunny</p>
+            <p style="text-align:center;font-size:120%"> min  -2 °C<br />max  +2 °C<br />Fallout: 0.0 mm</p>
+
+        </div>
+    </div>
+
+    <div class="col-md-2" id="secondday">
+        <div class="area" id="seconddayTab" onmouseover="mouseon(this)" onmouseout="mouseover(this)">
+            <h2 style="text-align:center">Monday</h2>
+            <h1 style="text-align:center"><img class="image" src="~/Content/Simple.gif" width="100" height="100" /></h1>
+            <p style="text-align:center;font-size:170%">Sunny</p>
+            <p style="text-align:center;font-size:120%"> min  -2 °C<br />max  +2 °C<br />Fallout: 0.0 mm</p>
+        </div>
+    </div>
+
+    <div class="col-md-2">
+        <div class="area">
+            <h2 style="text-align:center">Tuesday</h2>
+            <h1 style="text-align:center"><img class="image" src="~/Content/Simple.gif" width="100" height="100" /></h1>
+            <p style="text-align:center;font-size:170%">Sunny</p>
+            <p style="text-align:center;font-size:120%"> min  -2 °C<br />max  +2 °C<br />Fallout: 0.0 mm</p>
+        </div>
+    </div>
+
+    <div class="col-md-2">
+        <div class="area">
+            <h2 style="text-align:center">Wednesday</h2>
+            <h1 style="text-align:center"><img class="image" src="~/Content/Simple.gif" width="100" height="100" /></h1>
+            <p style="text-align:center;font-size:170%">Sunny</p>
+            <p style="text-align:center;font-size:120%"> min  -2 °C<br />max  +2 °C<br />Fallout: 0.0 mm</p>
+        </div>
+    </div>
+
+    <div class="col-md-2">
+        <div class="area">
+            <h2 style="text-align:center">Thursday</h2>
+            <h1 style="text-align:center"><img class="image" src="~/Content/Simple.gif" width="100" height="100" /></h1>
+            <p style="text-align:center;font-size:170%">Sunny</p>
+            <p style="text-align:center;font-size:120%"> min  -2 °C<br />max  +2 °C<br />Fallout: 0.0 mm</p>
+        </div>
+    </div>
+
+    <div class="col-md-2">
+        <div class="area">
+            <h2 style="text-align:center">Friday</h2>
+            <h1 style="text-align:center"><img class="image" src="~/Content/Simple.gif" width="100" height="100" /></h1>
+            <p style="text-align:center;font-size:170%">Sunny</p>
+            <p style="text-align:center;font-size:120%"> min  -2 °C<br />max  +2 °C<br />Fallout: 0.0 mm</p>
+        </div>
+    </div>*@
+
+
+  
+
+
+</div>
+@*<div class="jumbotron">
+    <h1>@ViewBag.Message</h1>
+    <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
+    <p><a href="http://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
+</div>
+<table>
+    <tr class="header">
+        <td><p>Date</p></td>
+        <td><p>Weather</p></td>
+    </tr>
+    @foreach (WeatherForecast.Models.AnalyticForecast.OneDayForecast b in Model.AllForecasts)
+    {
+        <tr>
+            <td><h3>@b.date.ToString()</h3></td>
+            <td><h3>@b.description.Description</h3></td>
+        </tr>
+            foreach (WeatherForecast.Models.Weather.WeatherCondition f in b.Forecasts)
+            {
+                <tr>
+                    <td><p>@f.date.ToString()</p></td>
+                    <td><p>@f.description.Description</p></td>
+                </tr>
+            }
+
+    }
+</table>
+        <div class="row">
+            <div class="col-md-4">
+                <h2>Getting started</h2>
+                @Html.DisplayForModel()
+                <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
+            </div>
+            <div class="col-md-4">
+                <h2>Get more libraries</h2>
+                <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
+                <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
+            </div>
+            <div class="col-md-4">
+                <h2>Web Hosting</h2>
+                <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
+                <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
+            </div>
+        </div>*@

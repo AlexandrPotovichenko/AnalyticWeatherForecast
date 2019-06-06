@@ -1,0 +1,91 @@
+2018-11-30 17:42:48,412  DEBUG Starting the schedule forecast in30.11.2018 20:00:00
+2018-11-30 17:42:48,422  DEBUG Starting the schedule current weather in 30.11.2018 17:42:48
+2018-11-30 17:42:48,422  DEBUG Starting the schedule astro in 01.12.2018 0:30:00
+2018-11-30 17:42:48,504  DEBUG Starting of current weather on schedule in 30.11.2018 17:42:48
+2018-11-30 17:43:31,926  ERROR An error occurred while trying to get current weather from the source: Apixu; in the method : GetCurrentWeather; by the address http://api.apixu.com/v1/current.json?key=ae97e7b3f0894de58ea153737171909&q=46.47%2C30.73
+System.Data.SqlClient.SqlException (0x80131904): Cannot create file 'D:\VisualStudio_2017\WeatherForecast\WeatherForecast\App_Data\WeatherForecast.mdf' because it already exists. Change the file path or the file name, and retry the operation.
+CREATE DATABASE failed. Some file names listed could not be created. Check related errors.
+   в System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   в System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   в System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   в System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   в System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   в System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   в System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   в System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<NonQuery>b__0(DbCommand t, DbCommandInterceptionContext`1 c)
+   в System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   в System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.NonQuery(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   в System.Data.Entity.SqlServer.SqlProviderServices.<>c__DisplayClass1a.<CreateDatabaseFromScript>b__19(DbConnection conn)
+   в System.Data.Entity.SqlServer.SqlProviderServices.<>c__DisplayClass33.<UsingConnection>b__32()
+   в System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.<>c__DisplayClass1.<Execute>b__0()
+   в System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   в System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute(Action operation)
+   в System.Data.Entity.SqlServer.SqlProviderServices.UsingConnection(DbConnection sqlConnection, Action`1 act)
+   в System.Data.Entity.SqlServer.SqlProviderServices.UsingMasterConnection(DbConnection sqlConnection, Action`1 act)
+   в System.Data.Entity.SqlServer.SqlProviderServices.CreateDatabaseFromScript(Nullable`1 commandTimeout, DbConnection sqlConnection, String createDatabaseScript)
+   в System.Data.Entity.SqlServer.SqlProviderServices.DbCreateDatabase(DbConnection connection, Nullable`1 commandTimeout, StoreItemCollection storeItemCollection)
+   в System.Data.Entity.Core.Common.DbProviderServices.CreateDatabase(DbConnection connection, Nullable`1 commandTimeout, StoreItemCollection storeItemCollection)
+   в System.Data.Entity.Core.Objects.ObjectContext.CreateDatabase()
+   в System.Data.Entity.Migrations.Utilities.DatabaseCreator.Create(DbConnection connection)
+   в System.Data.Entity.Migrations.DbMigrator.EnsureDatabaseExists(Action mustSucceedToKeepDatabase)
+   в System.Data.Entity.Migrations.DbMigrator.Update(String targetMigration)
+   в System.Data.Entity.Internal.DatabaseCreator.CreateDatabase(InternalContext internalContext, Func`3 createMigrator, ObjectContext objectContext)
+   в System.Data.Entity.Internal.InternalContext.CreateDatabase(ObjectContext objectContext, DatabaseExistenceState existenceState)
+   в System.Data.Entity.Database.Create(DatabaseExistenceState existenceState)
+   в System.Data.Entity.CreateDatabaseIfNotExists`1.InitializeDatabase(TContext context)
+   в System.Data.Entity.Internal.InternalContext.<>c__DisplayClassf`1.<CreateInitializationAction>b__e()
+   в System.Data.Entity.Internal.InternalContext.PerformInitializationAction(Action action)
+   в System.Data.Entity.Internal.InternalContext.PerformDatabaseInitialization()
+   в System.Data.Entity.Internal.LazyInternalContext.<InitializeDatabase>b__4(InternalContext c)
+   в System.Data.Entity.Internal.RetryAction`1.PerformAction(TInput input)
+   в System.Data.Entity.Internal.LazyInternalContext.InitializeDatabaseAction(Action`1 action)
+   в System.Data.Entity.Internal.LazyInternalContext.InitializeDatabase()
+   в System.Data.Entity.Internal.InternalContext.Initialize()
+   в System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   в System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   в System.Data.Entity.Internal.Linq.InternalSet`1.Include(String path)
+   в System.Data.Entity.Infrastructure.DbQuery`1.Include(String path)
+   в WeatherForecast.Models.Weather.WeatherDescription.GetWeatherDescription(String description) в D:\VisualStudio_2017\WeatherForecast\WeatherForecast\Models\Weather\WeatherDescription.cs:строка 81
+   в System.Dynamic.UpdateDelegates.UpdateAndExecute2[T0,T1,TRet](CallSite site, T0 arg0, T1 arg1)
+   в WeatherForecast.Models.WeatherSources.CurrentWeatherSource.GetCurrentWeatherFromApixu() в D:\VisualStudio_2017\WeatherForecast\WeatherForecast\Models\WeatherSources\CurrentWeatherSource.cs:строка 133
+ClientConnectionId:97b77dd1-17bb-4261-938f-d88bed3e09b2
+Error Number: 5170, State: 4, Class: 16
+2018-11-30 17:46:19,459  DEBUG Starting the schedule forecast in30.11.2018 20:00:00
+2018-11-30 17:46:19,479  DEBUG Starting the schedule current weather in 30.11.2018 17:46:19
+2018-11-30 17:46:19,479  DEBUG Starting the schedule astro in 01.12.2018 0:30:00
+2018-11-30 17:46:19,539  DEBUG Starting of current weather on schedule in 30.11.2018 17:46:19
+2018-11-30 17:51:19,474  DEBUG Starting of current weather on schedule in 30.11.2018 17:51:19
+2018-11-30 17:57:20,749  DEBUG Starting the schedule forecast in30.11.2018 20:00:00
+2018-11-30 17:57:20,759  DEBUG Starting the schedule current weather in 30.11.2018 17:57:20
+2018-11-30 17:57:20,759  DEBUG Starting the schedule astro in 01.12.2018 0:30:00
+2018-11-30 17:57:20,829  DEBUG Starting of current weather on schedule in 30.11.2018 17:57:20
+2018-11-30 18:02:20,765  DEBUG Starting of current weather on schedule in 30.11.2018 18:02:20
+2018-11-30 18:07:20,769  DEBUG Starting of current weather on schedule in 30.11.2018 18:07:20
+2018-11-30 18:12:20,761  DEBUG Starting of current weather on schedule in 30.11.2018 18:12:20
+2018-11-30 18:17:20,760  DEBUG Starting of current weather on schedule in 30.11.2018 18:17:20
+2018-11-30 18:22:20,762  DEBUG Starting of current weather on schedule in 30.11.2018 18:22:20
+2018-11-30 18:25:36,929  DEBUG Starting the schedule forecast in30.11.2018 20:00:00
+2018-11-30 18:25:36,942  DEBUG Starting the schedule current weather in 30.11.2018 18:25:36
+2018-11-30 18:25:36,943  DEBUG Starting the schedule astro in 01.12.2018 0:30:00
+2018-11-30 18:25:37,011  DEBUG Starting of current weather on schedule in 30.11.2018 18:25:37
+2018-11-30 18:30:36,942  DEBUG Starting of current weather on schedule in 30.11.2018 18:30:36
+2018-11-30 18:35:36,943  DEBUG Starting of current weather on schedule in 30.11.2018 18:35:36
+2018-11-30 18:40:36,941  DEBUG Starting of current weather on schedule in 30.11.2018 18:40:36
+2018-11-30 18:45:36,943  DEBUG Starting of current weather on schedule in 30.11.2018 18:45:36
+2018-11-30 18:50:36,946  DEBUG Starting of current weather on schedule in 30.11.2018 18:50:36
+2018-11-30 18:55:36,942  DEBUG Starting of current weather on schedule in 30.11.2018 18:55:36
+2018-11-30 19:00:36,943  DEBUG Starting of current weather on schedule in 30.11.2018 19:00:36
+2018-11-30 19:05:37,029  DEBUG Starting of current weather on schedule in 30.11.2018 19:05:37
+2018-11-30 19:10:36,939  DEBUG Starting of current weather on schedule in 30.11.2018 19:10:36
+2018-11-30 19:15:36,940  DEBUG Starting of current weather on schedule in 30.11.2018 19:15:36
+2018-11-30 19:20:36,945  DEBUG Starting of current weather on schedule in 30.11.2018 19:20:36
+2018-11-30 19:25:36,939  DEBUG Starting of current weather on schedule in 30.11.2018 19:25:36
+2018-11-30 19:30:36,939  DEBUG Starting of current weather on schedule in 30.11.2018 19:30:36
+2018-11-30 19:35:36,940  DEBUG Starting of current weather on schedule in 30.11.2018 19:35:36
+2018-11-30 19:40:36,948  DEBUG Starting of current weather on schedule in 30.11.2018 19:40:36
+2018-11-30 19:45:36,942  DEBUG Starting of current weather on schedule in 30.11.2018 19:45:36
+2018-11-30 19:53:35,946  DEBUG Starting the schedule forecast in30.11.2018 20:00:00
+2018-11-30 19:53:35,966  DEBUG Starting the schedule current weather in 30.11.2018 19:53:35
+2018-11-30 19:53:35,966  DEBUG Starting the schedule astro in 01.12.2018 0:30:00
+2018-11-30 19:53:36,006  DEBUG Starting of current weather on schedule in 30.11.2018 19:53:36
+2018-11-30 19:58:35,972  DEBUG Starting of current weather on schedule in 30.11.2018 19:58:35

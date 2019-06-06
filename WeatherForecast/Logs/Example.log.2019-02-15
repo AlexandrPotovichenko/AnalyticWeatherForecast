@@ -1,0 +1,90 @@
+2019-02-15 07:56:30,262  DEBUG Starting the schedule forecast in15.02.2019 8:00:00
+2019-02-15 07:56:30,282  DEBUG Starting the schedule current weather in 15.02.2019 7:56:30
+2019-02-15 07:56:30,283  DEBUG Starting the schedule astro in 16.02.2019 0:30:00
+2019-02-15 07:56:34,627  DEBUG Starting of current weather on schedule in 15.02.2019 7:56:34
+2019-02-15 07:56:34,745  DEBUG Starting of astro on schedule in15.02.2019 7:56:34
+2019-02-15 07:56:38,391  DEBUG LatestForecasts.Count = 0!
+2019-02-15 08:00:00,058  DEBUG Starting of forecasts on schedule in 15.02.2019 8:00:00
+2019-02-15 08:00:00,068  DEBUG Starting UpdateCurrentWeatherForRating in 15.02.2019 8:00:00 time of current weather - 15.02.2019 7:45:09
+2019-02-15 08:01:00,072  DEBUG Starting UpdateCurrentWeatherForRating in 15.02.2019 8:01:00 time of current weather - 15.02.2019 7:45:09
+2019-02-15 08:01:30,322  DEBUG Starting of current weather on schedule in 15.02.2019 8:01:30
+2019-02-15 08:02:00,072  DEBUG Stop UpdateCurrentWeatherForRating in 15.02.2019 8:02:00 time of current weather - 15.02.2019 8:00:14
+2019-02-15 08:04:00,982  ERROR An error occurred while trying to retrieve data in the method : JsonFromUrl; by the address http://api.wunderground.com/api/1086a4a1b0619326/hourly10day/q/UA/Odessa.json
+System.Net.WebException: ”даленный сервер возвратил ошибку: (500) ¬нутренн€€ ошибка сервера.
+   в System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   в System.Net.WebClient.DownloadString(Uri address)
+   в System.Net.WebClient.DownloadString(String address)
+   в WeatherForecast.Models.WeatherSources.WeatherSource.JsonFromUrl(String URL, Int32 numberOfAttempts) в D:\VisualStudio_2017\WeatherForecast\WeatherForecast\Models\WeatherSources\WeatherSource.cs:строка 75
+2019-02-15 08:06:01,967  DEBUG Successfully saved the forecast openweathermap.org
+2019-02-15 08:06:03,997  DEBUG Successfully saved the forecast weatherbit.io
+2019-02-15 08:06:06,007  DEBUG Successfully saved the forecast wunderground.com
+2019-02-15 08:06:06,007  DEBUG Starting rating process at 15.02.2019 8:06:06
+2019-02-15 08:06:08,089  DEBUG Starting rating process retriving a best rating at 15.02.2019 8:06:08
+2019-02-15 08:06:10,609  ERROR An error occurred while trying to create analytic forecasts
+System.NullReferenceException: —сылка на объект не указывает на экземпл€р объекта.
+   в WeatherForecast.Models.AnalyticForecast.AnalyticForecastFactory.<>c__DisplayClass10_0.<UpDateForecasts>b__4(<>f__AnonymousType3`2 obj) в D:\VisualStudio_2017\WeatherForecast\WeatherForecast\Models\AnalyticForecast\AnalyticForecastFactory.cs:строка 146
+   в System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   в System.Linq.Lookup`2.Create[TSource](IEnumerable`1 source, Func`2 keySelector, Func`2 elementSelector, IEqualityComparer`1 comparer)
+   в System.Linq.GroupedEnumerable`3.GetEnumerator()
+   в System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   в System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   в System.Linq.OrderedEnumerable`1.<GetEnumerator>d__1.MoveNext()
+   в WeatherForecast.Models.AnalyticForecast.AnalyticForecastFactory.UpDateForecasts(IEnumerable`1 latestForecastsFromSource, IEnumerable`1 dailyIcons) в D:\VisualStudio_2017\WeatherForecast\WeatherForecast\Models\AnalyticForecast\AnalyticForecastFactory.cs:строка 214
+2019-02-15 08:06:30,527  DEBUG Starting of current weather on schedule in 15.02.2019 8:06:30
+2019-02-15 08:11:30,336  DEBUG Starting of current weather on schedule in 15.02.2019 8:11:30
+2019-02-15 08:16:30,528  DEBUG Starting of current weather on schedule in 15.02.2019 8:16:30
+2019-02-15 08:21:30,335  DEBUG Starting of current weather on schedule in 15.02.2019 8:21:30
+2019-02-15 08:26:30,542  DEBUG Starting of current weather on schedule in 15.02.2019 8:26:30
+2019-02-15 08:31:30,335  DEBUG Starting of current weather on schedule in 15.02.2019 8:31:30
+2019-02-15 08:36:30,561  DEBUG Starting of current weather on schedule in 15.02.2019 8:36:30
+2019-02-15 08:41:30,524  DEBUG Starting of current weather on schedule in 15.02.2019 8:41:30
+2019-02-15 08:46:30,526  DEBUG Starting of current weather on schedule in 15.02.2019 8:46:30
+2019-02-15 08:51:30,336  DEBUG Starting of current weather on schedule in 15.02.2019 8:51:30
+2019-02-15 08:56:30,333  DEBUG Starting of current weather on schedule in 15.02.2019 8:56:30
+2019-02-15 09:01:09,951  DEBUG LatestForecasts.Count = 0!
+2019-02-15 09:01:30,685  DEBUG Starting of current weather on schedule in 15.02.2019 9:01:30
+2019-02-15 09:06:30,338  DEBUG Starting of current weather on schedule in 15.02.2019 9:06:30
+2019-02-15 09:11:30,334  DEBUG Starting of current weather on schedule in 15.02.2019 9:11:30
+2019-02-15 09:16:30,525  DEBUG Starting of current weather on schedule in 15.02.2019 9:16:30
+2019-02-15 09:21:30,333  DEBUG Starting of current weather on schedule in 15.02.2019 9:21:30
+2019-02-15 09:26:30,332  DEBUG Starting of current weather on schedule in 15.02.2019 9:26:30
+2019-02-15 09:31:30,332  DEBUG Starting of current weather on schedule in 15.02.2019 9:31:30
+2019-02-15 09:36:30,331  DEBUG Starting of current weather on schedule in 15.02.2019 9:36:30
+2019-02-15 09:41:30,347  DEBUG Starting of current weather on schedule in 15.02.2019 9:41:30
+2019-02-15 09:46:30,336  DEBUG Starting of current weather on schedule in 15.02.2019 9:46:30
+2019-02-15 09:51:30,570  DEBUG Starting of current weather on schedule in 15.02.2019 9:51:30
+2019-02-15 09:56:30,335  DEBUG Starting of current weather on schedule in 15.02.2019 9:56:30
+2019-02-15 10:01:30,329  DEBUG Starting of current weather on schedule in 15.02.2019 10:01:30
+2019-02-15 10:06:30,336  DEBUG Starting of current weather on schedule in 15.02.2019 10:06:30
+2019-02-15 10:11:30,330  DEBUG Starting of current weather on schedule in 15.02.2019 10:11:30
+2019-02-15 10:16:30,772  DEBUG Starting of current weather on schedule in 15.02.2019 10:16:30
+2019-02-15 10:21:30,335  DEBUG Starting of current weather on schedule in 15.02.2019 10:21:30
+2019-02-15 10:26:30,444  DEBUG Starting of current weather on schedule in 15.02.2019 10:26:30
+2019-02-15 10:31:30,523  DEBUG Starting of current weather on schedule in 15.02.2019 10:31:30
+2019-02-15 10:36:30,328  DEBUG Starting of current weather on schedule in 15.02.2019 10:36:30
+2019-02-15 10:41:30,324  DEBUG Starting of current weather on schedule in 15.02.2019 10:41:30
+2019-02-15 10:46:30,511  DEBUG Starting of current weather on schedule in 15.02.2019 10:46:30
+2019-02-15 10:51:30,333  DEBUG Starting of current weather on schedule in 15.02.2019 10:51:30
+2019-02-15 10:56:30,548  DEBUG Starting of current weather on schedule in 15.02.2019 10:56:30
+2019-02-15 11:00:00,066  DEBUG Starting of forecasts on schedule in 15.02.2019 11:00:00
+2019-02-15 11:00:00,066  DEBUG Starting UpdateCurrentWeatherForRating in 15.02.2019 11:00:00 time of current weather - 15.02.2019 10:45:09
+2019-02-15 11:01:00,068  DEBUG Starting UpdateCurrentWeatherForRating in 15.02.2019 11:01:00 time of current weather - 15.02.2019 10:45:09
+2019-02-15 11:01:30,338  DEBUG Starting of current weather on schedule in 15.02.2019 11:01:30
+2019-02-15 11:02:00,068  DEBUG Starting UpdateCurrentWeatherForRating in 15.02.2019 11:02:00 time of current weather - 15.02.2019 10:45:09
+2019-02-15 11:03:00,068  DEBUG Starting UpdateCurrentWeatherForRating in 15.02.2019 11:03:00 time of current weather - 15.02.2019 10:45:09
+2019-02-15 11:04:00,070  DEBUG Starting UpdateCurrentWeatherForRating in 15.02.2019 11:04:00 time of current weather - 15.02.2019 10:45:09
+2019-02-15 11:05:00,071  DEBUG Starting UpdateCurrentWeatherForRating in 15.02.2019 11:05:00 time of current weather - 15.02.2019 10:45:09
+2019-02-15 11:06:00,073  DEBUG Starting UpdateCurrentWeatherForRating in 15.02.2019 11:06:00 time of current weather - 15.02.2019 10:45:09
+2019-02-15 11:06:02,383  DEBUG Successfully saved the forecast openweathermap.org
+2019-02-15 11:06:04,593  DEBUG Successfully saved the forecast weatherbit.io
+2019-02-15 11:06:06,845  DEBUG Successfully saved the forecast wunderground.com
+2019-02-15 11:06:30,337  DEBUG Starting of current weather on schedule in 15.02.2019 11:06:30
+2019-02-15 11:07:00,079  DEBUG Starting UpdateCurrentWeatherForRating in 15.02.2019 11:07:00 time of current weather - 15.02.2019 10:45:09
+2019-02-15 11:08:00,085  DEBUG Starting UpdateCurrentWeatherForRating in 15.02.2019 11:08:00 time of current weather - 15.02.2019 10:45:09
+2019-02-15 11:09:00,089  DEBUG Starting UpdateCurrentWeatherForRating in 15.02.2019 11:09:00 time of current weather - 15.02.2019 10:45:09
+2019-02-15 11:10:00,091  DEBUG Starting UpdateCurrentWeatherForRating in 15.02.2019 11:10:00 time of current weather - 15.02.2019 10:45:09
+2019-02-15 11:11:00,091  DEBUG Starting UpdateCurrentWeatherForRating in 15.02.2019 11:11:00 time of current weather - 15.02.2019 10:45:09
+2019-02-15 11:11:30,331  DEBUG Starting of current weather on schedule in 15.02.2019 11:11:30
+2019-02-15 11:12:00,093  DEBUG Stop UpdateCurrentWeatherForRating in 15.02.2019 11:12:00 time of current weather - 15.02.2019 11:00:13
+2019-02-15 11:12:00,093  DEBUG Starting rating process at 15.02.2019 11:12:00
+2019-02-15 11:12:02,333  DEBUG Starting rating process retriving a best rating at 15.02.2019 11:12:02
